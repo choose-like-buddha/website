@@ -11,6 +11,19 @@ We regularly update the app to improve user experience, add meaningful tools lik
 <br>
 
 ### `Latest`
+## Version 1.5 - January 29, 2026
+### Subscription Improvements & Stability Update
+
+- Updated **Premium subscription implementation** to improve reliability and resolve purchase errors  
+- Improved handling of subscription status across app sessions  
+- Enhanced purchase flow clarity for Free Path and Enlightened Path users  
+- Fixed edge-case bugs related to premium access  
+- General performance and stability improvements  
+
+This release ensures a smoother and more reliable subscription experience for all users.
+
+---
+
 ## Version 1.4 — January 25, 2026  
 ### Daily Reminders & Practice Consistency
 
