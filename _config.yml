@@ -14,7 +14,7 @@ playstore_link                            :                                     
 app_icon                                  : assets/buddha.png                         # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : Choose Like Buddha                        # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 : Free                                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Daily mindful choice practice
+app_description                           : Train your mind to respond, not react — with short daily choices inspired by mindfulness.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
