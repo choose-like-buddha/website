@@ -5,7 +5,7 @@ include_in_header: false
 ---
 
 **Last updated**  
-24.01.2026
+14.02.2026
 
 # Privacy Policy
 Choose Like Buddha respects your privacy. This Privacy Policy explains how we collect, use, and protect your information when you use the app.
@@ -38,6 +38,11 @@ If you use the food and body awareness feature, the app may store:
 - Body or mood notes associated with foods
 
 This data is entered voluntarily and stored to support app features.
+
+---
+
+### Ask Buddha (AI-Generated Guidance)
+If you use the Ask Buddha feature, the questions you submit are sent to a third-party AI service (Anthropic) to generate personalized responses inspired by Buddhist wisdom. We do **not** store your questions or the AI-generated responses on our servers. Questions are processed in real time and are not linked to your account or identity.
 
 ---
 
@@ -127,6 +132,8 @@ The app uses the following third-party services:
 - **Apple** — Sign in with Apple, In-App Purchases and subscriptions
 - **Supabase** — Secure cloud database for storing your account and progress data
 - **PostHog** — Privacy-focused analytics to understand app usage and improve features (hosted in EU)
+- **Anthropic** — AI service used to generate Buddhist wisdom responses in the Ask Buddha feature
+- **Cloudflare** — Hosts the server that securely connects the app to the AI service
 
 These services are governed by their respective privacy policies. We do not share personal information with these services beyond what is necessary for core functionality.
 
