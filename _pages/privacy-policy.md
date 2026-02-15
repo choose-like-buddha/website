@@ -5,15 +5,18 @@ include_in_header: false
 ---
 
 **Last updated**  
-14.02.2026
+15.02.2026
 
 # Privacy Policy
+
 Choose Like Buddha respects your privacy. This Privacy Policy explains how we collect, use, and protect your information when you use the app.
 
 ## Information We Collect
 
 ### Account Information
+
 If you choose to create an account or sign in, we may collect:
+
 - Name (as provided by you)
 - Email address (for email sign-in)
 - Apple ID identifier (for Sign in with Apple)
@@ -23,7 +26,9 @@ This information is used only to identify your account and save your progress.
 ---
 
 ### App Usage Data
+
 We collect limited app usage data to provide core features, including:
+
 - Quiz answers
 - Daily progress and statistics
 - Subscription status
@@ -33,7 +38,9 @@ This data is used only to display your personal progress and app functionality.
 ---
 
 ### Food and Body Awareness Data
+
 If you use the food and body awareness feature, the app may store:
+
 - Food entries you create
 - Body or mood notes associated with foods
 
@@ -42,6 +49,7 @@ This data is entered voluntarily and stored to support app features.
 ---
 
 ### Ask Buddha (AI-Generated Guidance)
+
 If you use the Ask Buddha feature, the questions you submit are sent to a third-party AI service (Anthropic) to generate personalized responses inspired by Buddhist wisdom. We do **not** store your questions or the AI-generated responses on our servers. Questions are processed in real time and are not linked to your account or identity.
 
 ---
@@ -49,6 +57,7 @@ If you use the Ask Buddha feature, the questions you submit are sent to a third-
 ## Notifications
 
 The app may send local notifications to remind you about mindful practices. These notifications:
+
 - Are scheduled locally on your device
 - Do not collect or transmit any data
 - Can be enabled or disabled in app settings
@@ -60,6 +69,7 @@ Notification preferences are stored only on your device and are not synced to ou
 ## How We Use Your Information
 
 We use your information to:
+
 - Create and manage your account
 - Save and sync your progress across devices
 - Display personal progress charts
@@ -75,6 +85,7 @@ We do **not** use your data for advertising purposes.
 We do **not** sell, rent, or share your personal information with third parties for marketing or advertising.
 
 Information may be shared only when necessary to:
+
 - Authenticate users (Sign in with Apple)
 - Process subscriptions through Apple In-App Purchases
 - Comply with legal obligations
@@ -110,6 +121,7 @@ However, no method of electronic storage is completely secure.
 You can delete your account **directly from the app settings**.
 
 When you delete your account:
+
 - Your account information is permanently removed
 - Your saved progress and personal data are deleted
 - This action cannot be undone
@@ -133,7 +145,6 @@ The app uses the following third-party services:
 - **Supabase** — Secure cloud database for storing your account and progress data
 - **PostHog** — Privacy-focused analytics to understand app usage and improve features (hosted in EU)
 - **Anthropic** — AI service used to generate Buddhist wisdom responses in the Ask Buddha feature
-- **Cloudflare** — Hosts the server that securely connects the app to the AI service
 
 These services are governed by their respective privacy policies. We do not share personal information with these services beyond what is necessary for core functionality.
 

@@ -1,110 +1,94 @@
 # Site URL (required for sitemap)
-url                                       : "https://chooselikebuddha.com"            # Replace with your actual domain
+url: "https://chooselikebuddha.com" # Replace with your actual domain
 
 #page title
-page_title                                : Choose Like Buddha                        # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title: Choose Like Buddha # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
-ios_app_id                                : 6757470935                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
-ios_app_country                           : us                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
+ios_app_id: 6757470935 # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_country: us # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
-appstore_link                             : https://apps.apple.com/app/id6757470935                                          # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
-playstore_link                            :                                           # Enter Google Play Store URL.
+appstore_link: https://apps.apple.com/app/id6757470935 # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+playstore_link: # Enter Google Play Store URL.
 
-app_icon                                  : assets/buddha.png                         # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  : Choose Like Buddha                        # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_price                                 : Free                                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Train your mind to respond, not react — with short daily choices inspired by mindfulness.
+app_icon: assets/buddha.png # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name: Choose Like Buddha # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price: Free # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_description: Train your mind to respond, not react — with short daily choices inspired by mindfulness.
 
-enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
-
-
+enable_smart_app_banner: true # Set to true to show a smart app banner at top of page on mobile devices.
 
 # Information About Yourself
-your_name                                 : Tigran                              
-your_link                                 :                     
-your_city                                 :                                
-email_address                             : tigran.contractor@gmail.com
-linkedin_username                         :                                           
-linkedin_company                          :                                           
-facebook_username                         :                                           
-instagram_username                        : ebaehr
-twitter_username                          : ebaehr
-github_username                           : emilbaehr
-youtube_username                          :
-mastodon_link                             : https://mastodon.social/@ebaehr
-
-
+your_name: Tigran
+your_link:
+your_city:
+email_address: tigran.contractor@gmail.com
+linkedin_username:
+linkedin_company:
+facebook_username:
+instagram_username: ebaehr
+twitter_username: ebaehr
+github_username: emilbaehr
+youtube_username:
+mastodon_link: https://mastodon.social/@ebaehr
 
 # Feature List                            Edit, add or remove features to be presented.
-features                                  :
+features:
+  - title: Ask Buddha
+    description: Ask Buddha any question and get a mindful perspective in response, based on the teachings of Buddhism.
+    fontawesome_icon_name: vihara
 
-  - title                                 : Mindful Daily Questions
-    description                           : Reflect on everyday situations and choose how you would respond with awareness.
-    fontawesome_icon_name                 : question
-    
-  - title                                 : Clear Explanations
-    description                           : See a mindful perspective after each answer, with a short and thoughtful explanation.
-    fontawesome_icon_name                 : lightbulb
+  - title: Mindful Daily Questions
+    description: Reflect on everyday situations and choose how you would respond with awareness.
+    fontawesome_icon_name: question
 
-  - title                                 : Progress Over Time
-    description                           : Track how your choices evolve with a simple daily progress chart.
-    fontawesome_icon_name                 : chart-line
+  - title: Clear Explanations
+    description: See a mindful perspective after each answer, with a short and thoughtful explanation.
+    fontawesome_icon_name: lightbulb
 
-  - title                                 : 4-4-4 Breathing
-    description                           : Follow a guided breathing rhythm to pause, calm down, and refocus.
-    fontawesome_icon_name                 : wind
+  - title: Progress Over Time
+    description: Track how your choices evolve with a simple daily progress chart.
+    fontawesome_icon_name: chart-line
 
-  - title                                 : Daily Reminders
-    description                           : Gentle reminders help you build a small, consistent reflection habit.
-    fontawesome_icon_name                 : bell
-  
-  - title                                 : Food and Body Awareness
-    description                           : Note how different foods affect your body and overall feeling.
-    fontawesome_icon_name                 : apple-whole
+  - title: 4-4-4 Breathing
+    description: Follow a guided breathing rhythm to pause, calm down, and refocus.
+    fontawesome_icon_name: wind
 
+  - title: Daily Reminders
+    description: Gentle reminders help you build a small, consistent reflection habit.
+    fontawesome_icon_name: bell
+
+  - title: Food and Body Awareness
+    description: Note how different foods affect your body and overall feeling.
+    fontawesome_icon_name: apple-whole
 
 # Theme Settings
-topbar_color                              : "#000000"
-topbar_transparency                       : 0.1
-topbar_title_color                        : "#ffffff"
+topbar_color: "#000000"
+topbar_transparency: 0.1
+topbar_title_color: "#ffffff"
 
-cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
-cover_overlay_color                       : "#363b3d"
-cover_overlay_transparency                : 0.8
+cover_image: assets/headerimage.png # Replace with alternative image path or image URL.
+cover_overlay_color: "#363b3d"
+cover_overlay_transparency: 0.8
 
-device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
+body_background_color: "#ffffff"
 
-body_background_color                     : "#ffffff"
+link_color: "#1d63ea"
 
-link_color                                : "#1d63ea"
+app_title_color: "#ffffff"
+app_price_color: "#ffffff"
+app_description_color: "#ffffff"
 
-app_title_color                           : "#ffffff"
-app_price_color                           : "#ffffff"
-app_description_color                     : "#ffffff"
+feature_title_color: "#000000"
+feature_text_color: "#666666"
 
-feature_title_color                       : "#000000"
-feature_text_color                        : "#666666"
+feature_icons_foreground_color: "#1d63ea"
+feature_icons_background_color: "#e6e6e6"
 
-feature_icons_foreground_color            : "#1d63ea"
-feature_icons_background_color            : "#e6e6e6"
+social_icons_foreground_color: "#666666"
+social_icons_background_color: "#e6e6e6"
 
-social_icons_foreground_color             : "#666666"
-social_icons_background_color             : "#e6e6e6"
-
-footer_text_color                         : "#666666"
-
-
-
-
-
-
-
-
-
-
-
-
+footer_text_color: "#666666"
 
 ####################################################
 ### Jekyll Configuration. No need to touch this. ###
