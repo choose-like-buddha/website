@@ -4,7 +4,7 @@ title: "When Facing Criticism?"
 date: 2026-02-16
 description: "Criticism stings — but a mindful pause before reacting can turn it into a moment of growth."
 ogImage:
-  image: U+1FAB7
+  imageUrl: U+1FAB7
   title: "What Would Buddha Do When Facing Criticism?"
   subtitle: "Choose Like Buddha"
   fileName: "when-facing-criticism"

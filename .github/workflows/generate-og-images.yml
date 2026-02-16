@@ -17,7 +17,7 @@ jobs:
           GITHUB_CONTEXT: ${{ toJson(github) }}
         with:
           path: assets/og-images/
-          background: "linear-gradient(120deg, #f6d365, #fda085)"
+          background: "linear-gradient(135deg, #667eea, #764ba2)"
           fontColor: "#ffffff"
           fontSize: "100%"
           commitMsg: "Generate OG image"
