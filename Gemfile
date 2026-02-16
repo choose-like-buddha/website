@@ -7,6 +7,7 @@ gem "webrick" # Required for Ruby 3+
 group :jekyll_plugins do
   gem "jekyll-seo-tag"
   gem "jekyll-feed"
+  gem "jekyll-paginate"
 end
 
 # Ruby 3.4+ stdlib gems

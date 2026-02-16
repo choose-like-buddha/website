@@ -23,45 +23,6 @@ your_name: Tigran
 your_link:
 your_city:
 email_address: tigran.contractor@gmail.com
-linkedin_username:
-linkedin_company:
-facebook_username:
-instagram_username:
-twitter_username: ChooseBuddha
-github_username:
-youtube_username:
-mastodon_link:
-product_hunt: choose-like-buddha
-
-# Feature List                            Edit, add or remove features to be presented.
-features:
-  - title: Ask Buddha
-    description: Ask Buddha any question and get a mindful perspective in response, based on the teachings of Buddhism.
-    fontawesome_icon_name: vihara
-
-  - title: Mindful Daily Questions
-    description: Reflect on everyday situations and choose how you would respond with awareness.
-    fontawesome_icon_name: question
-
-  - title: Clear Explanations
-    description: See a mindful perspective after each answer, with a short and thoughtful explanation.
-    fontawesome_icon_name: lightbulb
-
-  - title: Progress Over Time
-    description: Track how your choices evolve with a simple daily progress chart.
-    fontawesome_icon_name: chart-line
-
-  - title: 4-4-4 Breathing
-    description: Follow a guided breathing rhythm to pause, calm down, and refocus.
-    fontawesome_icon_name: wind
-
-  - title: Daily Reminders
-    description: Gentle reminders help you build a small, consistent reflection habit.
-    fontawesome_icon_name: bell
-
-  - title: Food and Body Awareness
-    description: Note how different foods affect your body and overall feeling.
-    fontawesome_icon_name: apple-whole
 
 # Theme Settings
 topbar_color: "#000000"
@@ -104,6 +65,15 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+permalink: /blog/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+
+paginate: 10
+paginate_path: "/blog/page-:num/"
 
 collections:
   pages:

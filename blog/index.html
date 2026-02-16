@@ -1,0 +1,37 @@
+---
+layout: page
+title: Blog
+include_in_header: true
+---
+
+<div class="blog-list">
+  {% for post in paginator.posts %}
+  <a href="{{ post.url | relative_url }}" class="blog-card">
+    <span class="post-series">What Would Buddha Do</span>
+    <h2>{{ post.title }}</h2>
+    <p class="blog-card-description">{{ post.description }}</p>
+    <span class="blog-card-footer">
+      <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
+      <span class="blog-card-read-more">Read more &rarr;</span>
+    </span>
+  </a>
+  {% endfor %}
+</div>
+
+{% if paginator.total_pages > 1 %}
+<nav class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | relative_url }}" class="pagination-prev">&larr; Newer</a>
+  {% else %}
+    <span class="pagination-prev pagination-disabled">&larr; Newer</span>
+  {% endif %}
+
+  <span class="pagination-info">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | relative_url }}" class="pagination-next">Older &rarr;</a>
+  {% else %}
+    <span class="pagination-next pagination-disabled">Older &rarr;</span>
+  {% endif %}
+</nav>
+{% endif %}

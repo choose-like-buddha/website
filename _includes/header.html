@@ -19,11 +19,8 @@
 	</div>
 	<nav class="scroll">
 		<ul>
-			{% for page in site.pages %}
-				{% if page.include_in_header == true %}
-				<li><a href="{{ page.url | relative_url }}" target="_self">{{ page.title }}</a></li>
-				{% endif %}
-			{% endfor %}
+			<li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
+			<li><a href="{{ '/changelog/' | relative_url }}">What's New</a></li>
 		</ul>
 	</nav>
 </header>

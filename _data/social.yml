@@ -1,0 +1,8 @@
+- url: "https://twitter.com/ChooseBuddha"
+  icon: fab fa-x-twitter
+
+- url: "https://www.producthunt.com/products/choose-like-buddha"
+  icon: fab fa-product-hunt
+
+- url: "mailto:tigran.contractor@gmail.com"
+  icon: fas fa-envelope

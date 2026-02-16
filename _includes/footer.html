@@ -7,70 +7,14 @@
   </p> -->
   {% endif %}
   <div class="footerIcons">
-    {% if site.linkedin_username %}
-    <a href="https://linkedin.com/in/{{ site.linkedin_username }}">
+    {% for social in site.data.social %}
+    <a href="{{ social.url }}"{% if social.rel %} rel="{{ social.rel }}"{% endif %}>
       <span class="fa-stack fa-1x">
         <i class="socialIconBack fas fa-circle fa-stack-2x"></i>
-        <i class="socialIconTop fab fa-linkedin fa-stack-1x"></i>
+        <i class="socialIconTop {{ social.icon }} fa-stack-1x"></i>
       </span>
     </a>
-    {% endif %} {% if site.linkedin_company %}
-    <a href="https://linkedin.com/company/{{ site.linkedin_company }}">
-      <span class="fa-stack fa-1x">
-        <i class="socialIconBack fas fa-circle fa-stack-2x"></i>
-        <i class="socialIconTop fab fa-linkedin fa-stack-1x"></i>
-      </span>
-    </a>
-    {% endif %} {% if site.facebook_username %}
-    <a href="https://facebook.com/{{ site.facebook_username }}">
-      <span class="fa-stack fa-1x">
-        <i class="socialIconBack fas fa-circle fa-stack-2x"></i>
-        <i class="socialIconTop fab fa-facebook fa-stack-1x"></i>
-      </span>
-    </a>
-    {% endif %} {% if site.twitter_username %}
-    <a href="https://twitter.com/{{ site.twitter_username }}">
-      <span class="fa-stack fa-1x">
-        <i class="socialIconBack fas fa-circle fa-stack-2x"></i>
-        <i class="socialIconTop fab fa-x-twitter fa-stack-1x"></i>
-      </span>
-    </a>
-    {% endif %} {% if site.product_hunt %}
-    <a href="https://www.producthunt.com/products/{{ site.product_hunt }}">
-      <span class="fa-stack fa-1x">
-        <i class="socialIconBack fas fa-circle fa-stack-2x"></i>
-        <i class="socialIconTop fab fa-product-hunt fa-stack-1x"></i>
-      </span>
-    </a>
-    {% endif %} {% if site.instagram_username %}
-    <a href="https://instagram.com/{{ site.instagram_username }}">
-      <span class="fa-stack fa-1x">
-        <i class="socialIconBack fas fa-circle fa-stack-2x"></i>
-        <i class="socialIconTop fab fa-instagram fa-stack-1x"></i>
-      </span>
-    </a>
-    {% endif %} {% if site.mastodon_link %}
-    <a rel="me" href="{{ site.mastodon_link }}">
-      <span class="fa-stack fa-1x">
-        <i class="socialIconBack fas fa-circle fa-stack-2x"></i>
-        <i class="socialIconTop fab fa-mastodon fa-stack-1x"></i>
-      </span>
-    </a>
-    {% endif %} {% if site.github_username %}
-    <a href="https://github.com/{{ site.github_username }}">
-      <span class="fa-stack fa-1x">
-        <i class="socialIconBack fas fa-circle fa-stack-2x"></i>
-        <i class="socialIconTop fab fa-github fa-stack-1x"></i>
-      </span>
-    </a>
-    {% endif %} {% if site.email_address %}
-    <a href="mailto:{{ site.email_address }}">
-      <span class="fa-stack fa-1x">
-        <i class="socialIconBack fas fa-circle fa-stack-2x"></i>
-        <i class="socialIconTop fas fa-envelope fa-stack-1x"></i>
-      </span>
-    </a>
-    {% endif %}
+    {% endfor %}
   </div>
   <div class="footerLinks">
     {% for page in site.pages %}
