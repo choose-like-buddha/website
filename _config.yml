@@ -26,11 +26,12 @@ email_address: tigran.contractor@gmail.com
 linkedin_username:
 linkedin_company:
 facebook_username:
-instagram_username: ebaehr
-twitter_username: ebaehr
-github_username: emilbaehr
+instagram_username:
+twitter_username: ChooseBuddha
+github_username:
 youtube_username:
-mastodon_link: https://mastodon.social/@ebaehr
+mastodon_link:
+product_hunt: choose-like-buddha
 
 # Feature List                            Edit, add or remove features to be presented.
 features:
