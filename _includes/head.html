@@ -16,6 +16,13 @@
   <meta property="og:image" content="{{ site.url }}{{ page.og_image }}" />
   {% endif %}
 
+  <meta name="twitter:card" content="{% if page.og_image %}summary_large_image{% else %}summary{% endif %}" />
+  <meta name="twitter:title" content="{{ page.title | default: site.page_title }}" />
+  <meta name="twitter:description" content="{{ page.description | default: site.app_description }}" />
+  {% if page.og_image %}
+  <meta name="twitter:image" content="{{ site.url }}{{ page.og_image }}" />
+  {% endif %}
+
   <link rel="shortcut icon" href="{{ site.app_icon | relative_url }}" />
 
   <!-- Smart App Banner -->
