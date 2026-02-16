@@ -3,6 +3,10 @@ layout: post
 title: "When Facing Criticism?"
 date: 2026-02-16
 description: "Criticism stings — but a mindful pause before reacting can turn it into a moment of growth."
+ogImage:
+  title: "What Would Buddha Do When Facing Criticism?"
+  subtitle: "Choose Like Buddha"
+  fileName: "when-facing-criticism"
 ---
 
 Criticism can feel like a personal attack. Our instinct is to defend, deflect, or shut down. But what if we could meet it differently?

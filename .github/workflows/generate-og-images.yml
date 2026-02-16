@@ -1,0 +1,20 @@
+name: Generate OG Images
+
+on: pull_request
+
+jobs:
+  generate_og_images:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: BoyWithSilverWings/generate-og-image@3.0.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+        with:
+          path: assets/og-images/
+          background: "linear-gradient(135deg, #1d63ea, #764ba2)"
+          fontColor: "#ffffff"
+          fontSize: "100%"
+          commitMsg: "Generate OG image"
+          ignorePatterns: "/README.md,/CHANGELOG.md"

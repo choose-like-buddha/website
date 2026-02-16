@@ -3,6 +3,10 @@ layout: post
 title: "When Overthinking Won't Stop?"
 date: 2026-02-25
 description: "A racing mind isn't a problem to solve — it's a signal to slow down and return to the present."
+ogImage:
+  title: "What Would Buddha Do When Overthinking Won't Stop?"
+  subtitle: "Choose Like Buddha"
+  fileName: "when-overthinking-wont-stop"
 ---
 
 The same thought, cycling again and again. Replaying a conversation. Worrying about tomorrow. Analyzing a decision you already made. Overthinking feels productive, but it's just motion without direction.

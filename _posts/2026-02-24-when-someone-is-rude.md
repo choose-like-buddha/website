@@ -3,6 +3,10 @@ layout: post
 title: "When Someone Is Rude?"
 date: 2026-02-24
 description: "Rudeness says more about the person giving it than the person receiving it. Your response is your power."
+ogImage:
+  title: "What Would Buddha Do When Someone Is Rude?"
+  subtitle: "Choose Like Buddha"
+  fileName: "when-someone-is-rude"
 ---
 
 Someone cuts you off in traffic. A cashier snaps at you. A colleague dismisses your idea without listening. Rudeness lands like a small shock — and our instinct is to send it right back.

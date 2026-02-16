@@ -3,6 +3,10 @@ layout: post
 title: "When Afraid of Change?"
 date: 2026-02-21
 description: "Fear of change is the mind clinging to what it knows. But everything — always — is already changing."
+ogImage:
+  title: "What Would Buddha Do When Afraid of Change?"
+  subtitle: "Choose Like Buddha"
+  fileName: "when-afraid-of-change"
 ---
 
 A new job. A relationship ending. A move to a different city. Even positive change can feel threatening, because our minds are wired to prefer the familiar.

@@ -3,6 +3,10 @@ layout: post
 title: "When Comparing to Others?"
 date: 2026-02-22
 description: "Comparison is a habit of the mind — but your path is not anyone else's to walk."
+ogImage:
+  title: "What Would Buddha Do When Comparing to Others?"
+  subtitle: "Choose Like Buddha"
+  fileName: "when-comparing-to-others"
 ---
 
 Someone gets the promotion. A friend buys a house. A stranger on the internet seems to have it all figured out. Comparison is effortless — and quietly destructive.
