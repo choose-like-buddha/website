@@ -3,6 +3,7 @@ layout: post
 title: "When a Friend Lies?"
 date: 2026-02-18
 description: "Discovering a friend's dishonesty hurts — but how we respond reveals more about us than about them."
+og_image: /assets/blogposts/when-a-friend-lies.png
 ---
 
 Finding out a friend lied to you is disorienting. Trust, once broken, changes how we see the whole relationship. The pain is real — but so is the choice of what to do next.

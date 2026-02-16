@@ -3,6 +3,7 @@ layout: post
 title: "Before a Difficult Conversation?"
 date: 2026-02-20
 description: "The moments before a hard conversation shape everything that follows. Prepare with presence, not just words."
+og_image: /assets/blogposts/before-a-difficult-conversation.png
 ---
 
 We rehearse difficult conversations in our heads — imagining responses, planning counterarguments. But when the moment arrives, none of that usually helps. What helps is presence.

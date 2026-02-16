@@ -3,6 +3,7 @@ layout: post
 title: "When Feeling Angry at Work?"
 date: 2026-02-19
 description: "Workplace anger is common — but reacting from frustration rarely leads where we want to go."
+og_image: /assets/blogposts/when-feeling-angry-at-work.png
 ---
 
 A dismissive comment in a meeting. Credit taken for your idea. An unfair decision from above. Anger at work is natural — but acting on it without awareness can make things worse.

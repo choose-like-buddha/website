@@ -3,6 +3,7 @@ layout: post
 title: "When Feeling Overwhelmed?"
 date: 2026-02-17
 description: "When everything feels like too much, one conscious breath can be the beginning of clarity."
+og_image: /assets/blogposts/when-feeling-overwhelmed.png
 ---
 
 Overwhelm happens when our mind tries to hold everything at once — every task, every worry, every possibility. It's not a sign of weakness. It's a sign you care about a lot of things.

@@ -12,6 +12,9 @@
 
   <meta property="og:title" content="{{ page.title | default: site.page_title }}" />
   <meta property="og:description" content="{{ page.description | default: site.app_description }}" />
+  {% if page.og_image %}
+  <meta property="og:image" content="{{ site.url }}{{ page.og_image }}" />
+  {% endif %}
 
   <link rel="shortcut icon" href="{{ site.app_icon | relative_url }}" />
 

@@ -3,6 +3,7 @@ layout: post
 title: "When Feeling Like Giving Up?"
 date: 2026-02-23
 description: "The urge to quit carries a message. Before you walk away, listen to what it's really saying."
+og_image: /assets/blogposts/when-feeling-like-giving-up.png
 ---
 
 There's a moment in every hard thing where quitting feels like the only sane option. The project that won't come together. The goal that feels impossibly far. The effort that nobody seems to notice.

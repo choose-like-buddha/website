@@ -3,6 +3,7 @@ layout: post
 title: "When Comparing to Others?"
 date: 2026-02-22
 description: "Comparison is a habit of the mind — but your path is not anyone else's to walk."
+og_image: /assets/blogposts/when-comparing-to-others.png
 ---
 
 Someone gets the promotion. A friend buys a house. A stranger on the internet seems to have it all figured out. Comparison is effortless — and quietly destructive.
