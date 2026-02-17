@@ -11,7 +11,7 @@ ios_app_country: us # Required outside USA. Enter 2 letter country code as in ht
 appstore_link: https://apps.apple.com/app/id6757470935 # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link: # Enter Google Play Store URL.
 
-app_icon: assets/buddha.png # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_icon: assets/logo.png # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name: Choose Like Buddha # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price: Free # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_description: Train your mind to respond, not react — with short daily choices inspired by mindfulness.
