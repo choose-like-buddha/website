@@ -4,6 +4,13 @@ title: Blog
 include_in_header: true
 ---
 
+<div class="blog-rss">
+  <a href="{{ '/feed.xml' | relative_url }}" class="rss-link" target="_blank">
+    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><circle cx="3.5" cy="20.5" r="3.5"/><path d="M0 8v4c6.627 0 12 5.373 12 12h4C16 15.163 8.837 8 0 8z"/><path d="M0 0v4c11.046 0 20 8.954 20 20h4C24 10.745 13.255 0 0 0z"/></svg>
+    RSS Feed
+  </a>
+</div>
+
 <div class="blog-list">
   {% for post in paginator.posts %}
   <a href="{{ post.url | relative_url }}" class="blog-card">

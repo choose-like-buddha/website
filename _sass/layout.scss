@@ -626,6 +626,26 @@ footer {
 }
 
 // Blog
+.blog-rss {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 16px;
+
+  .rss-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: $accent-color;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-decoration: none;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
 .blog-list {
   display: grid;
   gap: 24px;
