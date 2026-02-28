@@ -161,5 +161,5 @@ Any changes will be posted on this page.
 
 If you have questions about this Privacy Policy or your data, contact us at:
 
-**Email:** tigran.contact@gmail.com  
+**Email:** chooselikebuddha@gmail.com  
 **App Name:** Choose Like Buddha
