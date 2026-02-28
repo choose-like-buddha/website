@@ -28,7 +28,7 @@ layout: base
               </clipPath>
             </defs>
           </svg>
-          <img class="appIconLarge" src="{{ site.app_icon | relative_url }}" />
+          <img class="appIconLarge" src="{{ site.app_icon | relative_url }}" alt="{{ site.app_name }} icon" />
         </div>
         <div class="appNamePriceContainer">
           <h1 class="appName">{{ site.app_name }}</h1>
@@ -42,16 +42,18 @@ layout: base
           <a
             class="playStoreLink"
             target="_blank"
+            rel="noopener"
             href="{{site.playstore_link}}"
-            ><img class="playStore" src="assets/playstore.png"
+            ><img class="playStore" src="assets/playstore.png" alt="Get it on Google Play"
           /></a>
           {% endif %}
-          <a class="appStoreLink" target="_blank" href="{{site.appstore_link}}"
-            ><img class="appStore" src="assets/appstore.png"
+          <a class="appStoreLink" target="_blank" rel="noopener" href="{{site.appstore_link}}"
+            ><img class="appStore" src="assets/appstore.png" alt="Download on the App Store"
           /></a>
         </div>
       </div>
-      {% include features.html %} {% include footer.html %}
+      {% include features.html %}
+      {% include footer.html %}
     </div>
   </div>
 </div>

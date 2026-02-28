@@ -8,8 +8,8 @@
   {% endif %}
   <div class="footerIcons">
     {% for social in site.data.social %}
-    <a href="{{ social.url }}"{% if social.rel %} rel="{{ social.rel }}"{% endif %}>
-      <span class="fa-stack fa-1x">
+    <a href="{{ social.url }}"{% if social.rel %} rel="{{ social.rel }}"{% endif %} aria-label="{{ social.name }}">
+      <span class="fa-stack fa-1x" aria-hidden="true">
         <i class="socialIconBack fas fa-circle fa-stack-2x"></i>
         <i class="socialIconTop {{ social.icon }} fa-stack-1x"></i>
       </span>
