@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Privacy Policy
+description: Learn how Choose Like Buddha handles your data, protects your privacy, and keeps your experience safe and secure.
 include_in_header: false
 og_image: /assets/og-image.png
 ---
