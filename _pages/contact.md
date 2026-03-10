@@ -2,6 +2,7 @@
 layout: page
 title: Support
 include_in_header: true
+og_image: /assets/og-image.png
 ---
 
 # Support

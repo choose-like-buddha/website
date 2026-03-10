@@ -2,6 +2,7 @@
 layout: page
 title: Privacy Policy
 include_in_header: false
+og_image: /assets/og-image.png
 ---
 
 **Last updated**  
