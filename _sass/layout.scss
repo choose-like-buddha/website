@@ -301,7 +301,6 @@ nav > ul li a:active {
 .downloadButtonsContainer {
   display: inline-block;
   margin-top: 42px;
-  filter: $drop-shadow;
 }
 
 @media only screen and (max-width: 992px) {
@@ -568,7 +567,7 @@ footer {
 }
 
 .footerIcons {
-  padding-bottom: 70px;
+  padding-bottom: 50px;
   display: flex;
   flex: 0 0 100%;
   justify-content: center;

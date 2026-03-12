@@ -41,32 +41,7 @@ layout: base
         <div class="appDescriptionContainer">
           <p class="appDescription">{{ site.app_description }}</p>
         </div>
-        <div class="downloadButtonsContainer">
-          {% if site.playstore_link %}
-          <a
-            class="playStoreLink"
-            target="_blank"
-            rel="noopener"
-            href="{{site.playstore_link}}"
-            ><img
-              class="playStore"
-              fetchpriority="high"
-              src="assets/playstore.png"
-              alt="Get it on Google Play"
-          /></a>
-          {% endif %}
-          <a
-            class="appStoreLink"
-            target="_blank"
-            rel="noopener"
-            href="{{site.appstore_link}}"
-            ><img
-              class="appStore"
-              fetchpriority="high"
-              src="assets/appstore.png"
-              alt="Download on the App Store"
-          /></a>
-        </div>
+        {% include download-buttons.html %}
       </div>
       {% include features.html %} {% include footer.html %}
     </div>

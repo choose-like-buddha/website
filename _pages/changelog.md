@@ -123,5 +123,3 @@ Established sustainable access to extended daily practice.
 - Calm, minimalist design focused on reflection
 
 The foundation of a mindful decision-making app rooted in awareness and wisdom.
-
----

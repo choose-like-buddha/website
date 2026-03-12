@@ -1,0 +1,26 @@
+<div class="downloadButtonsContainer">
+  {% if site.playstore_link %}
+  <a
+    class="playStoreLink"
+    target="_blank"
+    rel="noopener"
+    href="{{site.playstore_link}}"
+    ><img
+      class="playStore"
+      fetchpriority="high"
+      src="{{ 'assets/playstore.png' | relative_url }}"
+      alt="Get it on Google Play"
+  /></a>
+  {% endif %}
+  <a
+    class="appStoreLink"
+    target="_blank"
+    rel="noopener"
+    href="{{site.appstore_link}}"
+    ><img
+      class="appStore"
+      fetchpriority="high"
+      src="{{ 'assets/appstore.png' | relative_url }}"
+      alt="Download on the App Store"
+  /></a>
+</div>
