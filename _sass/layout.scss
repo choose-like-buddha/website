@@ -625,10 +625,20 @@ footer {
 }
 
 // Blog
+.blog-header {
+  position: relative;
+  h1 {
+    margin-top: 0 !important;
+  }
+}
+
 .blog-rss {
   display: flex;
   justify-content: flex-end;
   margin-bottom: 16px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 
   .rss-link {
     display: inline-flex;
