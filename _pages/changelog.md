@@ -14,6 +14,29 @@ We regularly update the app to improve user experience, add meaningful tools lik
 
 ### `Latest`
 
+## Version 1.8 - March 13, 2026
+
+### Growth Tracking & Required Sign-In
+
+- Added **onboarding screens** to guide new users through the app
+- Introduced **Buddhist Concepts Radar Chart** on your profile, tracking your strengths and areas for growth across 8 core concepts: Compassion, Patience, Letting Go, Mindfulness, Right Speech, Acceptance, Kindness, and Wisdom
+- **Sign-in is now required** to provide a more personalized experience — including saving your progress, syncing your data, and tracking your growth over time.
+
+This update brings deeper personalization and growth insights, helping users understand their journey across key Buddhist principles.
+
+---
+
+## Version 1.7 - February 17, 2026
+
+### Android Preparation & Stability
+
+- Preparing the **Android version** of Choose Like Buddha
+- General performance and stability improvements
+
+This release focuses on expanding platform support and ensuring a stable foundation for future updates.
+
+---
+
 ## Version 1.6 - February 16, 2026
 
 ### Ask Buddha - AI-Powered Wisdom at Your Fingertips
