@@ -39,6 +39,15 @@ This data is used only to display your personal progress and app functionality.
 
 ---
 
+### Health Information
+
+The app provides mindfulness and decision-making guidance.
+However, the app does not collect, store, or process health or fitness data about users.
+
+Any questions entered in the “Ask Buddha” feature are used only to generate responses and are not analyzed as health information.
+
+---
+
 ### Food and Body Awareness Data
 
 If you use the food and body awareness feature, the app may store:
