@@ -9,7 +9,7 @@ ios_app_id: 6757470935 # Required. Enter iOS app ID to automatically populate na
 ios_app_country: us # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
 appstore_link: https://apps.apple.com/app/id6757470935 # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
-playstore_link: # Enter Google Play Store URL.
+playstore_link: https://play.google.com/store/apps/details?id=com.tigransimonyan.chooselikebuddha&pcampaignid=web_share
 
 app_icon: assets/logo.png # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name: Choose Like Buddha # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
