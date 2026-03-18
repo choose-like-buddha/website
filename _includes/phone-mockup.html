@@ -22,6 +22,7 @@ endif %}
         src="{{ include.image | relative_url }}"
         alt="{{ alt }}"
         class="w-full h-full object-cover rounded-[2rem]"
+        fetchpriority="{{ include.fetchpriority | default: 'auto' }}"
       />
     </div>
   </div>
