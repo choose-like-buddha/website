@@ -1,74 +1,100 @@
 ---
-layout: page
+layout: default
 title: Mindful Living Blog
 description: Explore real-life situations through Buddhist wisdom. Learn how to respond with patience, compassion, and clarity in everyday moments.
-include_in_header: true
 og_image: /assets/og-image.png
 ---
 
-<div class="blog-header">
-  <h1>Blog</h1>
-  <div class="blog-rss">
-    <a href="{{ '/feed.xml' | relative_url }}" class="rss-link" target="_blank">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="14"
-        height="14"
-        viewBox="0 0 24 24"
-        fill="currentColor"
+<section class="py-12 sm:py-16 bg-gray-bg">
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-10">
+      <h1 class="text-3xl sm:text-4xl lg:text-[44px] font-bold text-dark mb-4">
+        Blog
+      </h1>
+      <p class="text-body text-base max-w-2xl mx-auto">
+        Explore real-life situations through Buddhist wisdom. Learn how to
+        respond with patience, compassion, and clarity in everyday moments.
+      </p>
+      <a
+        href="{{ '/feed.xml' | relative_url }}"
+        class="inline-flex items-center gap-1.5 text-primary hover:text-primary-dark transition text-sm font-medium mt-3"
+        target="_blank"
       >
-        <circle cx="3.5" cy="20.5" r="3.5" />
-        <path d="M0 8v4c6.627 0 12 5.373 12 12h4C16 15.163 8.837 8 0 8z" />
-        <path d="M0 0v4c11.046 0 20 8.954 20 20h4C24 10.745 13.255 0 0 0z" />
-      </svg>
-      RSS Feed
-    </a>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="14"
+          height="14"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+        >
+          <circle cx="3.5" cy="20.5" r="3.5" />
+          <path d="M0 8v4c6.627 0 12 5.373 12 12h4C16 15.163 8.837 8 0 8z" />
+          <path d="M0 0v4c11.046 0 20 8.954 20 20h4C24 10.745 13.255 0 0 0z" />
+        </svg>
+        RSS Feed
+      </a>
+    </div>
+
+    {% if paginator.posts.size > 0 %}
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+      {% for post in paginator.posts %}
+      <a
+        href="{{ post.url | relative_url }}"
+        class="group bg-white rounded-2xl p-7 shadow-card hover:shadow-lg transition flex flex-col"
+      >
+        <span class="text-primary text-xs font-medium uppercase tracking-wide"
+          >What Would Buddha Do</span
+        >
+        <h2
+          class="text-xl font-bold text-dark mt-2 mb-2 group-hover:text-primary transition leading-[26px]"
+        >
+          {{ post.title }}
+        </h2>
+        <p class="text-body text-sm flex-1 leading-relaxed">
+          {{ post.description }}
+        </p>
+        <div
+          class="flex items-center justify-between mt-5 pt-4 border-t border-stroke"
+        >
+          <span class="text-body/60 text-xs"
+            >{{ post.date | date: "%B %-d, %Y" }}</span
+          >
+          <span
+            class="text-primary text-sm font-medium group-hover:translate-x-1 transition-transform"
+            >Read more &rarr;</span
+          >
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+    {% else %}
+    <p class="text-body text-center py-12">No posts yet. Stay tuned!</p>
+    {% endif %} {% if paginator.total_pages > 1 %}
+    <nav class="flex items-center justify-center gap-4 mt-12">
+      {% if paginator.previous_page %}
+      <a
+        href="{{ paginator.previous_page_path | relative_url }}"
+        class="text-primary hover:text-primary-dark font-medium transition"
+        >&larr; Newer</a
+      >
+      {% else %}
+      <span class="text-body/40">&larr; Newer</span>
+      {% endif %}
+
+      <span class="text-body text-sm"
+        >Page {{ paginator.page }} of {{ paginator.total_pages }}</span
+      >
+
+      {% if paginator.next_page %}
+      <a
+        href="{{ paginator.next_page_path | relative_url }}"
+        class="text-primary hover:text-primary-dark font-medium transition"
+        >Older &rarr;</a
+      >
+      {% else %}
+      <span class="text-body/40">Older &rarr;</span>
+      {% endif %}
+    </nav>
+    {% endif %}
   </div>
-</div>
-<p>
-  Explore real-life situations through Buddhist wisdom. Learn how to respond
-  with patience, compassion, and clarity in everyday moments.
-</p>
-</br>
-
-<div class="blog-list">
-  {% for post in paginator.posts %}
-  <a href="{{ post.url | relative_url }}" class="blog-card">
-    <span class="post-series">What Would Buddha Do</span>
-    <h2>{{ post.title }}</h2>
-    <p class="blog-card-description">{{ post.description }}</p>
-    <span class="blog-card-footer">
-      <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
-      <span class="blog-card-read-more">Read more &rarr;</span>
-    </span>
-  </a>
-  {% endfor %}
-</div>
-
-{% if paginator.total_pages > 1 %}
-<nav class="pagination">
-  {% if paginator.previous_page %}
-  <a
-    href="{{ paginator.previous_page_path | relative_url }}"
-    class="pagination-prev"
-    >&larr; Newer</a
-  >
-  {% else %}
-  <span class="pagination-prev pagination-disabled">&larr; Newer</span>
-  {% endif %}
-
-  <span class="pagination-info"
-    >Page {{ paginator.page }} of {{ paginator.total_pages }}</span
-  >
-
-  {% if paginator.next_page %}
-  <a
-    href="{{ paginator.next_page_path | relative_url }}"
-    class="pagination-next"
-    >Older &rarr;</a
-  >
-  {% else %}
-  <span class="pagination-next pagination-disabled">Older &rarr;</span>
-  {% endif %}
-</nav>
-{% endif %}
+</section>

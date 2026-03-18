@@ -1,21 +1,29 @@
 <!-- Cookie Consent Banner -->
-<div id="cookie-banner" class="cookie-banner" role="dialog" aria-label="Cookie consent" style="display: none;">
-    <div class="cookie-content">
-        <div class="cookie-text">
-            <span class="cookie-icon">🍪</span>
-            <p>We use cookies to analyze site usage and improve your experience. By clicking "Accept", you consent to our use of analytics cookies.</p>
-        </div>
-        <div class="cookie-buttons">
-            <button id="cookie-decline" class="cookie-btn cookie-btn-decline">Decline</button>
-            <button id="cookie-accept" class="cookie-btn cookie-btn-accept">Accept</button>
-        </div>
+<div id="cookie-banner" class="fixed bottom-0 inset-x-0 z-50 p-4 transition-all duration-300 translate-y-full" style="display: none;">
+  <div class="max-w-2xl mx-auto bg-white rounded-2xl shadow-card border border-stroke p-5">
+    <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+      <div class="flex-1">
+        <p class="text-sm text-body">
+          <span class="text-lg mr-1">🍪</span>
+          We use cookies to analyze site usage and improve your experience. By clicking "Accept", you consent to our use of analytics cookies.
+        </p>
+      </div>
+      <div class="flex gap-3 shrink-0">
+        <button id="cookie-decline" class="px-4 py-2 text-sm font-medium text-body bg-gray-bg hover:bg-stroke rounded-lg transition">
+          Decline
+        </button>
+        <button id="cookie-accept" class="px-4 py-2 text-sm font-medium text-white bg-primary hover:bg-primary-dark rounded-lg transition">
+          Accept
+        </button>
+      </div>
     </div>
+  </div>
 </div>
 
 <script>
 (function() {
     var COOKIE_NAME = 'cookie_consent';
-    var CONSENT_DURATION = 365; // days
+    var CONSENT_DURATION = 365;
 
     function getCookie(name) {
         var value = "; " + document.cookie;
@@ -44,7 +52,8 @@
         if (banner) {
             banner.style.display = 'block';
             setTimeout(function() {
-                banner.classList.add('cookie-banner-visible');
+                banner.classList.remove('translate-y-full');
+                banner.classList.add('translate-y-0');
             }, 100);
         }
     }
@@ -52,7 +61,8 @@
     function hideBanner() {
         var banner = document.getElementById('cookie-banner');
         if (banner) {
-            banner.classList.remove('cookie-banner-visible');
+            banner.classList.remove('translate-y-0');
+            banner.classList.add('translate-y-full');
             setTimeout(function() {
                 banner.style.display = 'none';
             }, 300);
@@ -70,24 +80,17 @@
         hideBanner();
     }
 
-    // Check consent on page load
     document.addEventListener('DOMContentLoaded', function() {
         var consent = getCookie(COOKIE_NAME);
-        
         if (consent === 'accepted') {
             loadPostHog();
         } else if (consent === null) {
             showBanner();
         }
-        // If declined, do nothing - no banner, no tracking
-
-        // Attach event listeners
         var acceptBtn = document.getElementById('cookie-accept');
         var declineBtn = document.getElementById('cookie-decline');
-        
         if (acceptBtn) acceptBtn.addEventListener('click', handleAccept);
         if (declineBtn) declineBtn.addEventListener('click', handleDecline);
     });
 })();
 </script>
-

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-include_in_header: true
+permalink: /about/
 og_image: /assets/og-image.png
 ---
 
@@ -36,5 +36,3 @@ The app is privacy-respecting, ad-free, and designed with intention.
 ## Start Your Path
 
 Choose Like Buddha is free to download. Practice daily. Grow at your own pace. Choose better — not perfectly — just a little more mindfully each day.
-
-{% include download-buttons.html %}

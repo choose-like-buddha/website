@@ -1,24 +1,105 @@
-<footer>
-  {% if site.your_name %}
-  <!-- <p class="footerText">
-    Made by {% if site.your_link %}<a href="{{ site.your_link }}"
-      >{% endif %}{{ site.your_name }}{% if site.your_link %}</a
-    >{% endif %}{% if site.your_city %} in {{ site.your_city }}{% endif %}
-  </p> -->
-  {% endif %}
-  <div class="footerIcons">
-    {% for social in site.data.social %}
-    <a href="{{ social.url }}"{% if social.rel %} rel="{{ social.rel }}"{% endif %} aria-label="{{ social.name }}">
-      <span class="fa-stack fa-1x" aria-hidden="true">
-        <i class="socialIconBack fas fa-circle fa-stack-2x"></i>
-        <i class="socialIconTop {{ social.icon }} fa-stack-1x"></i>
-      </span>
-    </a>
-    {% endfor %}
+<footer class="bg-[#F8FAFB]">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-8">
+      <!-- Brand -->
+      <div class="md:col-span-5">
+        <div class="flex items-center gap-3 mb-4">
+          <img
+            src="{{ site.app_icon | relative_url }}"
+            alt="{{ site.app_name }}"
+            class="w-10 h-10 rounded-xl"
+          />
+          <h3 class="text-dark text-lg font-bold">{{ site.app_name }}</h3>
+        </div>
+        <p class="text-body text-sm leading-relaxed">
+          {{ site.app_description }}
+        </p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="md:col-span-2">
+        <h4 class="text-dark font-medium mb-4">Quick Links</h4>
+        <ul class="space-y-2.5 text-sm">
+          <li>
+            <a
+              href="{{ '/' | relative_url }}"
+              class="text-body hover:text-primary transition"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="{{ '/blog/' | relative_url }}"
+              class="text-body hover:text-primary transition"
+              >Blog</a
+            >
+          </li>
+          <li>
+            <a
+              href="{{ '/about/' | relative_url }}"
+              class="text-body hover:text-primary transition"
+              >About</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <!-- Support -->
+      <div class="md:col-span-2">
+        <h4 class="text-dark font-medium mb-4">Support</h4>
+        <ul class="space-y-2.5 text-sm">
+          <li>
+            <a
+              href="{{ '/contact/' | relative_url }}"
+              class="text-body hover:text-primary transition"
+              >Contact</a
+            >
+          </li>
+          <li>
+            <a
+              href="{{ '/changelog/' | relative_url }}"
+              class="text-body hover:text-primary transition"
+              >What's New</a
+            >
+          </li>
+          <li>
+            <a
+              href="{{ '/privacy-policy/' | relative_url }}"
+              class="text-body hover:text-primary transition"
+              >Privacy Policy</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <!-- Download -->
+      <div class="md:col-span-3">
+        <h4 class="text-dark font-medium mb-4">Download</h4>
+        {% include download-buttons.html class="flex flex-col gap-3 mb-6" %}
+      </div>
+    </div>
   </div>
-  <div class="footerLinks">
-    {% for page in site.pages %}
-    <a href="{{ page.url | relative_url }}" target="_self">{{ page.title }}</a>
-    {% endfor %}
+
+  <!-- Bottom bar -->
+  <div class="bg-primary">
+    <div
+      class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col sm:flex-row items-center justify-between gap-3"
+    >
+      <p class="text-white/80 text-sm">
+        &copy; {{ "now" | date: "%Y" }} {{ site.app_name }}. All rights
+        reserved.
+      </p>
+      <div class="flex gap-3">
+        {% for social in site.data.social %}
+        <a
+          href="{{ social.url }}"
+          aria-label="{{ social.name }}"
+          class="w-9 h-9 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition"
+        >
+          <i class="{{ social.icon }} text-white text-sm"></i>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
   </div>
 </footer>

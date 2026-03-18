@@ -1,0 +1,79 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --color-primary: #4a6cf7;
+  --color-primary-dark: #3b5de7;
+  --color-body: #637381;
+  --color-dark: #1e2238;
+  --color-gray-bg: #f8f9ff;
+  --color-stroke: #ebecf0;
+  --font-sans: "Roboto", ui-sans-serif, system-ui, sans-serif;
+  /* Roboto only has 300,400,500,700,900 — remap missing weights */
+  --font-weight-semibold: 500;
+  --font-weight-extrabold: 700;
+}
+
+@utility gradient-1 {
+  background: linear-gradient(180deg, #93a4f8 0%, #6b7fe3 100%);
+}
+
+@utility gradient-2 {
+  background: linear-gradient(180deg, #ff9a7b 0%, #ff6b6b 100%);
+}
+
+@utility gradient-text {
+  background: linear-gradient(180deg, #93a4f8 0%, #6b7fe3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+@utility shadow-card {
+  box-shadow: 0px 1px 5px rgba(45, 74, 170, 0.14);
+}
+
+@utility gradient-hero {
+  background: linear-gradient(180deg, #f8f9ff 0%, #ffffff 100%);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: "Roboto", ui-sans-serif, system-ui, sans-serif;
+    font-weight: 400;
+    color: var(--color-body);
+  }
+}
+
+/* Roboto lacks weight 600/800 — browser rounds up making text too bold.
+   Override typography plugin's hardcoded 600 values. */
+.prose
+  :where(h3, h4, h5, h6, strong, b, th, dt):not(
+    :where([class~="not-prose"], [class~="not-prose"] *)
+  ) {
+  font-weight: 500;
+}
+.prose
+  :where(h1, h2):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+  font-weight: 700;
+}
+
+/* FAQ accordion */
+details summary::-webkit-details-marker,
+details summary::marker {
+  display: none;
+  content: "";
+}
+
+/* Tighten heading spacing in prose */
+.prose :where(h2):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+  margin-top: 1.2em;
+  margin-bottom: 0.6em;
+}
+.prose :where(h3):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+  margin-top: 1em;
+  margin-bottom: 0.4em;
+}

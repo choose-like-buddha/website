@@ -1,7 +1,7 @@
 ---
 layout: page
 title: What's New
-include_in_header: true
+permalink: /changelog/
 og_image: /assets/og-image.png
 ---
 
@@ -10,9 +10,8 @@ og_image: /assets/og-image.png
 Stay up to date with the latest improvements, features, and fixes in Choose Like Buddha, a mindfulness and decision-making app inspired by Buddhist philosophy. On this page, we share detailed release notes for each version, including new features, performance enhancements, and bug fixes.
 
 We regularly update the app to improve user experience, add meaningful tools like daily reminders, and ensure stability across iOS devices. Check back often to see how the app evolves and how each update helps you make calmer, more conscious choices in everyday life.
-<br>
 
-### `Latest`
+---
 
 ## Version 1.8 - March 13, 2026
 

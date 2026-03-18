@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<section class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+  <article
+    class="prose max-w-none prose-headings:text-dark prose-a:text-primary hover:prose-a:text-primary-dark prose-a:no-underline hover:prose-a:underline prose-p:text-body prose-li:text-body"
+  >
+    {{ content }}
+  </article>
+</section>
+
+{% if page.faq %}
+<section class="bg-gray-bg py-16 sm:py-20">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h2 class="text-3xl sm:text-4xl font-bold text-dark">Frequently Asked Questions</h2>
+    <p class="mt-4 text-body max-w-2xl mx-auto">
+      Find answers to common questions about Choose Like Buddha. Can't find what you're looking for? Feel free to email us.
+    </p>
+
+    <div class="mt-10 rounded-2xl bg-white shadow-card border border-stroke divide-y divide-stroke text-left">
+      {% for item in page.faq %}
+      <details class="group">
+        <summary class="flex cursor-pointer items-center justify-between px-6 py-5 text-lg text-dark font-medium">
+          {{ item.q }}
+          <span class="ml-4 shrink-0 text-xl text-dark group-open:hidden">+</span>
+          <span class="ml-4 shrink-0 text-xl text-dark hidden group-open:inline">&minus;</span>
+        </summary>
+        <div class="border-t border-stroke px-6 pt-4 pb-6 text-body leading-relaxed">
+          {{ item.a }}
+        </div>
+      </details>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}

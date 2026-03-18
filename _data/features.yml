@@ -2,9 +2,9 @@
   description: Ask Buddha any question and get a mindful perspective in response, based on the teachings of Buddhism.
   icon: vihara
 
-- title: Mindful Daily Questions
-  description: Reflect on everyday situations and choose how you would respond with awareness.
-  icon: question
+# - title: Mindful Daily Questions
+#   description: Reflect on everyday situations and choose how you would respond with awareness.
+#   icon: question
 
 - title: Clear Explanations
   description: See a mindful perspective after each answer, with a short and thoughtful explanation.

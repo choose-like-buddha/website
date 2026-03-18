@@ -1,26 +1,32 @@
-<div class="downloadButtonsContainer">
+<div
+  class="{{ include.class | default: 'flex flex-wrap gap-4 mt-6' }} not-prose"
+>
+  <a
+    href="{{ site.appstore_link }}"
+    target="_blank"
+    rel="noopener"
+    class="inline-flex items-center gap-3 bg-dark text-white px-7 py-3.5 rounded-md hover:bg-dark/90 transition font-medium text-sm max-w-50 w-full"
+  >
+    <i class="fab fa-apple text-xl"></i>
+    <span>
+      <span class="block text-xs text-white/60 leading-none"
+        >Download on the</span
+      >
+      <span class="block text-sm font-medium leading-tight">App Store</span>
+    </span>
+  </a>
   {% if site.playstore_link %}
   <a
-    class="playStoreLink"
+    href="{{ site.playstore_link }}"
     target="_blank"
     rel="noopener"
-    href="{{site.playstore_link}}"
-    ><img
-      class="playStore"
-      fetchpriority="high"
-      src="{{ 'assets/playstore.png' | relative_url }}"
-      alt="Get it on Google Play"
-  /></a>
+    class="inline-flex items-center gap-3 bg-dark text-white px-7 py-3.5 rounded-md hover:bg-dark/90 transition font-medium text-sm max-w-50 w-full"
+  >
+    <i class="fab fa-google-play text-xl"></i>
+    <span>
+      <span class="block text-xs text-white/60 leading-none">Get it on</span>
+      <span class="block text-sm font-medium leading-tight">Google Play</span>
+    </span>
+  </a>
   {% endif %}
-  <a
-    class="appStoreLink"
-    target="_blank"
-    rel="noopener"
-    href="{{site.appstore_link}}"
-    ><img
-      class="appStore"
-      fetchpriority="high"
-      src="{{ 'assets/appstore.png' | relative_url }}"
-      alt="Download on the App Store"
-  /></a>
 </div>

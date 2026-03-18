@@ -4,3 +4,243 @@ og_image: /assets/og-image.png
 title: Daily Mindful Decision-Making App
 description: Practice making calmer, wiser choices every day. Buddhist-inspired quizzes, AI-powered guidance, breathing exercises, and personal growth tracking. Free to start.
 ---
+
+<!-- Hero Section -->
+<section
+  class="relative overflow-hidden gradient-hero pt-20 pb-16 sm:pt-28 sm:pb-24"
+>
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      <!-- App Info -->
+      <div class="text-center md:text-left">
+        <h1
+          class="text-3xl sm:text-4xl lg:text-[44px] font-bold text-dark leading-tight mb-4"
+        >
+          Train Your Mind to
+          <span class="gradient-text">Choose Wisely</span>
+        </h1>
+        <p
+          class="text-base sm:text-lg text-body mb-8 leading-relaxed max-w-lg mx-auto md:mx-0"
+        >
+          {{ site.app_description }}
+        </p>
+        {% include download-buttons.html class="flex flex-wrap gap-4
+        justify-center md:justify-start" %}
+        <p class="mt-4 text-sm text-body">
+          {{ site.app_price }} &mdash; Start your journey today
+        </p>
+      </div>
+
+      <!-- Phone Preview -->
+      {% include phone-mockup.html image="assets/screens/IMG_9236.PNG" alt="App
+      Screenshot" size="lg" %}
+    </div>
+  </div>
+</section>
+
+<!-- Features Section -->
+<section class="py-16 sm:py-24 bg-gray-bg">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-14">
+      <h2 class="text-3xl sm:text-4xl lg:text-[44px] font-bold text-dark mb-4">
+        Features
+      </h2>
+      <p class="text-body text-base max-w-2xl mx-auto">
+        Simple tools rooted in ancient wisdom to help you navigate modern
+        decisions.
+      </p>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      {% for feature in site.data.features %}
+      <div
+        class="group bg-white rounded-2xl p-7 shadow-card hover:shadow-lg transition"
+      >
+        <div
+          class="w-[90px] h-[90px] bg-gray-bg text-primary rounded-3xl flex items-center justify-center mb-5 group-hover:bg-primary group-hover:text-white transition-colors"
+        >
+          <i class="fas fa-{{ feature.icon }} text-2xl"></i>
+        </div>
+        <h3 class="text-xl font-medium text-dark mb-2 leading-[26px]">
+          {{ feature.title }}
+        </h3>
+        <p class="text-body text-base leading-relaxed">
+          {{ feature.description }}
+        </p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- About Section 1: Ask Buddha -->
+<section class="py-16 sm:py-24 bg-white">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      <!-- Phone -->
+      {% include phone-mockup.html image="assets/screens/IMG_9234.PNG" alt="Ask
+      Buddha" size="lg" gradient="gradient-1" %}
+      <!-- Text -->
+      <div>
+        <span class="text-primary text-lg font-medium mb-3 block"
+          >Ask Buddha</span
+        >
+        <h2
+          class="text-3xl sm:text-4xl lg:text-[44px] font-bold text-dark leading-tight mb-4"
+        >
+          Get Personal Guidance Inspired by Buddhist Wisdom
+        </h2>
+        <p class="text-body text-base leading-relaxed mb-6">
+          Not sure how to handle a difficult situation? Describe what's
+          happening and Ask Buddha will offer a thoughtful, mindful perspective.
+          Whether it's a tough conversation, a stressful decision, or a moment
+          of doubt — get calm, clear guidance whenever you need it. It's like
+          having a wise, mindful friend in your pocket.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About Section 2: Practice Map -->
+<section class="py-16 sm:py-24 bg-gray-bg">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      <!-- Text -->
+      <div>
+        <span class="text-primary text-lg font-medium mb-3 block"
+          >Practice Map</span
+        >
+        <h2
+          class="text-3xl sm:text-4xl lg:text-[44px] font-bold text-dark leading-tight mb-4"
+        >
+          Track Your Growth Across 8 Core Buddhist Concepts
+        </h2>
+        <p class="text-body text-base leading-relaxed mb-6">
+          Every question you answer maps to a core Buddhist concept —
+          Compassion, Patience, Letting Go, Mindfulness, Right Speech,
+          Acceptance, Kindness, and Wisdom. Over time, your personal radar chart
+          reveals where you're strong and where you can grow. Watch your
+          awareness deepen with each day of practice.
+        </p>
+      </div>
+      <!-- Phone -->
+      <div class="order-first md:order-last">
+        {% include phone-mockup.html image="assets/screens/IMG_9284.PNG"
+        alt="Practice Map" size="lg" gradient="gradient-2" %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About Section 3: Breathe -->
+<section class="py-16 sm:py-24 bg-white">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      <!-- Phone -->
+      {% include phone-mockup.html image="assets/screens/IMG_9240.PNG"
+      alt="Breathe" size="lg" gradient="gradient-1" %}
+      <!-- Text -->
+      <div>
+        <span class="text-primary text-lg font-medium mb-3 block">Breathe</span>
+        <h2
+          class="text-3xl sm:text-4xl lg:text-[44px] font-bold text-dark leading-tight mb-4"
+        >
+          Reset Your Mind With Guided Breathing
+        </h2>
+        <p class="text-body text-base leading-relaxed mb-6">
+          Sometimes all you need is a moment to pause. The built-in 4-4-4
+          breathing guide helps you calm your mind and return to the present
+          moment. Simple, free, and always available — take a mindful breath
+          whenever life feels overwhelming.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Recent Blog Posts -->
+{% assign recent_posts = site.posts | slice: 0, 4 %} {% if recent_posts.size > 0
+%}
+<section class="py-16 sm:py-24 bg-gray-bg">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-14">
+      <h2 class="text-3xl sm:text-4xl lg:text-[44px] font-bold text-dark mb-4">
+        Latest Blog Posts
+      </h2>
+      <p class="text-body text-base max-w-2xl mx-auto">
+        Real-life situations explored through the lens of Buddhist wisdom.
+      </p>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+      {% for post in recent_posts %}
+      <a
+        href="{{ post.url | relative_url }}"
+        class="group bg-white rounded-2xl p-7 shadow-card hover:shadow-lg transition flex flex-col"
+      >
+        <span class="text-primary text-xs font-medium uppercase tracking-wide"
+          >What Would Buddha Do</span
+        >
+        <h3
+          class="text-xl font-bold text-dark mt-2 mb-2 group-hover:text-primary transition leading-[26px]"
+        >
+          {{ post.title }}
+        </h3>
+        <p class="text-body text-sm flex-1 leading-relaxed">
+          {{ post.description }}
+        </p>
+        <div
+          class="flex items-center justify-between mt-5 pt-4 border-t border-stroke"
+        >
+          <span class="text-body/60 text-xs"
+            >{{ post.date | date: "%B %-d, %Y" }}</span
+          >
+          <span
+            class="text-primary text-sm font-medium group-hover:translate-x-1 transition-transform"
+            >Read more &rarr;</span
+          >
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+    <div class="text-center mt-10">
+      <a
+        href="{{ '/blog/' | relative_url }}"
+        class="inline-flex items-center gap-2 text-primary hover:text-primary-dark font-medium transition"
+      >
+        View all posts &rarr;
+      </a>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<!-- CTA Section -->
+<section class="py-16 sm:py-24 bg-white">
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div
+      class="relative bg-white rounded-2xl shadow-card p-8 sm:p-12 overflow-hidden"
+    >
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+        <!-- Illustration -->
+        <div class="flex justify-center order-2 md:order-1">
+          <img
+            src="{{ 'assets/moving-forward-cuate.svg' | relative_url }}"
+            alt="Start your mindful journey"
+            class="w-full max-w-xs sm:max-w-sm"
+          />
+        </div>
+        <!-- Text -->
+        <div class="text-center md:text-left order-1 md:order-2">
+          <h2 class="text-3xl sm:text-4xl font-bold text-dark mb-4">
+            Start Your Mindful Journey
+          </h2>
+          <p class="text-base text-body mb-8">
+            Free to download. Practice daily. Grow at your own pace.
+          </p>
+          {% include download-buttons.html class="flex flex-wrap gap-4
+          justify-center md:justify-start" %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

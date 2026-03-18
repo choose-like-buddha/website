@@ -1,74 +1,28 @@
-# Site URL (required for sitemap)
-url: "https://chooselikebuddha.com" # Replace with your actual domain
+url: "https://chooselikebuddha.com"
+baseurl: ""
 
-#page title
-page_title: Choose Like Buddha # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title: Choose Like Buddha
+title: Choose Like Buddha
+description: "Train your mind to respond, not react — with short daily choices inspired by mindfulness."
 
 # App Info
-ios_app_id: 6757470935 # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
-ios_app_country: us # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
-
-appstore_link: https://apps.apple.com/app/id6757470935 # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+ios_app_id: 6757470935
+appstore_link: https://apps.apple.com/app/id6757470935
 playstore_link: https://play.google.com/store/apps/details?id=com.tigransimonyan.chooselikebuddha&pcampaignid=web_share
+app_icon: assets/logo.png
+app_name: Choose Like Buddha
+app_price: Free
+app_description: "Train your mind to respond, not react — with short daily choices inspired by mindfulness."
 
-app_icon: assets/logo.png # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name: Choose Like Buddha # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_price: Free # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description: Train your mind to respond, not react — with short daily choices inspired by mindfulness.
+enable_smart_app_banner: true
 
-enable_smart_app_banner: true # Set to true to show a smart app banner at top of page on mobile devices.
-
-# Information About Yourself
+# Owner
 your_name: Tigran
-your_link:
-your_city:
 email_address: tigran.contractor@gmail.com
-
-# Theme Settings
-topbar_color: "#000000"
-topbar_transparency: 0.1
-topbar_title_color: "#ffffff"
-
-body_background_color: "#ffffff"
-
-link_color: "#1d63ea"
-
-app_title_color: "#ffffff"
-app_price_color: "#ffffff"
-app_description_color: "#ffffff"
-
-feature_title_color: "#000000"
-feature_text_color: "#666666"
-
-feature_icons_foreground_color: "#1d63ea"
-feature_icons_background_color: "#e6e6e6"
-
-social_icons_foreground_color: "#666666"
-social_icons_background_color: "#e6e6e6"
-
-footer_text_color: "#666666"
-
-####################################################
-### Jekyll Configuration. No need to touch this. ###
-####################################################
-
-# Set the Sass partials directory, as we're using @imports
-sass:
-  style: :compressed # You might prefer to minify using :compressed
-
-# Exclude these files from your production _site
-exclude:
-  - LICENSE
-  - README.md
-  - CNAME
 
 permalink: /blog/:title/
 
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-
-paginate: 10
+paginate: 20
 paginate_path: "/blog/page-:num/"
 
 collections:
@@ -76,5 +30,28 @@ collections:
     output: true
     permalink: /:path/
 
-# Markdown rendering
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
 markdown: kramdown
+
+exclude:
+  - node_modules
+  - package.json
+  - package-lock.json
+  - tailwind.config.js
+  - Gemfile
+  - Gemfile.lock
+  - postcss.config.js
+  - LICENSE
+  - README.md

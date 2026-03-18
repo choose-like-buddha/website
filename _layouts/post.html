@@ -1,29 +1,47 @@
 ---
-layout: base
+layout: default
 ---
 
-<div class="headerBackground subPageHeaderBackground">
-  <div class="container subPageContainer">
-    {% include header.html %}
-    <article class="page markdown-body">
-      <h1>
-        <span class="post-series">What Would Buddha Do</span><br />{{ page.title
-        }}
-      </h1>
-      <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}</p>
-      {{ content }}
-      <br />
-      <br />
-      <div
-        id="zoomment"
-        data-theme="light"
-        data-language="en"
-        data-gravatar="monsterid"
-        data-emotions="❤️,😀,🪄,🥸,💡,🤔,💩,😢"
-        data-visitors="true"
-      ></div>
-      <script src="https://cdn.zoomment.com/zoomment.min.js"></script>
-    </article>
-    {% include footer.html %}
+<article class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+  <header class="mb-8">
+    <span class="text-primary text-sm font-medium uppercase tracking-wide"
+      >What Would Buddha Do</span
+    >
+    <h1 class="text-3xl sm:text-4xl font-bold text-dark mt-2 mb-3">
+      {{ page.title }}
+    </h1>
+    <time
+      class="text-body text-sm"
+      datetime="{{ page.date | date_to_xmlschema }}"
+    >
+      {{ page.date | date: "%B %-d, %Y" }}
+    </time>
+  </header>
+
+  <div
+    class="prose max-w-none prose-headings:text-dark prose-a:text-primary hover:prose-a:text-primary-dark prose-p:text-body prose-li:text-body"
+  >
+    {{ content }}
   </div>
-</div>
+
+  <!-- Comments -->
+  <div class="mt-12 pt-8 border-t border-stroke">
+    <div
+      id="zoomment"
+      data-theme="light"
+      data-language="en"
+      data-gravatar="monsterid"
+      data-emotions="❤️,😀,🪄,🥸,💡,🤔,💩,😢"
+      data-visitors="true"
+    ></div>
+    <script src="https://cdn.zoomment.com/zoomment.min.js"></script>
+  </div>
+
+  <div class="mt-8 pt-6 border-t border-stroke">
+    <a
+      href="{{ '/blog/' | relative_url }}"
+      class="text-primary hover:text-primary-dark font-medium transition"
+      >&larr; Back to Blog</a
+    >
+  </div>
+</article>

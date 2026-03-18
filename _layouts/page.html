@@ -1,11 +1,11 @@
 ---
-layout: base
+layout: default
 ---
 
-<div class="headerBackground subPageHeaderBackground">
-  <div class="container subPageContainer">
-    {% include header.html %}
-    <article class="page markdown-body">{{ content }}</article>
-    {% include footer.html %}
-  </div>
-</div>
+<section class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+  <article
+    class="prose max-w-none prose-headings:text-dark prose-a:text-primary hover:prose-a:text-primary-dark prose-a:no-underline hover:prose-a:underline prose-p:text-body prose-li:text-body"
+  >
+    {{ content }}
+  </article>
+</section>

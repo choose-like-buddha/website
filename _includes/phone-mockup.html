@@ -1,0 +1,28 @@
+{% comment %} Phone mockup component. Parameters: - image: path to screenshot
+(required) - alt: alt text (default: "App Screenshot") - gradient: gradient
+class - "gradient-1" or "gradient-2" (optional, adds half-bg behind phone) -
+size: "sm", "md", or "lg" (default: "md") {% endcomment %} {% assign alt =
+include.alt | default: "App Screenshot" %} {% assign size = include.size |
+default: "md" %} {% if size == "sm" %} {% assign phone_class = "w-[180px]
+h-[360px]" %} {% elsif size == "lg" %} {% assign phone_class = "w-[280px]
+h-[570px]" %} {% else %} {% assign phone_class = "w-[220px] h-[440px]" %} {%
+endif %}
+
+<div class="flex justify-center">
+  <div class="relative">
+    {% if include.gradient %}
+    <div
+      class="absolute bottom-0 left-0 right-0 h-1/2 {{ include.gradient }} rounded-[20px] -z-10"
+    ></div>
+    {% endif %}
+    <div
+      class="{{ phone_class }} bg-dark rounded-[2.5rem] border-4 border-dark/30 shadow-2xl hover:shadow-[0_35px_80px_rgba(30,34,56,0.4)] hover:-translate-y-1 transition-all duration-300 overflow-hidden p-1.5"
+    >
+      <img
+        src="{{ include.image | relative_url }}"
+        alt="{{ alt }}"
+        class="w-full h-full object-cover rounded-[2rem]"
+      />
+    </div>
+  </div>
+</div>
