@@ -39,3 +39,34 @@
 <link rel="stylesheet" href="{{ '/assets/css/output.css' | relative_url }}">
 
 <meta name="zoomment" content="65e5027029aeb252fcaae656">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ site.title }}",
+  "url": "{{ site.url }}",
+  "description": "{{ site.description | strip_html | strip_newlines }}"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "{{ site.app_name }}",
+  "description": "{{ site.app_description | strip_html | strip_newlines }}",
+  "operatingSystem": "iOS, Android",
+  "applicationCategory": "LifestyleApplication",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "installUrl": [
+    "{{ site.appstore_link }}",
+    "{{ site.playstore_link }}"
+  ],
+  "image": "{{ site.app_icon | absolute_url }}"
+}
+</script>
