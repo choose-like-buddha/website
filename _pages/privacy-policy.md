@@ -6,10 +6,10 @@ permalink: /privacy-policy/
 og_image: /assets/og-image.png
 ---
 
+# Privacy Policy
+
 **Last updated**
 15.02.2026
-
-# Privacy Policy
 
 Choose Like Buddha respects your privacy. This Privacy Policy explains how we collect, use, and protect your information when you use the app.
 
