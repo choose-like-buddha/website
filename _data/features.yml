@@ -1,6 +1,6 @@
 - title: Ask Buddha
   description: Ask Buddha any question and get a mindful perspective in response, based on the teachings of Buddhism.
-  icon: vihara
+  icon: flower-lotus
 
 # - title: Mindful Daily Questions
 #   description: Reflect on everyday situations and choose how you would respond with awareness.
@@ -12,7 +12,7 @@
 
 - title: Progress Over Time
   description: Track how your choices evolve with a simple daily progress chart.
-  icon: chart-line
+  icon: chart-line-up
 
 - title: 4-4-4 Breathing
   description: Follow a guided breathing rhythm to pause, calm down, and refocus.
@@ -24,4 +24,4 @@
 
 - title: Food and Body Awareness
   description: Note how different foods affect your body and overall feeling.
-  icon: apple-whole
+  icon: person-simple-throw

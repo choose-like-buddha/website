@@ -1,11 +1,11 @@
 - url: "https://twitter.com/ChooseBuddha"
-  icon: fab fa-x-twitter
+  icon: ph ph-x-logo
   name: "Follow us on X (Twitter)"
 
 - url: "https://www.producthunt.com/products/choose-like-buddha"
-  icon: fab fa-product-hunt
+  icon: ph ph-rocket-launch
   name: "View on Product Hunt"
 
 - url: "mailto:tigran.contractor@gmail.com"
-  icon: fas fa-envelope
+  icon: ph ph-envelope-simple
   name: "Send us an email"
