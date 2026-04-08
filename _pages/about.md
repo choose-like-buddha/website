@@ -21,7 +21,7 @@ Over time, you start to notice patterns in how you think and react. That awarene
 
 Choose Like Buddha also includes Ask Buddha — an AI-powered feature where you can describe any real-life situation and receive thoughtful guidance inspired by Buddhist teachings. It's like having a calm, mindful friend available whenever you need a moment of clarity.
 
-The app also offers a guided breathing exercise to reset your mind, and Body Feel — a mindful eating tool that helps you notice how food affects your body and mood.
+The app also offers a guided breathing exercise to reset your mind.
 
 ## Your Growth, Visualized
 

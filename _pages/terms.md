@@ -17,7 +17,7 @@ By accessing or using the App or Website, you agree to be bound by these Terms. 
 
 ## 1. Overview
 
-Choose Like Buddha is a mindfulness application that helps users practice calm decision-making through quizzes, AI-powered guidance, breathing exercises, and food awareness tracking. The App is available on iOS and Android platforms.
+Choose Like Buddha is a mindfulness application that helps users practice calm decision-making through quizzes, AI-powered guidance and breathing exercises. The App is available on iOS and Android platforms.
 
 ## 2. Eligibility
 

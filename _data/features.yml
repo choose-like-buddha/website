@@ -11,8 +11,12 @@
   icon: lightbulb
 
 - title: Progress Over Time
-  description: Track how your choices evolve with a simple daily progress chart.
+  description: Level up and build streaks as you practice daily, tracking your growth over time.
   icon: chart-line-up
+
+- title: 8 Buddhist Concepts
+  description: Track your progress across 8 core Buddhist concepts and discover your strengths.
+  icon: compass
 
 - title: 4-4-4 Breathing
   description: Follow a guided breathing rhythm to pause, calm down, and refocus.
@@ -21,7 +25,3 @@
 - title: Daily Reminders
   description: Gentle reminders help you build a small, consistent reflection habit.
   icon: bell
-
-- title: Food and Body Awareness
-  description: Note how different foods affect your body and overall feeling.
-  icon: person-simple-throw
