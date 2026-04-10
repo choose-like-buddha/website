@@ -3,7 +3,7 @@ layout: post
 title: "When Money Is Tight?"
 date: 2026-03-08
 description: "Financial pressure is real — but it doesn't have to consume your peace. Clarity and presence help more than panic."
-og_image: /assets/blogposts/when-money-is-tight.png
+image: /assets/blogposts/when-money-is-tight.png
 ---
 
 When money runs low, fear runs high. The mind races through worst-case scenarios. Every expense feels like a threat. It's hard to think about anything else — and that constant worry makes everything heavier.

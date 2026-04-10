@@ -3,7 +3,7 @@ layout: post
 title: "When the Body Feels Tired?"
 date: 2026-03-13
 description: "Tiredness is your body asking for something your mind keeps refusing to give — rest without guilt."
-og_image: /assets/blogposts/when-the-body-feels-tired.png
+image: /assets/blogposts/when-the-body-feels-tired.png
 ---
 
 Not just sleepy — deeply, thoroughly tired. The kind that sits in your bones. You push through anyway because there's always more to do. But the body is speaking, and it's saying something important.

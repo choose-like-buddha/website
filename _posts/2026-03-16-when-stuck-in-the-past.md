@@ -3,7 +3,7 @@ layout: post
 title: "When Stuck in the Past?"
 date: 2026-03-16
 description: "The past is a place to learn from, not to live in. Letting go isn't forgetting — it's choosing the present."
-og_image: /assets/blogposts/when-stuck-in-the-past.png
+image: /assets/blogposts/when-stuck-in-the-past.png
 ---
 
 The mind returns to what happened — the mistake, the missed chance, the time things were better. It replays moments you can't change, conversations you can't rewrite. Living in the past feels safer than facing the uncertain present. But it's a trap.

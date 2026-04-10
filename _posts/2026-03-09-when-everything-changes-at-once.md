@@ -3,7 +3,7 @@ layout: post
 title: "When Everything Changes at Once?"
 date: 2026-03-09
 description: "When life shifts on every front, the only steady ground is the awareness within you. Stand there."
-og_image: /assets/blogposts/when-everything-changes-at-once.png
+image: /assets/blogposts/when-everything-changes-at-once.png
 ---
 
 A new job, a move, a breakup, a loss — sometimes they come one at a time. Sometimes they all arrive at once. When everything changes simultaneously, there's nowhere familiar to rest. The ground you stood on yesterday is gone.

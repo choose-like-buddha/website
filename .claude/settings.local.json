@@ -14,7 +14,9 @@
       "Bash(npx @tailwindcss/cli -i ./assets/css/main.css -o ./assets/css/output.css --minify)",
       "Bash(ls:*)",
       "Bash(mkdir -p /Users/tigransimonyan/Projects/choose-like-buddha-website/_pages)",
-      "Bash(mv /Users/tigransimonyan/Projects/choose-like-buddha-website/about.md /Users/tigransimonyan/Projects/choose-like-buddha-website/changelog.md /Users/tigransimonyan/Projects/choose-like-buddha-website/contact.md /Users/tigransimonyan/Projects/choose-like-buddha-website/privacy-policy.md /Users/tigransimonyan/Projects/choose-like-buddha-website/_pages/)"
+      "Bash(mv /Users/tigransimonyan/Projects/choose-like-buddha-website/about.md /Users/tigransimonyan/Projects/choose-like-buddha-website/changelog.md /Users/tigransimonyan/Projects/choose-like-buddha-website/contact.md /Users/tigransimonyan/Projects/choose-like-buddha-website/privacy-policy.md /Users/tigransimonyan/Projects/choose-like-buddha-website/_pages/)",
+      "Bash(xargs sed:*)",
+      "Bash(bundle show:*)"
     ]
   }
 }

@@ -3,7 +3,7 @@ layout: post
 title: "When Losing a Loved One?"
 date: 2026-03-10
 description: "Loss leaves a silence that nothing can fill — but within that silence, love still lives."
-og_image: /assets/blogposts/when-losing-a-loved-one.png
+image: /assets/blogposts/when-losing-a-loved-one.png
 ---
 
 There are no words adequate for this. When someone you love dies, something in the world goes quiet. A voice you'll never hear again. A presence that left a shape in your life now filled only with absence.

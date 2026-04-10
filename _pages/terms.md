@@ -3,7 +3,7 @@ layout: page
 title: Terms & Conditions
 description: Terms & Conditions for Choose Like Buddha — the daily mindful decision-making app. Learn about subscriptions, AI-generated content, account usage, and your rights.
 permalink: /terms/
-og_image: /assets/og-image.png
+image: /assets/og-image.png
 ---
 
 # Terms & Conditions

@@ -3,7 +3,7 @@ layout: post
 title: "When Feeling Anxious?"
 date: 2026-03-17
 description: "Anxiety rushes you into the future — but your body is always in the present. Return to it."
-og_image: /assets/blogposts/when-feeling-anxious.png
+image: /assets/blogposts/when-feeling-anxious.png
 ---
 
 The chest tightens. The stomach churns. The mind spins through scenarios, each one worse than the last. Anxiety doesn't wait for permission — it arrives uninvited and takes over the room.

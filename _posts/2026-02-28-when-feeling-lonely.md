@@ -3,7 +3,7 @@ layout: post
 title: "When Feeling Lonely?"
 date: 2026-02-28
 description: "Loneliness isn't about being alone — it's about feeling disconnected. The path back begins within."
-og_image: /assets/blogposts/when-feeling-lonely.png
+image: /assets/blogposts/when-feeling-lonely.png
 ---
 
 You can feel lonely in a crowded room and at peace in solitude. Loneliness isn't about the number of people around you — it's about the quality of connection, starting with your connection to yourself.

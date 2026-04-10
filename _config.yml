@@ -14,6 +14,8 @@ app_name: Choose Like Buddha
 app_price: Free
 app_description: "Train your mind to respond, not react — with short daily choices inspired by mindfulness."
 
+image: /assets/og-image.png
+
 enable_smart_app_banner: true
 
 # Owner

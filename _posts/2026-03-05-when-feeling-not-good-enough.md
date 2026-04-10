@@ -3,7 +3,7 @@ layout: post
 title: "When Feeling Not Good Enough?"
 date: 2026-03-05
 description: "The voice that says you're not enough is loud — but it's not telling the truth. Listen deeper."
-og_image: /assets/blogposts/when-feeling-not-good-enough.png
+image: /assets/blogposts/when-feeling-not-good-enough.png
 ---
 
 It's the voice that says you should be further along. Smarter. More accomplished. Better. It compares you to impossible standards and finds you wanting — every single time. This voice feels like truth. But it isn't.

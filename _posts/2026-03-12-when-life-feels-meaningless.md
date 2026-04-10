@@ -3,7 +3,7 @@ layout: post
 title: "When Life Feels Meaningless?"
 date: 2026-03-12
 description: "Meaninglessness isn't a dead end — it's an invitation to stop looking outside and start creating from within."
-og_image: /assets/blogposts/when-life-feels-meaningless.png
+image: /assets/blogposts/when-life-feels-meaningless.png
 ---
 
 Some days, nothing seems to matter. The routines feel hollow. Achievement feels empty. The question "What's the point?" echoes without answer. This isn't laziness or ingratitude. It's a real and painful experience.

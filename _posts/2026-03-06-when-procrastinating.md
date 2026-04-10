@@ -3,7 +3,7 @@ layout: post
 title: "When Procrastinating?"
 date: 2026-03-06
 description: "Procrastination isn't laziness — it's avoidance dressed as delay. Understanding what you're avoiding is the first step."
-og_image: /assets/blogposts/when-procrastinating.png
+image: /assets/blogposts/when-procrastinating.png
 ---
 
 You know you need to do it. You've known for hours — maybe days. Yet here you are, doing anything else. Procrastination isn't a character flaw. It's usually a sign that something about the task triggers discomfort — fear of failure, perfectionism, or simply not knowing where to start.

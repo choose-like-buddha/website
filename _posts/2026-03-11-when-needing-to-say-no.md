@@ -3,7 +3,7 @@ layout: post
 title: "When Needing to Say No?"
 date: 2026-03-11
 description: "Saying no isn't selfish — it's honest. A mindful no protects your energy and honors your truth."
-og_image: /assets/blogposts/when-needing-to-say-no.png
+image: /assets/blogposts/when-needing-to-say-no.png
 ---
 
 You know you should say no. Your body knows — the heaviness, the dread, the quiet resentment already building. But the word won't come out. You say yes to keep the peace, to be liked, to avoid the discomfort of disappointing someone.

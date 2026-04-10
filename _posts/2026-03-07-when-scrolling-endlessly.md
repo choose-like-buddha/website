@@ -3,7 +3,7 @@ layout: post
 title: "When Scrolling Endlessly?"
 date: 2026-03-07
 description: "Endless scrolling is the mind searching for something it will never find on a screen. Put the phone down and look up."
-og_image: /assets/blogposts/when-scrolling-endlessly.png
+image: /assets/blogposts/when-scrolling-endlessly.png
 ---
 
 You pick up the phone to check one thing. Twenty minutes later, you're deep in content you didn't choose, feeling worse than before. The scroll promises connection, entertainment, answers — but delivers a quiet emptiness.

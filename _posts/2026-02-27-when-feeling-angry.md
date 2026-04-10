@@ -3,7 +3,7 @@ layout: post
 title: "When Feeling Angry?"
 date: 2026-02-27
 description: "Anger isn't the enemy — reacting blindly to it is. Learn to hold anger without letting it hold you."
-og_image: /assets/blogposts/when-feeling-angry.png
+image: /assets/blogposts/when-feeling-angry.png
 ---
 
 Anger arrives fast. It floods the body with heat, tightens the jaw, quickens the breath. It wants action — now. But acting from anger rarely leads where we want to go.

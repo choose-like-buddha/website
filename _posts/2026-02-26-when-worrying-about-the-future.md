@@ -3,7 +3,7 @@ layout: post
 title: "When Worrying About the Future?"
 date: 2026-02-26
 description: "The future hasn't arrived yet — but your worry about it is stealing the only moment you actually have."
-og_image: /assets/blogposts/when-worrying-about-the-future.png
+image: /assets/blogposts/when-worrying-about-the-future.png
 ---
 
 The mind leaps ahead — to next week, next month, next year. It builds scenarios that haven't happened and probably never will. Meanwhile, right here, right now, life is quietly passing by unnoticed.

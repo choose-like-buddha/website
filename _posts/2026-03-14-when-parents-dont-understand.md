@@ -3,7 +3,7 @@ layout: post
 title: "When Parents Don't Understand?"
 date: 2026-03-14
 description: "The gap between generations is real — but understanding doesn't require agreement. It begins with compassion."
-og_image: /assets/blogposts/when-parents-dont-understand.png
+image: /assets/blogposts/when-parents-dont-understand.png
 ---
 
 You explain and they don't get it. Your choices, your feelings, your way of seeing the world — it's like speaking different languages. The frustration is sharpened by love. You want them to understand precisely because they matter.

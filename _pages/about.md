@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-og_image: /assets/og-image.png
+image: /assets/og-image.png
 ---
 
 # About Choose Like Buddha

@@ -2,7 +2,7 @@
 layout: page
 title: What's New
 permalink: /changelog/
-og_image: /assets/og-image.png
+image: /assets/og-image.png
 ---
 
 # Changelog

@@ -3,7 +3,7 @@ layout: post
 title: "When Feeling Jealous?"
 date: 2026-03-01
 description: "Jealousy reveals what you value — but it distorts the truth about your own path. Look closer."
-og_image: /assets/blogposts/when-feeling-jealous.png
+image: /assets/blogposts/when-feeling-jealous.png
 ---
 
 Jealousy whispers that someone else has what should be yours. It compares your insides to their outsides and always finds you lacking. But jealousy, like all emotions, carries hidden information if you're willing to look.

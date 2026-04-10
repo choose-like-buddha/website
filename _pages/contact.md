@@ -2,7 +2,7 @@
 layout: contact
 title: Contact
 permalink: /contact/
-og_image: /assets/og-image.png
+image: /assets/og-image.png
 faq:
   - q: Is Choose Like Buddha free?
     a: "Yes. The Free Path includes 5 daily quiz questions, 2 Ask Buddha questions per day, a guided breathing exercise, and Body Feel with limited entries. You can upgrade to the Enlightened Path for more features."

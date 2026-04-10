@@ -3,7 +3,7 @@ layout: post
 title: "When a Boss Is Unfair?"
 date: 2026-03-04
 description: "An unfair boss tests your patience — but your inner peace doesn't have to depend on their behavior."
-og_image: /assets/blogposts/when-a-boss-is-unfair.png
+image: /assets/blogposts/when-a-boss-is-unfair.png
 ---
 
 Unfairness at work cuts deep because we spend so much of our lives there. When a boss plays favorites, takes credit, or applies rules unevenly, it triggers something primal — a sense that the world isn't just.

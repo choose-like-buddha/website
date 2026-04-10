@@ -3,7 +3,7 @@ layout: post
 title: "When Feeling Hopeless?"
 date: 2026-03-15
 description: "Hopelessness tells you nothing will change — but that's a feeling, not a prophecy. Stay with it. It passes."
-og_image: /assets/blogposts/when-feeling-hopeless.png
+image: /assets/blogposts/when-feeling-hopeless.png
 ---
 
 Hopelessness is heavy. It's not just sadness — it's the belief that sadness is permanent. That nothing you do matters. That things won't get better. It's one of the darkest feelings a person can carry.

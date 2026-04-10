@@ -3,7 +3,7 @@ layout: post
 title: "When a Relationship Ends?"
 date: 2026-03-02
 description: "An ending isn't a failure — it's a turning point that asks you to grieve, grow, and eventually open again."
-og_image: /assets/blogposts/when-a-relationship-ends.png
+image: /assets/blogposts/when-a-relationship-ends.png
 ---
 
 When a relationship ends, the world tilts. Routines lose their meaning. Places carry echoes. The mind swings between relief and regret, sometimes in the same breath. It's one of the most human kinds of pain.
