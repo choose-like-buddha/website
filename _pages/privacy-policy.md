@@ -25,6 +25,10 @@ If you choose to create an account or sign in, we may collect:
 
 This information is used only to identify your account and save your progress.
 
+### Guest Mode
+
+You may use the app without providing personal information by continuing as a guest. In guest mode, a temporary anonymous account is created to store your progress (quiz answers, statistics, and other app data) on our servers. No personal information such as name or email is collected. If you later create an account, your guest progress is preserved. If you sign out without creating an account, your guest data may become inaccessible.
+
 ### App Usage Data
 
 We collect limited app usage data to provide core features, including:
@@ -105,7 +109,7 @@ However, no method of electronic storage is completely secure.
 
 ## Your Rights and Choices
 
-- You may use the app without creating an account, with limited features.
+- You may use the app as a guest without providing personal information.
 - You may update or change your name in the app settings.
 - You may cancel subscriptions at any time through your Apple ID settings.
 
@@ -113,7 +117,9 @@ However, no method of electronic storage is completely secure.
 
 You can delete your account **directly from the app settings**.
 
-When you delete your account:
+Guest users can delete all their data using the "Delete Guest Data" option in settings.
+
+When you delete your account or guest data:
 
 - Your account information is permanently removed
 - Your saved progress and personal data are deleted

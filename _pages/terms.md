@@ -25,7 +25,7 @@ You must be at least 13 years of age to use the App. If you are under 18, you mu
 
 ## 3. Account
 
-To use the App, you must create an account using Apple Sign-In, Google Sign-In, or email. You are responsible for maintaining the security of your account and for all activity that occurs under your account.
+You may use the App by creating an account using Apple Sign-In, Google Sign-In, or email, or by continuing as a guest. Guest users receive a temporary anonymous account. If you sign out of a guest account without first linking it to an email or sign-in provider, your data may become permanently inaccessible. You are responsible for maintaining the security of your account and for all activity that occurs under your account.
 
 ## 4. Subscriptions and Payments
 
