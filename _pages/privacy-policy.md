@@ -9,7 +9,7 @@ image: /assets/og-image.png
 # Privacy Policy
 
 **Last updated**
-15.02.2026
+13.04.2026
 
 Choose Like Buddha respects your privacy. This Privacy Policy explains how we collect, use, and protect your information when you use the app.
 
@@ -53,7 +53,11 @@ This data is entered voluntarily and stored to support app features.
 
 ### Ask Buddha (AI-Generated Guidance)
 
-If you use the Ask Buddha feature, the questions you submit are sent to a third-party AI service (Anthropic) to generate personalized responses inspired by Buddhist wisdom. We do **not** store your questions or the AI-generated responses on our servers. Questions are processed in real time and are not linked to your account or identity.
+If you use the Ask Buddha feature, the questions you submit are sent to a third-party AI service (Anthropic) to generate personalized responses inspired by Buddhist wisdom.
+
+For free plan users, questions and responses are processed in real time and are **not** stored on our servers.
+
+For premium subscribers, your questions and the AI-generated responses are saved to your account as conversation history so you can revisit past guidance. You can delete individual entries or clear your entire Ask Buddha history at any time from within the app.
 
 ## Notifications
 
