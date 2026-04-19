@@ -1,8 +1,6 @@
 # 200 Blog Post Topics — "What Would Buddha Do..."
 
 ## Overthinking & Mental Patterns
-When Replaying a Conversation?
-When Imagining the Worst?
 When Unable to Make a Decision?
 When Doubting Every Choice?
 When Obsessing Over a Mistake?
@@ -17,27 +15,20 @@ When Distracted by Negative Thoughts?
 When Creating Problems That Don't Exist?
 When Feeling Mentally Stuck?
 When Paralyzed by Options?
-When Ruminating at Night?
 
 ## Emotions & Inner Struggles
-When Feeling Ashamed?
 When Feeling Insecure?
-When Feeling Empty Inside?
 When Feeling Restless?
 When Feeling Impatient?
 When Feeling Ungrateful?
 When Feeling Bitter?
-When Feeling Numb?
 When Feeling Regret?
-When Feeling Resentful?
 When Feeling Helpless?
 When Feeling Frustrated?
 When Feeling Disappointed?
 When Feeling Lost?
 
 ## Relationships & People
-When Feeling Ignored?
-When a Friend Drifts Away?
 When Feeling Used?
 When Someone Gossips?
 When Dealing With a Difficult Person?
@@ -45,10 +36,8 @@ When Someone Doesn't Apologize?
 When Feeling Taken for Granted?
 When Someone Judges Unfairly?
 When a Loved One Is Suffering?
-When Boundaries Are Crossed?
 When Someone Is Passive-Aggressive?
 When Feeling Excluded?
-When Missing Someone Deeply?
 When a Friendship Feels One-Sided?
 When Someone Refuses to Change?
 When Loving Someone Who Hurts?
@@ -59,30 +48,23 @@ When Someone Gives Unwanted Advice?
 When Siblings Argue?
 When a Parent Is Controlling?
 When Family Members Disagree?
-When Caring for Aging Parents?
 When Feeling Distant from Family?
 When Family Gatherings Feel Stressful?
-When a Child Is Struggling?
 When Parenting Feels Overwhelming?
 When Comparing to a Sibling?
-When a Family Member Is Toxic?
 When Inheriting Family Conflict?
 When Feeling Like the Black Sheep?
 When a Loved One Is Addicted?
 
 ## Work & Career
-When Passed Over for a Promotion?
 When a Coworker Takes Credit?
-When Hating the Job?
 When Dealing With Office Politics?
 When Afraid of Speaking Up?
 When Facing a Toxic Workplace?
 When Work Feels Meaningless?
-When Receiving Harsh Feedback?
 When a Project Fails?
 When Feeling Undervalued?
 When Starting a New Job?
-When Considering Quitting?
 When Dealing With a Difficult Client?
 When Missing a Deadline?
 When Micromanaged?
@@ -90,13 +72,11 @@ When Asked to Do Something Unethical?
 When Work-Life Balance Breaks?
 
 ## Self-Worth & Identity
-When Seeking Approval?
 When Afraid of Being Judged?
 When Feeling Invisible?
 When Identity Feels Uncertain?
 When Needing Validation?
 When Feeling Replaceable?
-When Afraid of Rejection?
 When Struggling With Self-Image?
 When Feeling Too Old?
 When Feeling Too Young?
@@ -104,7 +84,6 @@ When Defining Success Feels Hard?
 
 ## Daily Life & Habits
 When Running Late?
-When Stuck in Traffic?
 When Losing Something Important?
 When Technology Breaks?
 When the Weather Ruins Plans?
@@ -114,32 +93,25 @@ When Spending Too Much Time on a Phone?
 When Breaking a Promise?
 When a Habit Won't Stick?
 When Eating Without Thinking?
-When Sleeping Poorly?
 
 ## Social Media & Modern Life
 When Receiving Hate Comments?
 When Addicted to Notifications?
 When Online Arguments Escalate?
 When Seeking Likes and Followers?
-When News Feels Overwhelming?
-When Comparing Lives on Social Media?
 When Feeling Disconnected Despite Being Connected?
 
 ## Money & Material Life
 When Someone Owes Money?
 When Feeling Greedy?
 When Losing a Financial Investment?
-When Envious of Someone's Wealth?
-When Spending Impulsively?
 When Feeling Guilty About Spending?
 When Financial Security Feels Far Away?
 When Arguing About Money?
 
 ## Change & Uncertainty
-When Moving to a New Place?
 When Life Feels Unpredictable?
 When Facing a Major Life Decision?
-When Letting Go of the Past?
 When a Chapter Ends?
 When the Future Feels Uncertain?
 When Comfort Zone Feels Safe?
@@ -150,7 +122,6 @@ When Losing a Job Unexpectedly?
 When Youth Fades?
 When Losing Health?
 When Losing a Home?
-When Mourning What Could Have Been?
 When Grief Returns Unexpectedly?
 When Helping Someone Grieve?
 
@@ -167,7 +138,6 @@ When Asked to Pick a Side?
 When Feeling Stuck in a Routine?
 When Questioning Beliefs?
 When Spiritual Practice Feels Empty?
-When Motivation Disappears?
 When Feeling Disconnected from Nature?
 When Looking for Inner Peace?
 When Happiness Feels Temporary?
