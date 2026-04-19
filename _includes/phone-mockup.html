@@ -3,10 +3,18 @@
 class - "gradient-1" or "gradient-2" (optional, adds half-bg behind phone) -
 size: "sm", "md", or "lg" (default: "md") {% endcomment %} {% assign alt =
 include.alt | default: "App Screenshot" %} {% assign size = include.size |
-default: "md" %} {% if size == "sm" %} {% assign phone_class = "w-[180px]
-h-[360px]" %} {% elsif size == "lg" %} {% assign phone_class = "w-[280px]
-h-[570px]" %} {% else %} {% assign phone_class = "w-[220px] h-[440px]" %} {%
-endif %}
+default: "md" %} {% comment %} iPhone 15 screen ratio: 2556 × 1179 ≈ 2.167. Frame dimensions
+are chosen so the inner screen area (width − 2×(border + padding)) matches
+that ratio — this prevents object-cover from cropping screenshots. Image
+corner radius = frame radius − border − padding so the rounded corners stay
+concentric. Real iPhone 15 bezel ≈ 2.8% of width, so padding scales with
+size. {% endcomment %} {% if size == "sm" %} {% assign phone_class =
+"w-[180px] h-[378px] rounded-[28px] border p-1" %} {% assign img_class =
+"rounded-[23px]" %} {% elsif size == "lg" %} {% assign phone_class =
+"w-[280px] h-[593px] rounded-[40px] border-2 p-1" %} {% assign img_class =
+"rounded-[34px]" %} {% else %} {% assign phone_class = "w-[220px] h-[463px]
+rounded-[32px] border-2 p-1" %} {% assign img_class = "rounded-[26px]" %}
+{% endif %}
 
 <div class="flex justify-center">
   <div class="relative">
@@ -16,12 +24,12 @@ endif %}
     ></div>
     {% endif %}
     <div
-      class="{{ phone_class }} bg-dark rounded-[2.5rem] border-4 border-dark/30 shadow-2xl hover:shadow-[0_35px_80px_rgba(30,34,56,0.4)] hover:-translate-y-1 transition-all duration-300 overflow-hidden p-1.5"
+      class="{{ phone_class }} bg-dark border-dark/30 shadow-2xl hover:shadow-[0_35px_80px_rgba(30,34,56,0.4)] hover:-translate-y-1 transition-all duration-300 overflow-hidden"
     >
       <img
         src="{{ include.image | relative_url }}"
         alt="{{ alt }}"
-        class="w-full h-full object-cover rounded-[2rem]"
+        class="w-full h-full object-cover {{ img_class }}"
         fetchpriority="{{ include.fetchpriority | default: 'auto' }}"
       />
     </div>
