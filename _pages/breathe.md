@@ -3,7 +3,7 @@ layout: page
 title: Breathing Guide — Guided Buddhist Breathing Techniques
 permalink: /breathe/
 image: /assets/og-image.png
-description: Guided breathing exercises rooted in Buddhist and contemplative tradition — Sama, Ānāpānasati, Mettā, and Vase breathing. Free, always one tap away.
+description: Guided breathing exercises rooted in Buddhist and contemplative tradition — Sama, Ānāpānasati, Mettā, and Vase breathing. Sama is free on the Free Path; the other three are part of the Enlightened Path.
 ---
 
 <div class="not-prose mb-10">
@@ -83,7 +83,7 @@ No. Each technique is introduced with a simple visual rhythm you can follow on y
 For short, gentle holds, yes. If you have cardiovascular, respiratory, or blood-pressure conditions — or if you're pregnant — consult a qualified teacher or physician before practicing longer retentions.
 
 **Is the Breathing Guide free?**
-Yes. All four techniques are included in the free [Choose Like Buddha app]({{ '/' | relative_url }}).
+**Sama (Box) breathing** is free on the Free Path of the [Choose Like Buddha app]({{ '/' | relative_url }}). **Ānāpānasati, Mettā, and Vase breathing** are included in the Enlightened Path premium plan.
 
 **Is my practice private?**
 Yes. Choose Like Buddha is privacy-respecting and ad-free. See the [Privacy Policy]({{ '/privacy-policy/' | relative_url }}) for details.
