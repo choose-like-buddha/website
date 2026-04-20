@@ -13,15 +13,18 @@ We regularly update the app to improve user experience, add meaningful tools lik
 
 ---
 
-## Version 1.8 - March 13, 2026
+## Version 1.8 - April 20, 2026
 
-### Growth Tracking & Required Sign-In
+### Growth Tracking, Guest Mode & Deeper Practice
 
 - Added **onboarding screens** to guide new users through the app
 - Introduced **Buddhist Concepts Radar Chart** on your profile, tracking your strengths and areas for growth across 8 core concepts: Compassion, Patience, Letting Go, Mindfulness, Right Speech, Acceptance, Kindness, and Wisdom
-- **Sign-in is now required** to provide a more personalized experience — including saving your progress, syncing your data, and tracking your growth over time.
+- Added **Guest Mode**, letting you use the full app anonymously on your device
+- You can still sign in anytime to sync your progress across devices and preserve your journey
+- Expanded the Breathing Guide with four traditional techniques: **Sama (Box) Breathing**, **Ānāpānasati (Mindfulness of Breathing)**, **Mettā (Loving-Kindness) Breathing**, and **Vase Breathing (Kumbhaka)** — read more on the [Breathing Guide]({{ '/breathe/' | relative_url }}) page
+- Premium subscribers can now revisit their **Ask Buddha conversation history** — every question and response is saved, and you can delete individual entries or clear the history at any time
 
-This update brings deeper personalization and growth insights, helping users understand their journey across key Buddhist principles.
+This update brings deeper personalization and growth insights, a gentler first-run experience, and a richer set of contemplative practices for everyday use.
 
 ---
 

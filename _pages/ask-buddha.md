@@ -47,6 +47,9 @@ Ask Buddha draws on core Buddhist concepts — impermanence, compassion, non-att
 **Is Ask Buddha free?**
 Yes. Ask Buddha is included in the Choose Like Buddha app, which is free to download.
 
+**Can I revisit past questions and responses?**
+Yes. Premium subscribers have access to **Ask Buddha history** — every question and response is saved to your account so you can return to past guidance whenever you need it. You can delete individual entries or clear your full history at any time from within the app.
+
 **Does Ask Buddha replace a therapist or teacher?**
 No. Ask Buddha is a reflection tool, not clinical care. If you're struggling with serious mental-health concerns, please reach out to a qualified professional.
 
