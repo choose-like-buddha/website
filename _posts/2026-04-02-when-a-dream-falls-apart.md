@@ -3,6 +3,7 @@ layout: post
 title: "When a Dream Falls Apart?"
 date: 2026-04-02
 description: "A broken dream is not a broken life — it's an invitation to discover what's truly meant for you."
+image: /assets/blogposts/when-a-dream-falls-apart.png
 ---
 
 You imagined it so clearly. The career, the relationship, the life you were building toward. And then it crumbled — not all at once, maybe, but enough that the picture you held in your mind no longer matches reality. The grief is real. The disorientation is real. Who are you without this dream?

@@ -3,6 +3,7 @@ layout: post
 title: "When Letting Go of the Past?"
 date: 2026-05-16
 description: "You cannot change what happened. You can change how much of today it is allowed to occupy."
+image: /assets/blogposts/when-letting-go-of-the-past.png
 ---
 
 The memory keeps returning. The mistake, the loss, the moment everything changed. You've tried to move on. You've told yourself it's over. But some part of you is still living back there, still trying to rewrite what cannot be rewritten.

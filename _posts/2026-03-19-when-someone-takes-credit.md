@@ -3,6 +3,7 @@ layout: post
 title: "When Someone Takes Credit?"
 date: 2026-03-19
 description: "When your effort goes unrecognized, the ego burns — but your work still speaks, even in silence."
+image: /assets/blogposts/when-someone-takes-credit.png
 ---
 
 You put in the hours. You solved the problem. And then someone else stood up and claimed it as their own. The frustration is instant — a mix of anger, disbelief, and the sharp sting of being invisible.

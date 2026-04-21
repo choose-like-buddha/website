@@ -3,6 +3,7 @@ layout: post
 title: "When Ruminating at Night?"
 date: 2026-04-21
 description: "Night magnifies thought. What the mind insists is urgent at 3 a.m. is rarely true at sunrise."
+image: /assets/blogposts/when-ruminating-at-night.png
 ---
 
 The lights are off. The house is quiet. And just as your body relaxes, your mind starts running. Old conversations, future worries, half-finished tasks — they crowd in louder than they ever did during the day.

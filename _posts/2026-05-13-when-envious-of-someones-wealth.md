@@ -3,6 +3,7 @@ layout: post
 title: "When Envious of Someone's Wealth?"
 date: 2026-05-13
 description: "Envy points to longing. Listen to what it's actually asking for — it's rarely just the money."
+image: /assets/blogposts/when-envious-of-someones-wealth.png
 ---
 
 You see their car, their house, their vacation, their ease. The thought arrives uninvited: "Why them and not me?" You don't want to be petty. You don't want to be ungrateful. But the comparison sits in your chest, heavy and quiet.

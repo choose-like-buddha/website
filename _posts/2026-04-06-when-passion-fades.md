@@ -3,6 +3,7 @@ layout: post
 title: "When Passion Fades?"
 date: 2026-04-06
 description: "Passion fades when novelty does — but depth, discipline, and quiet love carry you further."
+image: /assets/blogposts/when-passion-fades.png
 ---
 
 It used to excite you. The hobby, the job, the relationship, the project — you couldn't stop thinking about it. And now? It feels flat. The spark is gone, and you're left wondering if something is wrong with you, or if it was never real to begin with.

@@ -3,6 +3,7 @@ layout: post
 title: "When Missing Someone Deeply?"
 date: 2026-04-29
 description: "Missing someone is love continuing in their absence. Don't try to make it smaller than it is."
+image: /assets/blogposts/when-missing-someone-deeply.png
 ---
 
 A song plays. A scent passes. A thought appears unbidden — and suddenly the person you miss is everywhere, except where you can reach them. The longing rises, sharp and quiet, and you don't know what to do with it.

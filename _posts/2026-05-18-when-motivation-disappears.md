@@ -3,6 +3,7 @@ layout: post
 title: "When Motivation Disappears?"
 date: 2026-05-18
 description: "Motivation is a feeling. Discipline is a practice. Don't wait for the feeling — build the practice."
+image: /assets/blogposts/when-motivation-disappears.png
 ---
 
 You used to want it. The goal, the habit, the project, the dream. Now you stare at it and feel nothing. Not resistance, exactly — just a flat absence where drive used to live. You wonder if you've changed, or if you simply ran out.

@@ -3,6 +3,7 @@ layout: post
 title: "When Feeling Like a Fraud?"
 date: 2026-03-22
 description: "Impostor syndrome thrives in silence — name it, and it loses its grip."
+image: /assets/blogposts/when-feeling-like-a-fraud.png
 ---
 
 You got the job, the role, the opportunity. But instead of confidence, there's a quiet dread — someone will figure out you don't belong here. That any moment now, the mask will slip and everyone will see you're not as capable as they think.

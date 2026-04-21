@@ -3,6 +3,7 @@ layout: post
 title: "When a Child Is Struggling?"
 date: 2026-05-01
 description: "You cannot carry their pain for them — but you can be the calm shore they swim back to."
+image: /assets/blogposts/when-a-child-is-struggling.png
 ---
 
 Your child is hurting. School, friendships, their own mind — something is heavy, and you can't fix it for them. You watch them struggle and feel a particular kind of helplessness no one warned you about. You'd trade places in a heartbeat. You can't.

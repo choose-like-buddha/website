@@ -3,6 +3,7 @@ layout: post
 title: "When Considering Quitting?"
 date: 2026-05-06
 description: "Quitting is not always failure. Sometimes it's the courage to stop carrying what was never yours."
+image: /assets/blogposts/when-considering-quitting.png
 ---
 
 The thought keeps returning. Maybe it's the job, the project, the relationship, the path. You've been told to push through, persevere, never give up. But something in you is whispering the opposite — and you can't tell if it's wisdom or weakness.

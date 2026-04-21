@@ -3,6 +3,7 @@ layout: post
 title: "When Spending Impulsively?"
 date: 2026-05-14
 description: "Impulsive spending is rarely about the thing. It's about the feeling you're trying to soothe."
+image: /assets/blogposts/when-spending-impulsively.png
 ---
 
 You didn't mean to. You weren't planning to. But the package is on the way, and now you feel the small dip of regret. You've done this before — and you know you'll do it again unless something changes.

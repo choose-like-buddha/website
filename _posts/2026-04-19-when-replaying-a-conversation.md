@@ -3,6 +3,7 @@ layout: post
 title: "When Replaying a Conversation?"
 date: 2026-04-19
 description: "Replaying conversations doesn't fix them — it only rehearses pain. Awareness is the way out."
+image: /assets/blogposts/when-replaying-a-conversation.png
 ---
 
 The conversation ended hours ago — maybe days. But your mind keeps pressing rewind. What you said, what they said, what you should have said instead. Each replay sharpens the sting, and sleep keeps slipping further away.

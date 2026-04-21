@@ -3,6 +3,7 @@ layout: post
 title: "When Hating the Job?"
 date: 2026-05-04
 description: "You spend most of your waking life at work. The misery is real — and so is your capacity to change it."
+image: /assets/blogposts/when-hating-the-job.png
 ---
 
 Every Sunday night, the dread starts. The alarm Monday morning feels like punishment. You've been telling yourself "just a little longer" for months — maybe years. The hate has become heavy, and quiet, and constant.

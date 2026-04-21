@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        width: 1200px;
+        height: 630px;
+        font-family: "Roboto", system-ui, sans-serif;
+      }
+
+      .card {
+        width: 1200px;
+        height: 630px;
+        background: {{BG}};
+        padding: 0 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .logo {
+        width: 135px;
+        height: 135px;
+        flex-shrink: 0;
+        object-fit: contain;
+      }
+
+      .wrapper{
+        display: flex;
+        gap: 70px;
+        padding-left: 30px;
+        padding-bottom: 40px;
+      }
+
+      .text {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        width: 700px;
+        padding-top: 10px;
+      }
+
+      .eyebrow {
+        color: #ffffff;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 1;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+      }
+
+      .title {
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 1.15;
+        letter-spacing: 1px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="wrapper">
+        <img class="logo" src="{{LOGO_SRC}}" alt="" />
+        <div class="text">
+          <div class="eyebrow">What Would Buddha Do</div>
+          <div class="title">{{TITLE}}</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

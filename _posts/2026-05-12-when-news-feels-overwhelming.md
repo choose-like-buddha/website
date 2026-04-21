@@ -3,6 +3,7 @@ layout: post
 title: "When News Feels Overwhelming?"
 date: 2026-05-12
 description: "Awareness without action becomes anxiety. Choose what you absorb, and what you do with it."
+image: /assets/blogposts/when-news-feels-overwhelming.png
 ---
 
 The headlines never stop. Every notification carries weight — disasters, conflicts, crises, outrage. You started reading to stay informed. Now you feel paralyzed, exhausted, and somehow more disconnected than ever, even as you know more than people ever have.

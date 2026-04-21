@@ -3,6 +3,7 @@ layout: post
 title: "When Feeling Resentful?"
 date: 2026-04-25
 description: "Resentment is the wound that won't close. It hurts you long after the other person has forgotten."
+image: /assets/blogposts/when-feeling-resentful.png
 ---
 
 Someone wronged you. Maybe years ago, maybe yesterday. The event is over, but your resentment is fresh — and quietly, without your noticing, it's becoming part of who you are. You replay the harm. You rehearse what you'd say. You carry it everywhere.

@@ -3,6 +3,7 @@ layout: post
 title: "When Moving to a New Place?"
 date: 2026-05-15
 description: "A new place doesn't immediately feel like home. Belonging is built slowly, one small act at a time."
+image: /assets/blogposts/when-moving-to-a-new-place.png
 ---
 
 The boxes are unpacked. The address is updated. But somehow you're still standing in the middle of rooms that don't yet feel like yours, in a neighborhood whose rhythm you don't know, in a life that feels like a borrowed coat.

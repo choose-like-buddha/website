@@ -3,6 +3,7 @@ layout: post
 title: "When Searching for Purpose?"
 date: 2026-03-28
 description: "Purpose isn't hiding somewhere waiting to be found — it's built, one meaningful action at a time."
+image: /assets/blogposts/when-searching-for-purpose.png
 ---
 
 Everyone seems to have a calling, a mission, a reason they wake up excited. And you're still looking. The question "What am I meant to do?" echoes louder with each passing year, and the silence in response feels heavier.

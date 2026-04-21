@@ -3,6 +3,7 @@ layout: post
 title: "When an Argument Gets Heated?"
 date: 2026-03-27
 description: "In the heat of an argument, the goal shifts from understanding to winning — and everyone loses."
+image: /assets/blogposts/when-an-argument-gets-heated.png
 ---
 
 Voices rise. Words sharpen. The conversation that started as a disagreement has turned into something else entirely — a battle where both sides are fighting to be right, and no one is listening anymore.

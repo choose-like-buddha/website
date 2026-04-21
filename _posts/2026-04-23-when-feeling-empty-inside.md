@@ -3,6 +3,7 @@ layout: post
 title: "When Feeling Empty Inside?"
 date: 2026-04-23
 description: "Emptiness is not the absence of meaning — it's the space where new meaning can grow."
+image: /assets/blogposts/when-feeling-empty-inside.png
 ---
 
 You have what you wanted. You're going through the motions. But inside, there's a hollow you can't fill — not with food, not with scrolling, not with company. You wonder what's missing, and the wondering only deepens the void.

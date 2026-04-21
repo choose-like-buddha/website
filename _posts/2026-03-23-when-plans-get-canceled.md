@@ -3,6 +3,7 @@ layout: post
 title: "When Plans Get Canceled?"
 date: 2026-03-23
 description: "A canceled plan is not a ruined day — it's an unplanned opening. What will you do with it?"
+image: /assets/blogposts/when-plans-get-canceled.png
 ---
 
 You were looking forward to it. Maybe for days, maybe for weeks. And then the message arrives — canceled. The disappointment hits fast, followed by frustration, maybe even a little sadness. The day suddenly feels empty.

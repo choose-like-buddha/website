@@ -16,7 +16,8 @@
       "Bash(mkdir -p /Users/tigransimonyan/Projects/choose-like-buddha-website/_pages)",
       "Bash(mv /Users/tigransimonyan/Projects/choose-like-buddha-website/about.md /Users/tigransimonyan/Projects/choose-like-buddha-website/changelog.md /Users/tigransimonyan/Projects/choose-like-buddha-website/contact.md /Users/tigransimonyan/Projects/choose-like-buddha-website/privacy-policy.md /Users/tigransimonyan/Projects/choose-like-buddha-website/_pages/)",
       "Bash(xargs sed:*)",
-      "Bash(bundle show:*)"
+      "Bash(bundle show:*)",
+      "Bash(node *)"
     ]
   }
 }

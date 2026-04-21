@@ -3,6 +3,7 @@ layout: post
 title: "When Comparing Lives on Social Media?"
 date: 2026-05-11
 description: "You are comparing your behind-the-scenes to everyone else's highlight reel. The math will never work."
+image: /assets/blogposts/when-comparing-lives-on-social-media.png
 ---
 
 You opened the app for a moment of distraction. You closed it feeling smaller. Their vacation, their relationship, their success, their body. Suddenly your own life looks dim by comparison — even though, just moments ago, it was fine.

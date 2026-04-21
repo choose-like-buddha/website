@@ -3,6 +3,7 @@ layout: post
 title: "When Sleeping Poorly?"
 date: 2026-05-10
 description: "Bad sleep magnifies everything. Don't add the suffering of fighting it to the suffering of having it."
+image: /assets/blogposts/when-sleeping-poorly.png
 ---
 
 You went to bed tired. You woke up more tired. The night was a blur of half-dreams, glances at the clock, and racing thoughts that wouldn't quiet down. Now the day stretches ahead of you, and you have to live it through fog.

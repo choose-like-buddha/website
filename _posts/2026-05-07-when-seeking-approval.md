@@ -3,6 +3,7 @@ layout: post
 title: "When Seeking Approval?"
 date: 2026-05-07
 description: "Living for approval makes you a stranger to yourself. Your worth was never theirs to grant."
+image: /assets/blogposts/when-seeking-approval.png
 ---
 
 You shape what you say to be liked. You hesitate to share opinions until you know which way the room leans. You feel a small lift when praised and a quiet ache when ignored. Somewhere along the way, other people became the mirror you check to see if you exist.

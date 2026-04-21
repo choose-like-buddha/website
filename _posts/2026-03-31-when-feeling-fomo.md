@@ -3,6 +3,7 @@ layout: post
 title: "When Feeling FOMO?"
 date: 2026-03-31
 description: "The fear of missing out is really the fear of not being enough — right where you are."
+image: /assets/blogposts/when-feeling-fomo.png
 ---
 
 Everyone's at the party. The trip. The event. The thing you weren't invited to, or chose not to go to, or couldn't afford. And now the photos are rolling in, and a familiar ache settles — you're missing something. Life is happening somewhere else, without you.

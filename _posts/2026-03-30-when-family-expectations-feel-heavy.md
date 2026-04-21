@@ -3,6 +3,7 @@ layout: post
 title: "When Family Expectations Feel Heavy?"
 date: 2026-03-30
 description: "Their expectations come from love — but your life belongs to you, not to their vision of it."
+image: /assets/blogposts/when-family-expectations-feel-heavy.png
 ---
 
 Be a doctor. Get married. Move back home. Make us proud. The expectations aren't always spoken aloud, but they're felt — in every conversation, every holiday, every choice you make that doesn't match the plan they had for you.

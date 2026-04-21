@@ -3,6 +3,7 @@ layout: post
 title: "When Wanting More Than Needed?"
 date: 2026-04-01
 description: "Desire promises fulfillment but delivers a bigger appetite. Enough is not a number — it's a feeling."
+image: /assets/blogposts/when-wanting-more-than-needed.png
 ---
 
 The new phone. The bigger apartment. The better version of something you already have. The wanting never seems to stop — one thing leads to the next, and satisfaction always feels one purchase away. You know you have enough. So why doesn't it feel like it?

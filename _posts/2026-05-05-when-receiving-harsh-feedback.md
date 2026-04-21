@@ -3,6 +3,7 @@ layout: post
 title: "When Receiving Harsh Feedback?"
 date: 2026-05-05
 description: "Harsh words can carry real truth. Your task is to find the truth without absorbing the harshness."
+image: /assets/blogposts/when-receiving-harsh-feedback.png
 ---
 
 The words landed sharp. Maybe they were meant to wound, maybe they weren't. Either way, your face flushed, your stomach dropped, and now you're caught between defending yourself and quietly crumbling. You don't know which feels worse.

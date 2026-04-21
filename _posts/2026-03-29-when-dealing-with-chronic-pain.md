@@ -3,6 +3,7 @@ layout: post
 title: "When Dealing With Chronic Pain?"
 date: 2026-03-29
 description: "Pain demands attention — but it doesn't have to define the whole of who you are."
+image: /assets/blogposts/when-dealing-with-chronic-pain.png
 ---
 
 It's there when you wake up. It's there when you try to sleep. Some days are manageable. Others feel impossible. Chronic pain isn't just physical — it wears on the mind, the mood, the sense of self. The world moves fast, and you're just trying to get through the day.

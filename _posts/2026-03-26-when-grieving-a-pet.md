@@ -3,6 +3,7 @@ layout: post
 title: "When Grieving a Pet?"
 date: 2026-03-26
 description: "The love you shared was real. The grief is proof of that — not something to minimize."
+image: /assets/blogposts/when-grieving-a-pet.png
 ---
 
 The house feels different. The quiet spots where they used to lie. The sound of a collar that no longer jingles. People say, "It was just a pet," but you know — it was so much more than that. It was a bond without words, a presence that made every day a little warmer.

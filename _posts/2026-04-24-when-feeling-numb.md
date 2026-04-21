@@ -3,6 +3,7 @@ layout: post
 title: "When Feeling Numb?"
 date: 2026-04-24
 description: "Numbness is not the absence of feeling — it's the body protecting you from too much of it."
+image: /assets/blogposts/when-feeling-numb.png
 ---
 
 You should feel something — joy, sadness, anger, anything. But there's nothing. Just a flat gray hum, like the volume on your life has been turned down. You worry that something is broken inside you.

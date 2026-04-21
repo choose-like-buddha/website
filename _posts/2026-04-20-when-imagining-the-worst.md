@@ -3,6 +3,7 @@ layout: post
 title: "When Imagining the Worst?"
 date: 2026-04-20
 description: "The worst-case scenario is rarely real — but the suffering it creates is. Choose what to feed."
+image: /assets/blogposts/when-imagining-the-worst.png
 ---
 
 A small uncertainty arrives, and the mind sprints ahead. Within seconds you've imagined disaster: the lost job, the failed relationship, the diagnosis, the catastrophe. None of it has happened. But your body believes it already has.

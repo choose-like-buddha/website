@@ -3,6 +3,7 @@ layout: post
 title: "When Losing Confidence?"
 date: 2026-04-03
 description: "Confidence doesn't vanish — it hides behind doubt. You've done hard things before. Remember."
+image: /assets/blogposts/when-losing-confidence.png
 ---
 
 It used to be there. You used to walk into rooms and feel steady. But something shifted — a failure, a comment, a string of hard days — and now the doubt is louder than the belief. You second-guess everything. The ground that once felt solid now feels thin.

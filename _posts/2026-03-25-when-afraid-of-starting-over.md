@@ -3,6 +3,7 @@ layout: post
 title: "When Afraid of Starting Over?"
 date: 2026-03-25
 description: "Starting over doesn't erase what you've built — it means you're brave enough to build again."
+image: /assets/blogposts/when-afraid-of-starting-over.png
 ---
 
 Everything you worked for — the time, the effort, the identity you built around it — and now it's gone. Or you know it needs to go. Starting over feels like failure. Like losing years. Like standing at zero while everyone else is miles ahead.

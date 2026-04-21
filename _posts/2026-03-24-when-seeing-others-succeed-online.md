@@ -3,6 +3,7 @@ layout: post
 title: "When Seeing Others Succeed Online?"
 date: 2026-03-24
 description: "You're comparing your full story to someone else's highlight reel — and wondering why you feel behind."
+image: /assets/blogposts/when-seeing-others-succeed-online.png
 ---
 
 Another promotion post. Another dream vacation. Another person your age who seems to have it all figured out. You're happy for them — sort of — but underneath, there's a quiet ache. Why not me? Am I falling behind?

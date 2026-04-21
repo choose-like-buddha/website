@@ -3,6 +3,7 @@ layout: post
 title: "When Feeling Ashamed?"
 date: 2026-04-22
 description: "Shame says you are bad. Truth says you are human. Compassion is the bridge between them."
+image: /assets/blogposts/when-feeling-ashamed.png
 ---
 
 Something happened — a mistake, a moment, a memory — and now you can't look at yourself the same way. Shame feels heavy and quiet. It whispers that you are not just someone who did something wrong, but that you are wrong.

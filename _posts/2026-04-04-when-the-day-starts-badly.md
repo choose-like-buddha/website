@@ -3,6 +3,7 @@ layout: post
 title: "When the Day Starts Badly?"
 date: 2026-04-04
 description: "A bad morning is not a prophecy. The day can still turn — if you let the first hour go."
+image: /assets/blogposts/when-the-day-starts-badly.png
 ---
 
 The alarm didn't go off. You spilled coffee on your shirt. The kids are arguing. Traffic is worse than usual. By 9 AM, you've already decided — today is going to be terrible. And from there, everything confirms it.

@@ -3,6 +3,7 @@ layout: post
 title: "When Feeling Guilty?"
 date: 2026-03-18
 description: "Guilt replays the past on a loop — but wisdom asks what you can do now, not what you should have done then."
+image: /assets/blogposts/when-feeling-guilty.png
 ---
 
 The weight sits in the chest. The mind circles back again and again — replaying the moment, the words, the choice. Guilt whispers that you should have known better, done better, been better.

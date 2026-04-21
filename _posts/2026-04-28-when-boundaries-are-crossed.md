@@ -3,6 +3,7 @@ layout: post
 title: "When Boundaries Are Crossed?"
 date: 2026-04-28
 description: "A boundary protects, not punishes. Holding it is an act of love — for yourself and for them."
+image: /assets/blogposts/when-boundaries-are-crossed.png
 ---
 
 You said no, and they didn't hear it. You asked for space, and they kept pushing. Maybe the line was crossed loudly, maybe quietly. Either way, something inside you tightened. You feel small, then angry, then unsure if your boundary even mattered.

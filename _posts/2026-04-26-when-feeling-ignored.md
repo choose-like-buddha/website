@@ -3,6 +3,7 @@ layout: post
 title: "When Feeling Ignored?"
 date: 2026-04-26
 description: "Being ignored is not always rejection — sometimes it's simply other people being lost in their own lives."
+image: /assets/blogposts/when-feeling-ignored.png
 ---
 
 You sent the message. Hours pass, then days. You spoke up in the meeting and no one responded. You shared something that mattered to you, and the conversation moved on as if you hadn't spoken. The silence aches in a way you don't want to admit.

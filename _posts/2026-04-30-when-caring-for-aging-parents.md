@@ -3,6 +3,7 @@ layout: post
 title: "When Caring for Aging Parents?"
 date: 2026-04-30
 description: "Caring for those who once cared for you reveals love's true weight — and your own quiet strength."
+image: /assets/blogposts/when-caring-for-aging-parents.png
 ---
 
 The roles have started to reverse. The parent who once carried you now needs help walking. The mother who once made every decision now asks you which medication to take. It is both tender and exhausting, and you are not always sure which feeling will rise next.

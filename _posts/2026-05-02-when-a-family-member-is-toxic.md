@@ -3,6 +3,7 @@ layout: post
 title: "When a Family Member Is Toxic?"
 date: 2026-05-02
 description: "Family does not require unlimited access. Distance, when needed, is a form of love — for yourself."
+image: /assets/blogposts/when-a-family-member-is-toxic.png
 ---
 
 You leave every interaction feeling smaller. The criticism is constant, or the manipulation is subtle, or the chaos follows wherever they go. They are family, so you keep showing up. But each visit costs you more than the last.

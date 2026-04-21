@@ -3,6 +3,7 @@ layout: post
 title: "When Forgiving Feels Impossible?"
 date: 2026-03-20
 description: "Forgiveness isn't saying it was okay — it's deciding the pain no longer gets to control you."
+image: /assets/blogposts/when-forgiving-feels-impossible.png
 ---
 
 Someone hurt you. Maybe deeply. And now people say, "Just forgive and move on," as if it were that simple. But the wound is real. The memory is sharp. And forgiveness feels like letting them win.

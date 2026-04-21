@@ -3,6 +3,7 @@ layout: post
 title: "When Mourning What Could Have Been?"
 date: 2026-05-17
 description: "Some grief is for things that never happened. The unlived life deserves to be mourned, then released."
+image: /assets/blogposts/when-mourning-what-could-have-been.png
 ---
 
 The relationship that didn't last. The career you didn't choose. The version of yourself that didn't get to be. There is no funeral for these losses, but the grief is real — quiet, persistent, and easily mistaken for regret.

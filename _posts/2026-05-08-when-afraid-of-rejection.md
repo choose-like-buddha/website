@@ -3,6 +3,7 @@ layout: post
 title: "When Afraid of Rejection?"
 date: 2026-05-08
 description: "The fear of rejection often costs more than the rejection itself. Risk being seen anyway."
+image: /assets/blogposts/when-afraid-of-rejection.png
 ---
 
 You almost asked. You almost applied. You almost reached out, almost spoke up, almost tried. But the fear of being told no — or worse, being met with silence — kept you safe and small. You called it caution. It was something quieter than that.

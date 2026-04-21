@@ -3,6 +3,7 @@ layout: post
 title: "When Stuck in Traffic?"
 date: 2026-05-09
 description: "The traffic isn't the problem. Your relationship to the wait is. The car is a small classroom."
+image: /assets/blogposts/when-stuck-in-traffic.png
 ---
 
 You're going to be late. The brake lights stretch endlessly. Your jaw is tight, your fingers tap, your mind already rehearses the apology you'll have to give. The traffic doesn't care about your schedule — but you do, and the gap between the two is suffering.

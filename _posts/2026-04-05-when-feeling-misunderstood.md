@@ -3,6 +3,7 @@ layout: post
 title: "When Feeling Misunderstood?"
 date: 2026-04-05
 description: "Being misunderstood doesn't mean you're wrong — it means connection requires more patience."
+image: /assets/blogposts/when-feeling-misunderstood.png
 ---
 
 You said what you meant. You tried to explain. But the other person heard something different — and now they're reacting to a version of you that doesn't exist. The frustration is deep. You want to scream: "That's not what I said. That's not who I am."

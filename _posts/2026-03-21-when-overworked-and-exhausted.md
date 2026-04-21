@@ -3,6 +3,7 @@ layout: post
 title: "When Overworked and Exhausted?"
 date: 2026-03-21
 description: "Exhaustion isn't a badge of honor — it's your body asking you to stop before it stops for you."
+image: /assets/blogposts/when-overworked-and-exhausted.png
 ---
 
 The to-do list never ends. The emails pile up. The weekend wasn't enough. You're running on caffeine and willpower, and both are fading. Exhaustion has settled into your bones, but stopping feels impossible.

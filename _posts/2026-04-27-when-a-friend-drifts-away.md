@@ -3,6 +3,7 @@ layout: post
 title: "When a Friend Drifts Away?"
 date: 2026-04-27
 description: "Not all endings are betrayals. Some friendships are meant for a season, not a lifetime."
+image: /assets/blogposts/when-a-friend-drifts-away.png
 ---
 
 There was no fight. No clear reason. Just slowly, the messages slowed down. The plans never quite happened. The closeness you once had now feels distant and strange. You wonder what changed — and whether it was something you did.

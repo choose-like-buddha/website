@@ -5,11 +5,14 @@
     "build:css": "npx @tailwindcss/cli -i ./assets/css/main.css -o ./assets/css/output.css --minify",
     "watch:css": "npx @tailwindcss/cli -i ./assets/css/main.css -o ./assets/css/output.css --watch",
     "dev": "concurrently \"npm run watch:css\" \"bundle exec jekyll serve --livereload\"",
-    "build": "JEKYLL_ENV=production npm run build:css && bundle exec jekyll build"
+    "build": "JEKYLL_ENV=production npm run build:css && bundle exec jekyll build",
+    "og:generate": "node scripts/generate-og-images.mjs"
   },
   "devDependencies": {
     "@tailwindcss/cli": "^4",
-    "concurrently": "^9"
+    "concurrently": "^9",
+    "gray-matter": "^4.0.3",
+    "puppeteer": "^24.42.0"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.19"
