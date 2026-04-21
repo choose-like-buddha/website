@@ -6,7 +6,8 @@
     "watch:css": "npx @tailwindcss/cli -i ./assets/css/main.css -o ./assets/css/output.css --watch",
     "dev": "concurrently \"npm run watch:css\" \"bundle exec jekyll serve --livereload\"",
     "build": "JEKYLL_ENV=production npm run build:css && bundle exec jekyll build",
-    "og:generate": "node scripts/generate-og-images.mjs"
+    "og:generate": "node scripts/generate-og-images.mjs",
+    "pinterest:csv": "node scripts/generate-pinterest-csv.mjs"
   },
   "devDependencies": {
     "@tailwindcss/cli": "^4",
