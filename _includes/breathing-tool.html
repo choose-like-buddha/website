@@ -1,0 +1,164 @@
+<div class="not-prose my-8">
+  <div class="breathing-tool">
+    <div class="breathing-stage" data-breathing-stage data-state="idle">
+      <div class="breathing-flower">
+        <span class="petal" style="--i:0"></span>
+        <span class="petal" style="--i:1"></span>
+        <span class="petal" style="--i:2"></span>
+        <span class="petal" style="--i:3"></span>
+        <span class="petal" style="--i:4"></span>
+        <span class="petal" style="--i:5"></span>
+      </div>
+      <div class="breathing-labels">
+        <span class="breathing-label breathing-label-idle">Breathe</span>
+        <span class="breathing-label breathing-label-inhale">Inhale</span>
+        <span class="breathing-label breathing-label-hold1">Hold</span>
+        <span class="breathing-label breathing-label-exhale">Exhale</span>
+        <span class="breathing-label breathing-label-hold2">Hold</span>
+      </div>
+    </div>
+    <button type="button" class="breathing-btn" data-breathing-toggle aria-pressed="false">
+      <span class="breathing-btn-icon" aria-hidden="true"></span>
+      <span class="breathing-btn-label">Start</span>
+    </button>
+    <p class="breathing-caption">Box breathing · 4s inhale · 4s hold · 4s exhale · 4s hold</p>
+  </div>
+</div>
+
+<style>
+  .breathing-tool {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem 1rem;
+    border-radius: 1.5rem;
+    background: linear-gradient(180deg, #f8f9ff 0%, #ffffff 100%);
+    border: 1px solid #ebecf0;
+  }
+  .breathing-stage {
+    position: relative;
+    width: 320px;
+    height: 320px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .breathing-flower {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    transform: scale(0.45) rotate(0deg);
+  }
+  .breathing-stage[data-state="running"] .breathing-flower {
+    animation: flower-bloom 16s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite;
+  }
+  .petal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 140px;
+    height: 140px;
+    margin: -70px 0 0 -70px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 50% 35%, rgba(147, 164, 248, 0.55), rgba(107, 127, 227, 0.35));
+    mix-blend-mode: multiply;
+    transform: rotate(calc(var(--i) * 60deg)) translateY(-45px);
+  }
+  @keyframes flower-bloom {
+    0%   { transform: scale(0.45) rotate(0deg);   }
+    25%  { transform: scale(1)    rotate(60deg);  }
+    50%  { transform: scale(1)    rotate(60deg);  }
+    75%  { transform: scale(0.45) rotate(0deg);   }
+    100% { transform: scale(0.45) rotate(0deg);   }
+  }
+
+  .breathing-labels {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+  }
+  .breathing-label {
+    position: absolute;
+    color: #ffffff;
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    opacity: 0;
+  }
+  .breathing-label-idle { opacity: 1; }
+  .breathing-stage[data-state="running"] .breathing-label-idle { opacity: 0; }
+  .breathing-stage[data-state="running"] .breathing-label-inhale { animation: label-inhale 16s linear infinite; }
+  .breathing-stage[data-state="running"] .breathing-label-hold1  { animation: label-hold1 16s linear infinite; }
+  .breathing-stage[data-state="running"] .breathing-label-exhale { animation: label-exhale 16s linear infinite; }
+  .breathing-stage[data-state="running"] .breathing-label-hold2  { animation: label-hold2 16s linear infinite; }
+  @keyframes label-inhale { 0%, 23% { opacity: 1; } 27%, 100% { opacity: 0; } }
+  @keyframes label-hold1  { 0%, 23% { opacity: 0; } 27%, 48% { opacity: 1; } 52%, 100% { opacity: 0; } }
+  @keyframes label-exhale { 0%, 48% { opacity: 0; } 52%, 73% { opacity: 1; } 77%, 100% { opacity: 0; } }
+  @keyframes label-hold2  { 0%, 73% { opacity: 0; } 77%, 100% { opacity: 1; } }
+
+  .breathing-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.75rem 1.75rem;
+    border-radius: 9999px;
+    background: #4a6cf7;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 0.95rem;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s ease, transform 0.1s ease;
+  }
+  .breathing-btn:hover { background: #3b5de7; }
+  .breathing-btn:active { transform: scale(0.98); }
+  .breathing-btn-icon {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 9px solid #ffffff;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+  }
+  .breathing-btn[aria-pressed="true"] .breathing-btn-icon {
+    width: 10px;
+    height: 10px;
+    border: none;
+    background: #ffffff;
+    border-radius: 2px;
+  }
+  .breathing-caption {
+    color: #637381;
+    font-size: 0.875rem;
+    margin: 0;
+    text-align: center;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .breathing-stage[data-state="running"] .breathing-flower,
+    .breathing-stage[data-state="running"] .breathing-label {
+      animation-duration: 32s;
+    }
+  }
+</style>
+
+<script>
+  (function () {
+    var btn = document.querySelector('[data-breathing-toggle]');
+    var stage = document.querySelector('[data-breathing-stage]');
+    if (!btn || !stage) return;
+    var label = btn.querySelector('.breathing-btn-label');
+    btn.addEventListener('click', function () {
+      var running = stage.getAttribute('data-state') === 'running';
+      stage.setAttribute('data-state', running ? 'idle' : 'running');
+      btn.setAttribute('aria-pressed', running ? 'false' : 'true');
+      label.textContent = running ? 'Start' : 'Stop';
+    });
+  })();
+</script>

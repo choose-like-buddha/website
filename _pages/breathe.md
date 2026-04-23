@@ -30,6 +30,8 @@ The Breathing Guide gives that ancient practice a gentle, visual rhythm you can 
 
 **How it helps.** The equal rhythm and short breath holds activate the parasympathetic nervous system, slow the heart rate, and give the mind a simple, symmetric anchor to return to.
 
+**Try it now.** [Use the free Box Breathing Tool]({{ '/box-breathing/' | relative_url }}) — a guided 4-4-4-4 visual timer, right in your browser.
+
 ### 2. Ānāpānasati (Mindfulness of Breathing)
 
 **What it is.** Ānāpānasati is the foundational Buddhist breath meditation, taught directly by the Buddha in the _Ānāpānasati Sutta_. The word joins _ānāpāna_ (in-breath and out-breath) with _sati_ (mindfulness). Unlike counted techniques, you don't change the breath — you simply pay close, gentle attention to it as it already is.
