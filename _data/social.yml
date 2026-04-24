@@ -2,6 +2,14 @@
   icon: ph ph-x-logo
   name: "Follow us on X (Twitter)"
 
+- url: "https://www.tiktok.com/@choose.like.buddha"
+  icon: ph ph-tiktok-logo
+  name: "Follow us on TikTok"
+
+- url: "https://www.pinterest.com/chooselikebuddha"
+  icon: ph ph-pinterest-logo
+  name: "Follow us on Pinterest"
+
 - url: "https://www.producthunt.com/products/choose-like-buddha"
   icon: ph ph-rocket-launch
   name: "View on Product Hunt"
