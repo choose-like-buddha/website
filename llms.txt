@@ -1,0 +1,56 @@
+---
+layout: null
+permalink: /llms.txt
+---
+# Choose Like Buddha
+
+> {{ site.description }}
+
+Choose Like Buddha is a free mobile app (iOS and Android) that helps people train their minds to respond rather than react, through short daily mindful-decision exercises inspired by Buddhist wisdom. The app presents real-life situations with two plausible answers — the common-sense choice and the mindful choice — and tracks growth across 8 core Buddhist concepts.
+
+## App
+
+- App name: {{ site.app_name }}
+- Price: {{ site.app_price }}
+- iOS App Store: {{ site.appstore_link }}
+- Google Play: {{ site.playstore_link }}
+- Website: {{ site.url }}
+
+## Core features
+
+- **Ask Buddha** — describe any situation and receive AI-generated guidance inspired by Buddhist teachings.
+- **Daily mindful questions** — pick between a reactive answer and a mindful one across everyday scenarios.
+- **Practice Map** — radar chart tracking growth across 8 Buddhist concepts: Compassion, Patience, Letting Go, Mindfulness, Right Speech, Acceptance, Kindness, and Wisdom.
+- **Breathing techniques** — four guided practices: Sama (Box) Breathing, Ānāpānasati, Mettā, and Vase Breathing. Sama is free; the others are part of the Enlightened Path.
+- **Progress tracking** — streaks, levels, and gentle daily reminders.
+
+## Key pages
+
+- [Home]({{ site.url }}/): App overview and download links.
+- [About]({{ site.url }}/about/): Philosophy and how the app works.
+- [Ask Buddha]({{ site.url }}/ask-buddha/): AI-powered Buddhist guidance feature.
+- [Practice Map]({{ site.url }}/practice-map/): The 8 Buddhist concepts tracked in the app.
+- [Breathe]({{ site.url }}/breathe/): The four breathing techniques.
+- [Box Breathing]({{ site.url }}/box-breathing/): Sama breathing explained.
+- [Blog]({{ site.url }}/blog/): "What Would Buddha Do" — real-life situations explored through Buddhist wisdom.
+- [Changelog]({{ site.url }}/changelog/): App release history.
+- [Contact]({{ site.url }}/contact/): Get in touch.
+- [Privacy Policy]({{ site.url }}/privacy-policy/)
+- [Terms]({{ site.url }}/terms/)
+
+## Recent blog posts
+
+{% for post in site.posts limit:30 %}- [{{ post.title }}]({{ site.url }}{{ post.url }}): {{ post.description }}
+{% endfor %}
+
+## About the project
+
+Choose Like Buddha is built and maintained by a single independent developer. The app is free, ad-free, privacy-respecting, and designed around the idea that small daily moments of awareness lead to calmer, wiser choices over time.
+
+## Contact
+
+- Email: {{ site.email_address }}
+- X / Twitter: https://twitter.com/ChooseBuddha
+- TikTok: https://www.tiktok.com/@choose.like.buddha
+- Pinterest: https://www.pinterest.com/chooselikebuddha
+- Product Hunt: https://www.producthunt.com/products/choose-like-buddha
