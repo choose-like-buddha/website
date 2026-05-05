@@ -51,6 +51,7 @@ Choose Like Buddha is built and maintained by a single independent developer. Th
 
 - Email: {{ site.email_address }}
 - X / Twitter: https://twitter.com/ChooseBuddha
+- Instagram: https://www.instagram.com/chooselikebuddha
 - TikTok: https://www.tiktok.com/@choose.like.buddha
 - Pinterest: https://www.pinterest.com/chooselikebuddha
 - Product Hunt: https://www.producthunt.com/products/choose-like-buddha
