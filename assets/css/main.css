@@ -37,6 +37,30 @@
   background: linear-gradient(180deg, #f8f9ff 0%, #ffffff 100%);
 }
 
+/* The prayer-flag string is static; each flag flutters on its own. Pivot from
+   the flag's top edge (where it hangs from the string) so it swings like cloth
+   in the wind. Per-flag duration/delay (set inline) desyncs them. */
+.pf-flag {
+  transform-box: fill-box;
+  transform-origin: 50% 0;
+  animation: pf-flutter 4s ease-in-out infinite;
+  will-change: transform;
+}
+@keyframes pf-flutter {
+  0%,
+  100% {
+    transform: rotate(-2deg);
+  }
+  50% {
+    transform: rotate(2.6deg);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .pf-flag {
+    animation: none;
+  }
+}
+
 @layer base {
   html {
     scroll-behavior: smooth;
