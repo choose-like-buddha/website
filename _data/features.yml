@@ -2,6 +2,14 @@
   description: Ask Buddha any question and get a mindful perspective in response, based on the teachings of Buddhism.
   icon: flower-lotus
 
+- title: Apple Health Sync
+  description: Save every breathing session to Apple Health as mindful minutes — optional on iOS, and never reads your health data.
+  icon: heartbeat
+
+- title: 8 Buddhist Concepts
+  description: Track your progress across 8 core Buddhist concepts and discover your strengths.
+  icon: compass
+
 # - title: Mindful Daily Questions
 #   description: Reflect on everyday situations and choose how you would respond with awareness.
 #   icon: question
@@ -14,10 +22,6 @@
   description: Level up and build streaks as you practice daily, tracking your growth over time.
   icon: chart-line-up
 
-- title: 8 Buddhist Concepts
-  description: Track your progress across 8 core Buddhist concepts and discover your strengths.
-  icon: compass
-
 - title: Four Breathing Techniques
   description: Practice Sama, Ānāpānasati, Mettā, and Vase breathing — guided rhythms rooted in Buddhist tradition.
   icon: wind
@@ -25,3 +29,7 @@
 - title: Daily Reminders
   description: Gentle reminders help you build a small, consistent reflection habit.
   icon: bell
+
+- title: Achievement Badges
+  description: Unlock 32 mandala badges for streaks, accuracy, category mastery, breathing, and Ask Buddha milestones.
+  icon: medal

@@ -9,7 +9,7 @@ image: /assets/og-image.png
 # Privacy Policy
 
 **Last updated**
-13.04.2026
+29.07.2026
 
 Choose Like Buddha respects your privacy. This Privacy Policy explains how we collect, use, and protect your information when you use the app.
 
@@ -42,7 +42,15 @@ This data is used only to display your personal progress and app functionality.
 ### Health Information
 
 The app provides mindfulness and decision-making guidance.
-However, the app does not collect, store, or process health or fitness data about users.
+We do **not** collect, store, or process health or fitness data about you on our servers.
+
+On iOS, you can optionally sync your breathing sessions to Apple Health. When this is turned on in the app (Settings → Apple Health):
+
+- The app writes each completed breathing session to Apple Health as a **Mindful Session**, recording only the session's start and end time.
+- Access is **write-only** — the app never reads any data from Apple Health.
+- Sessions are stored by iOS on your device, and in your iCloud Health data if you have that enabled. They are **not** sent to our servers, **not** shared with third parties, and **never** used for advertising, marketing, or analytics.
+
+This sync is off by default and requires your explicit permission. You can turn it off at any time in the app, or revoke access in the Health app under Sharing → Apps. Turning it off stops future writes; sessions already written remain in Apple Health until you delete them there. Apple Health sync is not available on Android.
 
 Any questions entered in the "Ask Buddha" feature are used only to generate responses and are not analyzed as health information.
 
@@ -136,7 +144,7 @@ We do not knowingly collect personal information from children.
 
 The app uses the following third-party services:
 
-- **Apple** — Sign in with Apple, In-App Purchases and subscriptions
+- **Apple** — Sign in with Apple, In-App Purchases and subscriptions, and Apple Health (HealthKit) if you enable breathing-session sync
 - **Supabase** — Secure cloud database for storing your account and progress data
 - **PostHog** — Privacy-focused analytics to understand app usage and improve features (hosted in EU)
 - **Anthropic** — AI service used to generate Buddhist wisdom responses in the Ask Buddha feature
