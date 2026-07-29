@@ -13,6 +13,19 @@ We regularly update the app to improve user experience, add meaningful tools lik
 
 ---
 
+## Version 1.9 - July 29, 2026
+
+### Achievement Badges, Apple Health & Breathing Haptics
+
+- Introduced **Achievement Badges** — 32 badges to unlock through streaks, correct answers, category mastery, breathing practice, and Ask Buddha milestones. Each one is a unique mandala set into a struck medallion, and your unlocked badges collect in a new section on your profile
+- Added **Apple Health** sync on iOS — every completed breathing session is saved to Apple Health as **Mindful Minutes**, so your practice sits alongside the rest of your health. It is off until you turn it on in Settings, and the app only writes your sessions: it never reads your health data
+- Added **Breathing Haptics** — gentle taps that guide your breath so you can keep your eyes closed instead of watching the screen. Choose Off, Minimal (one tap as each phase begins), or Prominent (an accelerating ramp through every inhale) — read more on the [Breathing Guide]({{ '/breathe/' | relative_url }}) page
+- General performance and stability improvements
+
+This update makes your practice easier to feel and easier to see: guided by touch, collected on your profile, and recorded in Apple Health.
+
+---
+
 ## Version 1.8 - April 20, 2026
 
 ### Growth Tracking, Guest Mode & Deeper Practice
