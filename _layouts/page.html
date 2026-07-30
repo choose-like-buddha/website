@@ -8,4 +8,9 @@ layout: default
   >
     {{ content }}
   </article>
+
+  {% comment %}
+    Legal pages opt out via hide_app_cta — a download prompt there is just noise.
+  {% endcomment %}
+  {% unless page.hide_app_cta %}{% include app-cta.html %}{% endunless %}
 </section>

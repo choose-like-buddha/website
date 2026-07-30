@@ -1,0 +1,44 @@
+{% comment %}
+  In-content app CTA. Rendered at the end of blog posts and content pages.
+
+  Uses the same store badges as the hero and homepage closing CTA so the site
+  speaks one CTA language everywhere. The card — tint, border, headline, trust
+  line — is what makes this read as an offer rather than navigation, not a
+  different button style. Safe to use badges because the footer has none.
+
+  No app icon here on purpose: the sticky header already carries the mark on
+  every page, and the footer carries it again, so a third would be repetition.
+
+  Parameters (all optional):
+    - heading: override the headline
+    - text: override the body copy
+    - surface: card background. Defaults to bg-gray-bg, which suits the white
+      page backgrounds of posts and content pages. Pass "bg-white" when the
+      section behind the card is already bg-gray-bg (e.g. the blog index),
+      otherwise the card and its backdrop are the same colour.
+{% endcomment %}
+
+<aside class="not-prose mt-14">
+  <div
+    class="rounded-2xl {{ include.surface | default: 'bg-gray-bg' }} border border-stroke p-8 sm:p-10 shadow-card text-center"
+  >
+    <h2
+      class="text-xl sm:text-2xl font-bold text-dark leading-snug mb-3 max-w-xl mx-auto"
+    >
+      {{ include.heading
+      | default: "Knowing the mindful response is easy. Choosing it isn't." }}
+    </h2>
+
+    <p class="text-body text-sm leading-relaxed mb-6 max-w-xl mx-auto">
+      {{ include.text
+      | default: "Choose Like Buddha gives you one real situation a day and two
+      ways to respond. One minute a day builds the pause into a habit." }}
+    </p>
+
+    {% include download-buttons.html class="flex flex-wrap gap-3 justify-center" %}
+
+    <p class="text-body/70 text-xs mt-4">
+      Free &middot; No ads &middot; No account required
+    </p>
+  </div>
+</aside>

@@ -1,8 +1,13 @@
+{% comment %}
+  Navigation only — no store badges here. Footer CTAs convert poorly (people
+  scroll down for legal and nav links, and a permanent badge becomes furniture),
+  and every page that needs a CTA now closes with app-cta.html instead.
+{% endcomment %}
 <footer class="bg-[#F8FAFB]">
   <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
     <div class="grid grid-cols-1 md:grid-cols-12 gap-8">
       <!-- Brand -->
-      <div class="md:col-span-5">
+      <div class="md:col-span-6">
         <div class="flex items-center gap-3 mb-4">
           <img
             src="{{ site.app_icon | relative_url }}"
@@ -17,7 +22,7 @@
       </div>
 
       <!-- Quick Links -->
-      <div class="md:col-span-2">
+      <div class="md:col-span-3">
         <h4 class="text-dark font-medium mb-4">Quick Links</h4>
         <ul class="space-y-2.5 text-sm">
           <li>
@@ -52,7 +57,7 @@
       </div>
 
       <!-- Support -->
-      <div class="md:col-span-2">
+      <div class="md:col-span-3">
         <h4 class="text-dark font-medium mb-4">Support</h4>
         <ul class="space-y-2.5 text-sm">
           <li>
@@ -86,11 +91,6 @@
         </ul>
       </div>
 
-      <!-- Download -->
-      <div class="md:col-span-3">
-        <h4 class="text-dark font-medium mb-4">Download</h4>
-        {% include download-buttons.html class="flex flex-col gap-3 mb-6" %}
-      </div>
     </div>
   </div>
 

@@ -98,5 +98,16 @@ image: /assets/og-image.png
       {% endif %}
     </nav>
     {% endif %}
+
+    <div class="max-w-3xl mx-auto">
+      {% comment %}
+        surface=bg-white because this section's backdrop is already bg-gray-bg.
+      {% endcomment %}
+      {% include app-cta.html
+        surface="bg-white"
+        heading="Reading is a start. Practice is what changes things."
+        text="Every post here explores one hard moment. Choose Like Buddha turns
+        them into daily practice — one real situation a day, two ways to respond." %}
+    </div>
   </div>
 </section>

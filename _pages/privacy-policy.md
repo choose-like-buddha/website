@@ -4,6 +4,7 @@ title: Privacy Policy
 description: Learn how Choose Like Buddha handles your data, protects your privacy, and keeps your experience safe and secure.
 permalink: /privacy-policy/
 image: /assets/og-image.png
+hide_app_cta: true
 ---
 
 # Privacy Policy
