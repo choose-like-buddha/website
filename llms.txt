@@ -11,10 +11,19 @@ Choose Like Buddha is a free mobile app (iOS and Android) that helps people trai
 ## App
 
 - App name: {{ site.app_name }}
-- Price: {{ site.app_price }}
+- Price: {{ site.app_price }} to download and use
 - iOS App Store: {{ site.appstore_link }}
 - Google Play: {{ site.playstore_link }}
 - Website: {{ site.url }}
+
+## Pricing
+
+Two plans. No ads on either, and no account is required to start.
+
+- **{{ site.free_plan_name }}** — free. 5 practice questions per day, 2 Ask Buddha questions per day, Sama (Box) breathing, full Practice Map, streaks, levels, badges, and Apple Health sync.
+- **{{ site.premium_plan_name }}** — {{ site.premium_price }} per {{ site.premium_period }}. 10 practice questions per day, 20 Ask Buddha questions per day, saved Ask Buddha history, and all four breathing techniques.
+
+Only a monthly subscription is offered; there is no annual plan or one-time purchase. Billing is handled by the App Store or Google Play, cancellable there at any time. Prices are USD; stores show local pricing.
 
 ## Core features
 
@@ -31,6 +40,7 @@ Choose Like Buddha is a free mobile app (iOS and Android) that helps people trai
 - [Ask Buddha]({{ site.url }}/ask-buddha/): AI-powered Buddhist guidance feature.
 - [Practice Map]({{ site.url }}/practice-map/): The 8 Buddhist concepts tracked in the app.
 - [Breathe]({{ site.url }}/breathe/): The four breathing techniques.
+- [Pricing]({{ site.url }}/pricing/): What the free plan includes and what the Enlightened Path adds.
 - [Box Breathing]({{ site.url }}/box-breathing/): Sama breathing explained.
 - [Blog]({{ site.url }}/blog/): "What Would Buddha Do" — real-life situations explored through Buddhist wisdom.
 - [Changelog]({{ site.url }}/changelog/): App release history.

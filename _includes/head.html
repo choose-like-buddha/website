@@ -40,11 +40,23 @@
     "description": "{{ site.app_description | strip_html | strip_newlines }}",
     "operatingSystem": "iOS, Android",
     "applicationCategory": "LifestyleApplication",
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "USD"
-    },
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "{{ site.free_plan_name }}",
+        "price": "0",
+        "priceCurrency": "USD",
+        "description": "Free to download and use, with daily practice limits."
+      },
+      {
+        "@type": "Offer",
+        "name": "{{ site.premium_plan_name }}",
+        "price": "{{ site.premium_price | remove: '$' }}",
+        "priceCurrency": "USD",
+        "description": "Optional monthly subscription. Raises daily limits and unlocks all four breathing techniques.",
+        "category": "subscription"
+      }
+    ],
     "installUrl": ["{{ site.appstore_link }}", "{{ site.playstore_link }}"],
     "image": "{{ site.app_icon | absolute_url }}"
   }

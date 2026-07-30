@@ -1,0 +1,84 @@
+{% comment %}
+  Plan comparison. Shows only the four rows where the plans actually differ, so
+  the difference is readable at a glance — everything both plans include is
+  listed once underneath rather than repeated in two identical columns.
+
+  Data: _data/plans.yml (differences + shared).
+{% endcomment %}
+
+<div class="not-prose my-10">
+  <div class="overflow-x-auto rounded-2xl border border-stroke">
+    <table class="w-full text-left border-collapse min-w-[520px]">
+      <thead>
+        <tr class="bg-gray-bg">
+          <th class="p-4 sm:p-5 text-sm font-medium text-body align-bottom">
+            What differs
+          </th>
+          <th class="p-4 sm:p-5 align-bottom w-[26%]">
+            <span class="block text-base font-medium text-dark"
+              >{{ site.free_plan_name }}</span
+            >
+            <span class="block text-sm text-body mt-0.5">Free</span>
+          </th>
+          <th
+            class="p-4 sm:p-5 align-bottom w-[30%] bg-primary/5 border-l-2 border-primary"
+          >
+            <span class="block text-base font-medium text-dark"
+              >{{ site.premium_plan_name }}</span
+            >
+            <span class="block text-sm text-body mt-0.5">
+              {{ site.premium_price }} / {{ site.premium_period }}
+            </span>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in site.data.plans.differences %}
+        <tr class="border-t border-stroke">
+          <td class="p-4 sm:p-5 text-sm text-dark">{{ row.feature }}</td>
+
+          <td class="p-4 sm:p-5 text-sm">
+            {% if row.free == false %}
+            <span class="inline-flex items-center gap-1.5 text-body/50">
+              <i class="ph ph-minus"></i> Not included
+            </span>
+            {% elsif row.free == true %}
+            <i class="ph ph-check text-primary text-base"></i>
+            {% else %}
+            <span class="text-body">{{ row.free }}</span>
+            {% endif %}
+          </td>
+
+          <td
+            class="p-4 sm:p-5 text-sm bg-primary/5 border-l-2 border-primary font-medium text-dark"
+          >
+            {% if row.premium == true %}
+            <span class="inline-flex items-center gap-1.5">
+              <i class="ph ph-check text-primary text-base"></i> Included
+            </span>
+            {% elsif row.premium == false %}
+            <span class="inline-flex items-center gap-1.5 text-body/50">
+              <i class="ph ph-minus"></i> Not included
+            </span>
+            {% else %}
+            {{ row.premium }}
+            {% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+  <div class="mt-6 rounded-2xl bg-gray-bg border border-stroke p-5 sm:p-6">
+    <h3 class="text-sm font-medium text-dark mb-3">In both plans</h3>
+    <ul class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2.5 text-sm">
+      {% for item in site.data.plans.shared %}
+      <li class="flex items-start gap-2.5">
+        <i class="ph ph-check text-primary text-base mt-0.5"></i>
+        <span class="text-body">{{ item }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

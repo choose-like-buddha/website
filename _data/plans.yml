@@ -1,0 +1,33 @@
+# Plan comparison data.
+#
+# Keep in sync with the app's constants/subscription.ts (DAILY_LIMITS,
+# ASK_BUDDHA_LIMITS, PREMIUM_FEATURES) and constants/breathing.ts (locked flags).
+
+# The only four things that differ between the plans. Rendered as a comparison
+# table so each difference sits on one row. `false` renders a dash, `true` a
+# check, a string renders as-is.
+differences:
+  - feature: Daily practice questions
+    free: 5 per day
+    premium: 10 per day
+
+  - feature: Ask Buddha questions
+    free: 2 per day
+    premium: 20 per day
+
+  - feature: Saved Ask Buddha history
+    free: false
+    premium: true
+
+  - feature: Breathing techniques
+    free: Sama (Box) only
+    premium: All four
+
+# Everything both plans get. Listed once, below the table, so it does not dilute
+# the four rows above.
+shared:
+  - Full Practice Map across 8 concepts
+  - Streaks, levels and 32 badges
+  - Apple Health sync for mindful minutes
+  - No ads, ever
+  - No account required
