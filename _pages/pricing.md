@@ -36,3 +36,12 @@ along with any applicable tax.
 {% include app-cta.html
   heading="Start on the free plan."
   text="Five practice questions a day, guided breathing, and your full Practice Map — no account, no ads, no card." %}
+
+<div class="not-prose">
+{% include faq.html
+  tag="pricing"
+  heading="Pricing questions"
+  intro=""
+  background="bg-white"
+  schema="false" %}
+</div>

@@ -1,32 +1,53 @@
+{% comment %}
+  Store badges. Uses the official Apple and Google artwork already in assets/
+  rather than a hand-rendered icon plus typed text, which both platforms' brand
+  guidelines require.
+
+  Both files are 150px tall with zero transparent padding (measured: visible
+  artwork fills 100% of the height in each), so they must render at the SAME
+  height — appstore.png 440x150, playstore.png 510x150. Google Play is simply the
+  wider badge; that width difference is in the official artwork and is correct.
+
+  Parameters:
+    - class: wrapper classes (default: flex flex-wrap gap-4 mt-6)
+{% endcomment %}
+
 <div
-  class="{{ include.class | default: 'flex flex-wrap gap-4 mt-6' }} not-prose"
+  class="{{ include.class | default: 'flex flex-wrap gap-4 mt-6' }} not-prose items-center"
 >
   <a
     href="{{ site.appstore_link }}"
     target="_blank"
     rel="noopener"
-    class="inline-flex items-center gap-3 bg-dark text-white px-7 py-3.5 rounded-md hover:bg-dark/90 transition text-sm max-w-50 w-full"
+    aria-label="Download {{ site.app_name }} on the App Store"
+    class="inline-block hover:opacity-85 transition-opacity"
   >
-    <i class="ph ph-apple-logo text-xl"></i>
-    <span>
-      <span class="block text-xs text-white/60 leading-none"
-        >Download on the</span
-      >
-      <span class="block text-sm font-medium leading-tight">App Store</span>
-    </span>
+    <img
+      src="{{ '/assets/appstore.png' | relative_url }}"
+      alt="Download on the App Store"
+      width="440"
+      height="150"
+      loading="lazy"
+      class="h-12 w-auto"
+    />
   </a>
+
   {% if site.playstore_link %}
   <a
     href="{{ site.playstore_link }}"
     target="_blank"
     rel="noopener"
-    class="inline-flex items-center gap-3 bg-dark text-white px-7 py-3.5 rounded-md hover:bg-dark/90 transition text-sm max-w-50 w-full"
+    aria-label="Get {{ site.app_name }} on Google Play"
+    class="inline-block hover:opacity-85 transition-opacity"
   >
-    <i class="ph ph-google-play-logo text-xl"></i>
-    <span>
-      <span class="block text-xs text-white/60 leading-none">Get it on</span>
-      <span class="block text-sm font-medium leading-tight">Google Play</span>
-    </span>
+    <img
+      src="{{ '/assets/playstore.png' | relative_url }}"
+      alt="Get it on Google Play"
+      width="510"
+      height="150"
+      loading="lazy"
+      class="h-12 w-auto"
+    />
   </a>
   {% endif %}
 </div>

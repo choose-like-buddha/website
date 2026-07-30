@@ -78,16 +78,10 @@
   }
 </script>
 
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "{{ site.title }}",
-    "url": "{{ site.url }}",
-    "description": "{{ site.description | strip_html | strip_newlines }}",
-    "inLanguage": "en"
-  }
-</script>
+{% comment %}
+  No WebSite block here: {% seo %} above already emits one, and two conflicting
+  WebSite nodes on the same URL is worse than one.
+{% endcomment %}
 
 {% if page.layout == "post" %}
 <script type="application/ld+json">

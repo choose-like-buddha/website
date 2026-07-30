@@ -10,28 +10,10 @@ layout: default
   </article>
 </section>
 
-{% if page.faq %}
-<section class="bg-gray-bg py-16 sm:py-20">
-  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-    <h2 class="text-3xl sm:text-4xl font-bold text-dark">Frequently Asked Questions</h2>
-    <p class="mt-4 text-body max-w-2xl mx-auto">
-      Find answers to common questions about Choose Like Buddha. Can't find what you're looking for? Feel free to email us.
-    </p>
-
-    <div class="mt-10 rounded-2xl bg-white shadow-card border border-stroke divide-y divide-stroke text-left">
-      {% for item in page.faq %}
-      <details class="group">
-        <summary class="flex cursor-pointer items-center justify-between px-6 py-5 text-lg text-dark font-medium">
-          {{ item.q }}
-          <span class="ml-4 shrink-0 text-xl text-dark group-open:hidden">+</span>
-          <span class="ml-4 shrink-0 text-xl text-dark hidden group-open:inline">&minus;</span>
-        </summary>
-        <div class="border-t border-stroke px-6 pt-4 pb-6 text-body leading-relaxed">
-          {{ item.a }}
-        </div>
-      </details>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-{% endif %}
+{% comment %}
+  Full FAQ (no tag filter). This page owns the FAQPage structured data for the
+  complete set; the homepage and /pricing/ render filtered subsets with
+  schema="false" so the markup is not duplicated across URLs.
+{% endcomment %}
+{% include faq.html
+  intro="Common questions about how the app works, what's free, and what it isn't. Can't find what you're looking for? Email us." %}

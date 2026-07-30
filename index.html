@@ -22,12 +22,14 @@ description: Practice making calmer, wiser choices every day. Buddhist-inspired 
         <p
           class="text-base sm:text-lg text-body mb-8 leading-relaxed max-w-lg mx-auto md:mx-0"
         >
-          {{ site.app_description }}
+          Most of us know the mindful response — we just don't choose it in the
+          moment. One real situation a day, two ways to respond, and one minute
+          to notice the difference.
         </p>
         {% include download-buttons.html class="flex flex-wrap gap-4
         justify-center md:justify-start" %}
         <p class="mt-4 text-sm text-body">
-          {{ site.app_price }} &mdash; Start your journey today
+          Free &middot; No ads &middot; No account required
         </p>
       </div>
 
@@ -43,7 +45,7 @@ description: Practice making calmer, wiser choices every day. Buddhist-inspired 
   <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center mb-14">
       <h2 class="text-3xl sm:text-4xl lg:text-[44px] font-bold text-dark mb-4">
-        Features
+        Everything you need for a one-minute daily practice
       </h2>
       <p class="text-body text-base max-w-2xl mx-auto">
         Simple tools rooted in ancient wisdom to help you navigate modern
@@ -176,6 +178,17 @@ description: Practice making calmer, wiser choices every day. Buddhist-inspired 
     </div>
   </div>
 </section>
+
+<!-- FAQ — handles the objections a cold visitor arrives with.
+     White, because the blog section below is bg-gray-bg and two grey sections in
+     a row merge. The accordion carries its own border, so it still reads as a
+     card here; the blog cards have no border and need grey behind them. The
+     top rule marks the seam with the white Breathe section above. -->
+{% include faq.html
+  tag="home"
+  intro="What it is, what's free, and what it isn't."
+  background="bg-white border-t border-stroke"
+  schema="false" %}
 
 <!-- Recent Blog Posts -->
 {% assign recent_posts = site.posts | slice: 0, 4 %} {% if recent_posts.size > 0

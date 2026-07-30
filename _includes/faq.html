@@ -1,0 +1,80 @@
+{% comment %}
+  Shared FAQ accordion + FAQPage structured data.
+
+  Data: _data/faq.yml. The PREMIUM_PRICE token in answers is replaced with
+  site.premium_price so the price lives in one place (_config.yml) only.
+
+  Parameters (all optional):
+    - tag: only show questions carrying this tag (e.g. "pricing", "home").
+           Omit to show every question.
+    - heading: override the section heading
+    - intro: override the intro line. Pass "" for none.
+    - background: section background class. Defaults to bg-gray-bg.
+    - schema: "false" to skip the FAQPage JSON-LD. Emit it on ONE page per
+              question set — duplicate FAQPage markup across URLs is not useful.
+{% endcomment %}
+
+{% if include.tag %}
+  {% assign faq_items = site.data.faq | where_exp: "item", "item.tags contains include.tag" %}
+{% else %}
+  {% assign faq_items = site.data.faq %}
+{% endif %}
+
+{% if faq_items.size > 0 %}
+<section class="{{ include.background | default: 'bg-gray-bg' }} py-16 sm:py-20">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h2 class="text-3xl sm:text-4xl font-bold text-dark">
+      {{ include.heading | default: "Frequently Asked Questions" }}
+    </h2>
+
+    {% assign intro = include.intro | default: "Common questions about how the app works, what's free, and what it isn't." %}
+    {% if intro != "" %}
+    <p class="mt-4 text-body max-w-2xl mx-auto">{{ intro }}</p>
+    {% endif %}
+
+    <div
+      class="mt-10 rounded-2xl bg-white shadow-card border border-stroke divide-y divide-stroke text-left"
+    >
+      {% for item in faq_items %}
+      <details class="group">
+        <summary
+          class="flex cursor-pointer items-center justify-between px-6 py-5 text-lg text-dark font-medium"
+        >
+          {{ item.q }}
+          <span class="ml-4 shrink-0 text-xl text-dark group-open:hidden">+</span>
+          <span class="ml-4 shrink-0 text-xl text-dark hidden group-open:inline"
+            >&minus;</span
+          >
+        </summary>
+        <div
+          class="border-t border-stroke px-6 pt-4 pb-6 text-body leading-relaxed"
+        >
+          {{ item.a | replace: "PREMIUM_PRICE", site.premium_price }}
+        </div>
+      </details>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% unless include.schema == "false" %}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {% for item in faq_items %}
+      {
+        "@type": "Question",
+        "name": {{ item.q | jsonify }},
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": {{ item.a | replace: "PREMIUM_PRICE", site.premium_price | strip_html | jsonify }}
+        }
+      }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ]
+  }
+</script>
+{% endunless %}
+{% endif %}

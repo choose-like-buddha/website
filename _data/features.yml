@@ -1,35 +1,38 @@
+# Homepage feature grid, in display order.
+#
+# Ordered by reason-to-install, not by recency. The differentiators lead;
+# supporting features (reminders, Health sync) come last — those matter to people
+# who already use the app, not to someone deciding whether to download it.
+# The grid is 4-up on large screens, so positions 1-4 are the visible row.
+
 - title: Ask Buddha
   description: Ask Buddha any question and get a mindful perspective in response, based on the teachings of Buddhism.
   icon: flower-lotus
-
-- title: Apple Health Sync
-  description: Save every breathing session to Apple Health as mindful minutes — optional on iOS, and never reads your health data.
-  icon: heartbeat
 
 - title: 8 Buddhist Concepts
   description: Track your progress across 8 core Buddhist concepts and discover your strengths.
   icon: compass
 
-# - title: Mindful Daily Questions
-#   description: Reflect on everyday situations and choose how you would respond with awareness.
-#   icon: question
-
 - title: Clear Explanations
   description: See a mindful perspective after each answer, with a short and thoughtful explanation.
   icon: lightbulb
-
-- title: Progress Over Time
-  description: Level up and build streaks as you practice daily, tracking your growth over time.
-  icon: chart-line-up
 
 - title: Four Breathing Techniques
   description: Practice Sama, Ānāpānasati, Mettā, and Vase breathing — guided rhythms rooted in Buddhist tradition.
   icon: wind
 
-- title: Daily Reminders
-  description: Gentle reminders help you build a small, consistent reflection habit.
-  icon: bell
+- title: Progress Over Time
+  description: Level up and build streaks as you practice daily, tracking your growth over time.
+  icon: chart-line-up
 
 - title: Achievement Badges
   description: Unlock 32 mandala badges for streaks, accuracy, category mastery, breathing, and Ask Buddha milestones.
   icon: medal
+
+- title: Daily Reminders
+  description: Gentle reminders help you build a small, consistent reflection habit.
+  icon: bell
+
+- title: Apple Health Sync
+  description: Save every breathing session to Apple Health as mindful minutes — optional on iOS, and never reads your health data.
+  icon: heartbeat
