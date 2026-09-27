@@ -10,7 +10,7 @@ hide_app_cta: true
 # Privacy Policy
 
 **Last updated**
-29.07.2026
+27.09.2026
 
 Choose Like Buddha respects your privacy. This Privacy Policy explains how we collect, use, and protect your information when you use the app.
 
@@ -23,18 +23,20 @@ If you choose to create an account or sign in, we may collect:
 - Name (as provided by you)
 - Email address (for email sign-in)
 - Apple ID identifier (for Sign in with Apple)
+- Google account identifier and email address (for Sign in with Google)
 
 This information is used only to identify your account and save your progress.
 
 ### Guest Mode
 
-You may use the app without providing personal information by continuing as a guest. In guest mode, a temporary anonymous account is created to store your progress (quiz answers, statistics, and other app data) on our servers. No personal information such as name or email is collected. If you later create an account, your guest progress is preserved. If you sign out without creating an account, your guest data may become inaccessible.
+You may use the app without providing personal information by continuing as a guest. In guest mode, a temporary anonymous account is created to store your progress (practice answers, written reflections, statistics, and other app data) on our servers. No personal information such as name or email is collected. If you later create an account, your guest progress is preserved. If you sign out without creating an account, your guest data may become inaccessible.
 
 ### App Usage Data
 
 We collect limited app usage data to provide core features, including:
 
-- Quiz answers
+- Your daily practice answers
+- Written reflections you choose to save
 - Daily progress and statistics
 - Subscription status
 
@@ -55,22 +57,13 @@ This sync is off by default and requires your explicit permission. You can turn 
 
 Any questions entered in the "Ask Buddha" feature are used only to generate responses and are not analyzed as health information.
 
-### Food and Body Awareness Data
-
-If you use the food and body awareness feature, the app may store:
-
-- Food entries you create
-- Body or mood notes associated with foods
-
-This data is entered voluntarily and stored to support app features.
-
 ### Ask Buddha (AI-Generated Guidance)
 
 If you use the Ask Buddha feature, the questions you submit are sent to a third-party AI service (Anthropic) to generate personalized responses inspired by Buddhist wisdom.
 
-For free plan users, questions and responses are processed in real time and are **not** stored on our servers.
+Your questions and the AI-generated responses are saved to your account as conversation history so you can revisit past guidance. This applies on both plans: the free plan shows your 7 most recent entries, and premium subscribers can see their full history.
 
-For premium subscribers, your questions and the AI-generated responses are saved to your account as conversation history so you can revisit past guidance. You can delete individual entries or clear your entire Ask Buddha history at any time from within the app.
+You can delete individual entries or clear your entire Ask Buddha history at any time from within the app.
 
 ## Notifications
 
@@ -100,7 +93,7 @@ We do **not** sell, rent, or share your personal information with third parties 
 
 Information may be shared only when necessary to:
 
-- Authenticate users (Sign in with Apple)
+- Authenticate users (Sign in with Apple, Sign in with Google)
 - Process subscriptions through Apple In-App Purchases
 - Comply with legal obligations
 
@@ -146,6 +139,7 @@ We do not knowingly collect personal information from children.
 The app uses the following third-party services:
 
 - **Apple** — Sign in with Apple, In-App Purchases and subscriptions, and Apple Health (HealthKit) if you enable breathing-session sync
+- **Google** — Sign in with Google, and Google Play billing for subscriptions on Android
 - **Supabase** — Secure cloud database for storing your account and progress data
 - **PostHog** — Privacy-focused analytics to understand app usage and improve features (hosted in EU)
 - **Anthropic** — AI service used to generate Buddhist wisdom responses in the Ask Buddha feature

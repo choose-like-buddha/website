@@ -9,7 +9,26 @@ image: /assets/og-image.png
 
 Stay up to date with the latest improvements, features, and fixes in Choose Like Buddha, a mindfulness and decision-making app inspired by Buddhist philosophy. On this page, we share detailed release notes for each version, including new features, performance enhancements, and bug fixes.
 
-We regularly update the app to improve user experience, add meaningful tools like daily reminders, and ensure stability across iOS devices. Check back often to see how the app evolves and how each update helps you make calmer, more conscious choices in everyday life.
+We regularly update the app to improve user experience, add meaningful tools like daily reminders, and ensure stability across iOS and Android devices. Check back often to see how the app evolves and how each update helps you make calmer, more conscious choices in everyday life.
+
+---
+
+## Version 2.0 - September 27, 2026
+
+### A Daily Practice, Not a Quiz
+
+Version 2.0 rebuilds the heart of the app. The quiz is gone, and with it the idea that one answer was right and the other was wrong.
+
+- Replaced the quiz with a **daily practice**: a handful of short items each day across five concepts. Each one offers two options a thoughtful person might choose, and neither is marked correct. If a situation did not come up for you, you can say so and it counts as nothing at all
+- The practice now moves through **five concepts** — Right Speech, Kindness, Patience, Letting Go, and Mindfulness. Each is a tension rather than a virtue to score: sparing someone or telling them, waiting or pressing, setting something down or keeping it live
+- Introduced **Patterns**, replacing the radar chart. Instead of a score per category, Patterns shows where you actually sit between a concept's two poles — one mark for what you *would* do, another for what you *did* — and the gap between them. Most of us predict we will be more patient than we turn out to be, and Patterns shows that distance rather than hiding it
+- A concept's mark is only drawn once there is enough behind it to mean something. Thin concepts say so instead of drawing a shape from too little
+- Added **Reflections** — an optional written note at the end of a session, kept as an archive you can read back
+- Reworked **Achievement Badges** around the new practice. Badges for correct answers and category mastery no longer made sense and have been retired; if you already earned one it stays on your profile, but it is no longer handed out. Twenty-seven badges are now reachable, across streaks, daily practice, breathing, reflections and Ask Buddha
+- **Ask Buddha history is now available on the free plan** — your 7 most recent questions and answers are kept, rather than none. Premium keeps the full history
+- General performance and stability improvements
+
+The old app asked whether you knew the wiser answer. This one assumes you usually do, and asks what you actually chose.
 
 ---
 

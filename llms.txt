@@ -6,7 +6,7 @@ permalink: /llms.txt
 
 > {{ site.description }}
 
-Choose Like Buddha is a free mobile app (iOS and Android) that helps people train their minds to respond rather than react, through short daily mindful-decision exercises inspired by Buddhist wisdom. The app presents real-life situations with two plausible answers — the common-sense choice and the mindful choice — and tracks growth across 8 core Buddhist concepts.
+Choose Like Buddha is a free mobile app (iOS and Android) that helps people train their minds to respond rather than react, through a short daily practice inspired by Buddhist wisdom. Each day gives five brief items across five concepts — a check-in on what you noticed, something you already did, and something you might do. Both options are defensible and nothing is scored; over time the app shows where you actually lean.
 
 ## App
 
@@ -20,25 +20,26 @@ Choose Like Buddha is a free mobile app (iOS and Android) that helps people trai
 
 Two plans. No ads on either, and no account is required to start.
 
-- **{{ site.free_plan_name }}** — free. 5 practice questions per day, 2 Ask Buddha questions per day, Sama (Box) breathing, full Practice Map, streaks, levels, badges, and Apple Health sync.
-- **{{ site.premium_plan_name }}** — {{ site.premium_price }} per {{ site.premium_period }}. 10 practice questions per day, 20 Ask Buddha questions per day, saved Ask Buddha history, and all four breathing techniques.
+- **{{ site.free_plan_name }}** — free. The full daily practice, 2 Ask Buddha questions per day, the 7 most recent Ask Buddha answers, Sama (Box) breathing, Patterns, reflections, streaks, badges, and Apple Health sync.
+- **{{ site.premium_plan_name }}** — {{ site.premium_price }} per {{ site.premium_period }}. 20 Ask Buddha questions per day, unlimited Ask Buddha history, and all four breathing techniques. The daily practice is identical on both plans.
 
 Only a monthly subscription is offered; there is no annual plan or one-time purchase. Billing is handled by the App Store or Google Play, cancellable there at any time. Prices are USD; stores show local pricing.
 
 ## Core features
 
 - **Ask Buddha** — describe any situation and receive AI-generated guidance inspired by Buddhist teachings.
-- **Daily mindful questions** — pick between a reactive answer and a mindful one across everyday scenarios.
-- **Practice Map** — radar chart tracking growth across 8 Buddhist concepts: Compassion, Patience, Letting Go, Mindfulness, Right Speech, Acceptance, Kindness, and Wisdom.
+- **Daily practice** — five short items a day across five concepts: Right Speech, Kindness, Patience, Letting Go, and Mindfulness. Two honest options each time, no right answer and no score.
+- **Patterns** — shows where you lean between each concept's two poles, the gap between what you would do and what you did, and how often what you are watching for came up in the last month.
+- **Reflections** — an optional written note at the end of a session, kept as an archive you can read back.
 - **Breathing techniques** — four guided practices: Sama (Box) Breathing, Ānāpānasati, Mettā, and Vase Breathing. Sama is free; the others are part of the Enlightened Path.
-- **Progress tracking** — streaks, levels, and gentle daily reminders.
+- **Progress tracking** — streaks, 27 mandala badges, and gentle daily reminders.
 
 ## Key pages
 
 - [Home]({{ site.url }}/): App overview and download links.
 - [About]({{ site.url }}/about/): Philosophy and how the app works.
 - [Ask Buddha]({{ site.url }}/ask-buddha/): AI-powered Buddhist guidance feature.
-- [Practice Map]({{ site.url }}/practice-map/): The 8 Buddhist concepts tracked in the app.
+- [Practice Map]({{ site.url }}/practice-map/): How the app tracks practice across its concepts.
 - [Breathe]({{ site.url }}/breathe/): The four breathing techniques.
 - [Pricing]({{ site.url }}/pricing/): What the free plan includes and what the Enlightened Path adds.
 - [Box Breathing]({{ site.url }}/box-breathing/): Sama breathing explained.

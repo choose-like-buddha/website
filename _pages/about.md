@@ -17,15 +17,15 @@ The app presents real-life situations and asks how you would respond. One answer
 
 Over time, you start to notice patterns in how you think and react. That awareness is where real growth begins.
 
-## More Than a Quiz
+## More Than the Daily Practice
 
 Choose Like Buddha also includes Ask Buddha — an AI-powered feature where you can describe any real-life situation and receive thoughtful guidance inspired by Buddhist teachings. It's like having a calm, mindful friend available whenever you need a moment of clarity.
 
-The app also offers a guided breathing exercise to reset your mind.
+The app also offers four guided breathing techniques to reset your mind.
 
 ## Your Growth, Visualized
 
-Every quiz question maps to one of 8 core Buddhist concepts: Compassion, Patience, Letting Go, Mindfulness, Right Speech, Acceptance, Kindness, and Wisdom. Your profile tracks your progress across all of them, revealing your strengths and where you can grow.
+The practice moves through five concepts: Right Speech, Kindness, Patience, Letting Go, and Mindfulness. Each carries a real tension — sparing someone or telling them, waiting or pressing — and your answers place you somewhere between the two. Patterns shows where you actually sit, and the gap between what you would do and what you did.
 
 ## Built by a Solo Developer
 

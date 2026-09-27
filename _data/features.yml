@@ -4,29 +4,35 @@
 # supporting features (reminders, Health sync) come last — those matter to people
 # who already use the app, not to someone deciding whether to download it.
 # The grid is 4-up on large screens, so positions 1-4 are the visible row.
+#
+# Rewritten when the app moved from a scored quiz to a daily practice. The old
+# grid promised eight concepts, an explanation after each answer, levels, and
+# badges for accuracy and category mastery — the app has none of those now.
+# Every claim here should be checkable against constants/practice-concepts.ts,
+# constants/achievements.ts and constants/breathing.ts.
 
 - title: Ask Buddha
   description: Ask Buddha any question and get a mindful perspective in response, based on the teachings of Buddhism.
   icon: flower-lotus
 
-- title: 8 Buddhist Concepts
-  description: Track your progress across 8 core Buddhist concepts and discover your strengths.
+- title: Five Practice Concepts
+  description: Right Speech, Kindness, Patience, Letting Go and Mindfulness — five threads of practice you return to a little at a time.
   icon: compass
 
-- title: Clear Explanations
-  description: See a mindful perspective after each answer, with a short and thoughtful explanation.
-  icon: lightbulb
+- title: Patterns
+  description: See where you actually lean between two honest options, and how what you are watching for has moved over the past month.
+  icon: chart-line-up
 
 - title: Four Breathing Techniques
   description: Practice Sama, Ānāpānasati, Mettā, and Vase breathing — guided rhythms rooted in Buddhist tradition.
   icon: wind
 
-- title: Progress Over Time
-  description: Level up and build streaks as you practice daily, tracking your growth over time.
-  icon: chart-line-up
+- title: A Few Minutes a Day
+  description: One short session — a check-in, something you already did, and something you might. No scores, no right answers.
+  icon: lightbulb
 
 - title: Achievement Badges
-  description: Unlock 32 mandala badges for streaks, accuracy, category mastery, breathing, and Ask Buddha milestones.
+  description: Unlock 27 mandala badges for streaks, daily practice, breathing, reflections and Ask Buddha milestones.
   icon: medal
 
 - title: Daily Reminders

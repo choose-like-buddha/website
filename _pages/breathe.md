@@ -12,7 +12,7 @@ description: Guided breathing exercises rooted in Buddhist and contemplative tra
 
 # Breathing Guide: Four Buddhist Breathing Techniques for a Calmer Mind
 
-Sometimes you don't need advice. You don't need a quiz. You don't even need words. You just need a moment to stop and breathe. The **Breathing Guide** in the [Choose Like Buddha app]({{ '/' | relative_url }}) offers four guided breathing techniques drawn from Buddhist and contemplative traditions — each designed to help you calm the nervous system, steady the mind, and return to the present moment.
+Sometimes you don't need advice. You don't need a question to sit with. You don't even need words. You just need a moment to stop and breathe. The **Breathing Guide** in the [Choose Like Buddha app]({{ '/' | relative_url }}) offers four guided breathing techniques drawn from Buddhist and contemplative traditions — each designed to help you calm the nervous system, steady the mind, and return to the present moment.
 
 ## Why Breathing Practice Works
 

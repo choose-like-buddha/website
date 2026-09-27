@@ -13,7 +13,7 @@
 #   home     — shown on the homepage
 # /contact/ always shows all of them.
 - q: Is Choose Like Buddha free?
-  a: "Yes. The Free Path is free forever and includes 5 practice questions a day, 2 Ask Buddha questions a day, Sama (Box) breathing, and your full Practice Map with streaks and badges. There are no ads, and no account is required."
+  a: "Yes. The Free Path is free forever and includes the full daily practice, 2 Ask Buddha questions a day, Sama (Box) breathing, and your Patterns, reflections, streaks and badges. There are no ads, and no account is required."
   tags: [pricing, home]
 
 - q: Do I need to be Buddhist to use it?
@@ -21,7 +21,7 @@
   tags: [home]
 
 - q: What is Ask Buddha?
-  a: "Ask Buddha lets you describe any real-life situation and receive thoughtful guidance inspired by Buddhist wisdom. Free users get 2 questions a day; the Enlightened Path raises that to 20 and saves your history."
+  a: "Ask Buddha lets you describe any real-life situation and receive thoughtful guidance inspired by Buddhist wisdom. Free users get 2 questions a day and keep their 7 most recent answers; the Enlightened Path raises that to 20 a day and keeps the full history."
   tags: [home]
 
 - q: Is Ask Buddha a therapist?
@@ -29,7 +29,7 @@
   tags: [home]
 
 - q: What is the Enlightened Path?
-  a: "The Enlightened Path is the optional premium plan at PREMIUM_PRICE a month. It raises the daily limits to 10 practice questions and 20 Ask Buddha questions, saves your Ask Buddha history, and unlocks all four breathing techniques."
+  a: "The Enlightened Path is the optional premium plan at PREMIUM_PRICE a month. It raises Ask Buddha from 2 questions a day to 20, keeps your full Ask Buddha history rather than the last 7, and unlocks all four breathing techniques. The daily practice itself is the same on both plans."
   tags: [pricing, home]
 
 - q: How do I cancel my subscription?
@@ -44,8 +44,8 @@
   a: "Choose Like Buddha is ad-free and does not share your personal data with other users. See our Privacy Policy for the full detail of what is collected and why."
   tags: [home]
 
-- q: What are the 8 Buddhist concepts?
-  a: "Your progress is tracked across 8 core concepts: Compassion, Patience, Acceptance, Mindfulness, Right Speech, Kindness, Letting Go, and Wisdom. Every practice question maps to one of them."
+- q: What are the five practice concepts?
+  a: "The practice moves through five concepts: Right Speech, Kindness, Patience, Letting Go, and Mindfulness. Each day you meet one item from each, and Patterns shows where you lean within them."
 
 - q: I found a bug. How do I report it?
   a: 'Send an email to <a href="mailto:chooselikebuddha@gmail.com" class="text-primary hover:text-primary-dark hover:underline">chooselikebuddha@gmail.com</a> with a description of the issue and your device type. We appreciate the help.'

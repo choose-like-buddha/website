@@ -1,49 +1,48 @@
 ---
 layout: page
-title: Practice Map — Track Your Mindfulness Growth Across 8 Buddhist Concepts
+title: Practice Map — See Where You Actually Lean Across Five Buddhist Concepts
 permalink: /practice-map/
 image: /assets/og-image.png
-description: Practice Map visualizes your mindfulness growth across 8 core Buddhist concepts — compassion, patience, letting go, mindfulness, right speech, acceptance, kindness, and wisdom.
+description: Patterns in the Choose Like Buddha app shows where you sit between two honest options across five Buddhist concepts — right speech, kindness, patience, letting go, and mindfulness — and the gap between what you would do and what you did.
 ---
 
 <div class="not-prose mb-10">
-{% include phone-mockup.html image="assets/screens/IMG_9284.jpg" alt="Practice Map radar chart in the Choose Like Buddha app" size="md" %}
+{% include phone-mockup.html image="assets/screens/IMG_9284.jpg" alt="The Patterns section in the Choose Like Buddha app" size="md" %}
 </div>
 
-# Practice Map: See Your Mindfulness Grow Across 8 Buddhist Concepts
+# Practice Map: See Where You Actually Lean
 
-Mindfulness isn't a single skill — it's a family of related qualities you strengthen one small choice at a time. **Practice Map** is the feature in the [Choose Like Buddha app]({{ '/' | relative_url }}) that turns those daily choices into a clear, visual picture of how your awareness is actually developing over time.
+Mindfulness isn't a single skill — it's a family of related qualities you meet one small choice at a time. **Patterns** is the part of the [Choose Like Buddha app]({{ '/' | relative_url }}) that turns those daily choices into a picture of where you actually sit, not a score for how well you did.
 
-## What Is the Practice Map?
+## What Patterns Shows You
 
-Practice Map is a personal radar chart that tracks your responses across eight foundational Buddhist concepts. Every quiz answer you give in the app maps to one of these eight dimensions, so the more you practice, the sharper the picture becomes. It's a mirror, not a scoreboard — a quiet way to see which parts of your mind you've been exercising and which ones could use more attention.
+Patterns is not a scoreboard, and there is no percentage to raise. Each day's practice asks you to choose between two options that are both defensible — sparing someone's feelings or telling them the truth, waiting or pressing, setting something down or keeping it live. Neither is the right answer. Over enough days, which one you reach for becomes visible, and that is the thing worth seeing.
 
-## The 8 Core Buddhist Concepts
+## The Five Concepts
 
-- **Compassion** — the warmth we extend to others and to ourselves
-- **Patience** — staying steady when things take longer than we'd like
-- **Letting Go** — releasing what we can't control
-- **Mindfulness** — returning to the present moment
-- **Right Speech** — speaking truthfully, kindly, and at the right time
-- **Acceptance** — meeting reality as it is, not as we wish it were
-- **Kindness** — small, deliberate acts of care
-- **Wisdom** — seeing clearly through the noise
+Each concept is a tension between two poles rather than a virtue to score:
 
-Together, these eight concepts cover the core territory of Buddhist ethical practice and map naturally onto the real decisions you make every day — at work, with family, and in your own mind.
+- **Right Speech** — sparing them, or telling them
+- **Kindness** — softening it, or letting it land
+- **Patience** — waiting, or pressing
+- **Letting Go** — setting it down, or keeping it live
+- **Mindfulness** — letting it pass, or marking it
 
-## How the Radar Chart Works
+These five cover the ground where most everyday decisions actually get made — at work, with family, and in your own head.
 
-1. **Answer daily quiz questions.** Each question presents a realistic situation with a common-sense response and a mindful one.
-2. **Your answers are scored across the 8 concepts.** Some questions test patience, others compassion, others right speech.
-3. **Your radar chart updates in real time.** The shape reveals your current strengths and the areas most ready for growth.
+## How It Works
 
-Over weeks and months, the chart becomes a living record of your practice — the kind of feedback loop that personal growth usually lacks.
+1. **A few short items a day.** Each concept comes round in turn: a check-in on what you noticed, something you already did, and something you might do.
+2. **Your answers place you on an axis.** One dot marks what you *would* do, the other what you *did*. Both are drawn only once there is enough behind them to mean something — a handful of answers, not one.
+3. **The gap between the dots is the interesting part.** Most people predict they will be more patient, or more honest, than they turn out to be. Patterns shows that distance instead of hiding it.
 
-## Why Tracking Mindfulness Matters
+The lean is drawn from roughly the last three months, so it moves slowly and reflects a disposition rather than a bad week. The check trend uses a shorter window — about a month — because it measures something that should be allowed to change.
 
-Most inner growth is invisible. You can't point to the moment you became more patient, more forgiving, or less reactive. Without a signal, it's easy to lose motivation or miss the progress you're actually making. The Practice Map gives that invisible growth a shape you can see change. Visual feedback is one of the most reliable ways to build and sustain a habit — mindfulness included.
+## Why Tracking This Matters
 
-## Who the Practice Map Is For
+Most inner growth is invisible. You can't point to the moment you became less reactive, and without a signal it's easy to lose the thread or miss progress you're actually making. What Patterns offers isn't a rising number — it's an honest mirror. Seeing that you *say* you'd speak up but usually don't is more useful than any score, because it's specific enough to act on.
+
+## Who It's For
 
 - People new to mindfulness who want a clear starting point
 - Experienced meditators curious about the gaps in their practice
@@ -52,18 +51,21 @@ Most inner growth is invisible. You can't point to the moment you became more pa
 
 ## Frequently Asked Questions
 
-**Do I need to know anything about Buddhism to use Practice Map?**
+**Do I need to know anything about Buddhism to use it?**
 No. The app explains each concept in plain language as you go.
 
 **Is my progress private?**
 Yes. Choose Like Buddha is privacy-respecting and ad-free. See the [Privacy Policy]({{ '/privacy-policy/' | relative_url }}) for details.
 
-**How long before I see a meaningful chart?**
-Most people see a recognizable pattern after a week or two of daily practice.
+**How long before I see something meaningful?**
+A dot appears once a concept has enough answers behind it — usually a week or two of daily practice. Thin concepts say so rather than drawing a shape from too little.
 
-**Is Practice Map free?**
-Yes. It's included in the free [Choose Like Buddha app]({{ '/' | relative_url }}).
+**Is there a right answer?**
+No. Both options are ones a thoughtful person might choose, and nothing is marked correct. If a situation didn't come up, you can say so and it counts as nothing at all.
 
-## Start Mapping Your Practice
+**Is it free?**
+Yes. Patterns is included in the free [Choose Like Buddha app]({{ '/' | relative_url }}), and the daily practice is the same on both plans.
 
-Small daily choices, tracked over time, become a practice. A practice, over time, becomes a life. [Download Choose Like Buddha]({{ '/' | relative_url }}) and watch your Practice Map take shape, one mindful answer at a time.
+## Start Your Practice
+
+Small daily choices, seen honestly over time, become a practice. A practice, over time, becomes a life. [Download Choose Like Buddha]({{ '/' | relative_url }}) and watch your own pattern come into focus.
