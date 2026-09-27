@@ -6,3 +6,5 @@ node_modules/
 .DS_Store
 Gemfile.lock
 /.claude
+# Impeccable review captures (regenerated on every design pass)
+.impeccable/review/

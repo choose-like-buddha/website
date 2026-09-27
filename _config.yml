@@ -27,7 +27,7 @@ enable_smart_app_banner: true
 
 # Owner
 your_name: Tigran
-email_address: tigran.contractor@gmail.com
+email_address: chooselikebuddha@gmail.com
 
 permalink: /blog/:title/
 
@@ -64,3 +64,9 @@ exclude:
   - postcss.config.js
   - LICENSE
   - README.md
+  # Internal working files — never publish
+  - PRODUCT.md
+  - DESIGN.md
+  - skills-lock.json
+  - todo.txt
+  - scripts

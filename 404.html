@@ -1,0 +1,31 @@
+---
+layout: default
+title: Page not found
+permalink: /404.html
+sitemap: false
+image: /assets/og-image.png
+---
+
+<section class="sheet-ink">
+  <div
+    class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-28 grid grid-cols-1 md:grid-cols-[minmax(0,6fr)_minmax(0,5fr)] gap-14 items-center"
+  >
+    <div>
+      <h1 class="display text-5xl sm:text-6xl text-conch max-w-[14ch]">
+        This page isn’t here.
+      </h1>
+      <p class="mt-6 text-lg leading-relaxed text-ink-soft max-w-[46ch]">
+        The link may be old, or the address mistyped. Notice it, let it pass,
+        and pick another path.
+      </p>
+      <ul class="mt-9 flex flex-wrap gap-x-8 gap-y-2">
+        <li><a href="{{ '/' | relative_url }}" class="link-line inline-block py-2.5 font-semibold text-conch">Home</a></li>
+        <li><a href="{{ '/blog/' | relative_url }}" class="link-line inline-block py-2.5 font-semibold text-conch">What would Buddha do…</a></li>
+        <li><a href="{{ '/contact/' | relative_url }}" class="link-line inline-block py-2.5 font-semibold text-conch">Support</a></li>
+      </ul>
+    </div>
+    <div class="w-full max-w-[22rem] mx-auto md:order-last">
+      {% include mandala.html id="lost-plan" %}
+    </div>
+  </div>
+</section>

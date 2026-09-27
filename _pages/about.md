@@ -13,7 +13,7 @@ Choose Like Buddha was built around one simple idea: what if you could practice 
 
 ## How It Works
 
-The app presents real-life situations and asks how you would respond. One answer is the logical, common-sense choice. The other is the mindful choice inspired by Buddhist wisdom. Both sound right — but only one leads to greater awareness and inner peace.
+Each day brings five short items, one from each of five concepts: a check-in on what you noticed, something you already did, and something you might do. Each offers two options a thoughtful person might choose. Neither is marked correct, and nothing is scored. If a situation didn't come up for you, you can say so and it counts as nothing at all.
 
 Over time, you start to notice patterns in how you think and react. That awareness is where real growth begins.
 

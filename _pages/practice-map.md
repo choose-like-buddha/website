@@ -32,7 +32,7 @@ These five cover the ground where most everyday decisions actually get made — 
 
 ## How It Works
 
-1. **A few short items a day.** Each concept comes round in turn: a check-in on what you noticed, something you already did, and something you might do.
+1. **Five short items a day, one from each concept.** They move between a check-in on what you noticed, something you already did, and something you might do.
 2. **Your answers place you on an axis.** One dot marks what you *would* do, the other what you *did*. Both are drawn only once there is enough behind them to mean something — a handful of answers, not one.
 3. **The gap between the dots is the interesting part.** Most people predict they will be more patient, or more honest, than they turn out to be. Patterns shows that distance instead of hiding it.
 

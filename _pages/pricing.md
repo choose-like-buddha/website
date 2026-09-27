@@ -18,8 +18,8 @@ breathing techniques — you never need it to build the habit.
 
 ## Do I need the {{ site.premium_plan_name }}?
 
-Probably not at first. Five questions a day is already more than most people
-finish, and the free Sama breathing is the technique you'll reach for most. The
+Probably not at first. The daily practice is identical on both plans, two Ask
+Buddha questions a day covers most days, and the free Sama breathing is the technique you'll reach for most. The
 upgrade is for when the daily limit starts getting in your way — usually after
 the habit has taken hold.
 
@@ -35,7 +35,7 @@ along with any applicable tax.
 
 {% include app-cta.html
   heading="Start on the free plan."
-  text="Five practice questions a day, guided breathing, and your full Practice Map — no account, no ads, no card." %}
+  text="The full daily practice, two Ask Buddha questions a day, Sama breathing, and your Patterns — no account, no ads, no card." %}
 
 <div class="not-prose">
 {% include faq.html
