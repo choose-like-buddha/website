@@ -12,7 +12,7 @@ hide_app_cta: true
 **Last updated**
 27.09.2026
 
-Please read these Terms & Conditions ("Terms") carefully before using the Choose Like Buddha mobile application ("App") and website ("Website"), operated by [YOUR NAME OR BUSINESS NAME] ("we," "us," or "our").
+Please read these Terms & Conditions ("Terms") carefully before using the Choose Like Buddha mobile application ("App") and website ("Website"), operated by Choose Like Buddha ("we," "us," or "our").
 
 By accessing or using the App or Website, you agree to be bound by these Terms. If you do not agree, please do not use the App or Website.
 
@@ -61,7 +61,7 @@ All content in the App, including but not limited to text, design, graphics, pra
 
 ## 8. Privacy
 
-Your use of the App is also governed by our Privacy Policy, available at [PRIVACY POLICY URL]. By using the App, you agree to the collection and use of your data as described in the Privacy Policy.
+Your use of the App is also governed by our Privacy Policy, available at https://chooselikebuddha.com/privacy-policy/. By using the App, you agree to the collection and use of your data as described in the Privacy Policy.
 
 ## 9. Disclaimer of Warranties
 
@@ -83,4 +83,4 @@ We may update these Terms from time to time. The updated version will be indicat
 
 ## 13. Governing Law
 
-These Terms shall be governed by and construed in accordance with the laws of [YOUR COUNTRY/STATE], without regard to conflict of law provisions.
+These Terms shall be governed by and construed in accordance with the laws of Armenia, without regard to conflict of law provisions.
