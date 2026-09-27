@@ -8,7 +8,7 @@
 <title>{{ site.page_title }}</title>
 {% endif %}
 
-<link rel="shortcut icon" href="{{ site.app_icon | relative_url }}" />
+<link rel="icon" type="image/svg+xml" href="{{ site.app_icon | relative_url }}" />
 
 {% if site.enable_smart_app_banner %}
 <meta name="apple-itunes-app" content="app-id={{ site.ios_app_id }}" />
@@ -21,13 +21,9 @@
 
 <meta name="p:domain_verify" content="d0677dd3e6abb0d0b4272167cfee2243" />
 
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link
-  href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
-  rel="stylesheet"
-/>
-<script src="https://unpkg.com/@phosphor-icons/web"></script>
+<link rel="preload" href="{{ '/assets/fonts/young-serif-latin.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="{{ '/assets/fonts/figtree-latin.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin />
+<script defer src="https://unpkg.com/@phosphor-icons/web@2.1.2"></script>
 <link rel="stylesheet" href="{{ '/assets/css/output.css' | relative_url }}" />
 
 <meta name="zoomment" content="65e5027029aeb252fcaae656" />

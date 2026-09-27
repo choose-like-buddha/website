@@ -1,94 +1,82 @@
-<header
-  class="bg-white/95 backdrop-blur-sm sticky top-0 z-50 border-b border-stroke"
->
-  <nav class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+<header class="sheet-ink sticky top-0 z-50 border-b border-gold/40">
+  <nav
+    class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8"
+    aria-label="Main"
+  >
     <div class="flex justify-between items-center h-18">
       <!-- Logo -->
       <a
         href="{{ '/' | relative_url }}"
-        class="flex items-center gap-3 hover:opacity-80 transition"
+        class="flex items-center gap-3 py-2 transition-opacity hover:opacity-85"
       >
         <img
           src="{{ site.app_icon | relative_url }}"
-          alt="{{ site.app_name }}"
-          class="w-10 h-10 rounded-xl"
+          alt=""
+          width="596"
+          height="541"
+          class="h-9 w-auto"
         />
-        <span class="text-lg font-bold text-dark">{{ site.app_name }}</span>
+        <span class="display text-xl text-conch">{{ site.app_name }}</span>
       </a>
 
       <!-- Mobile menu button -->
       <button
         id="menu-toggle"
+        type="button"
         aria-label="Menu"
-        class="md:hidden p-2 rounded-md text-body hover:text-primary focus:outline-none"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+        class="md:hidden -mr-2 p-2.5 rounded-md text-conch hover:text-gold"
       >
         <svg
           class="h-6 w-6"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
+          aria-hidden="true"
         >
           <path
             id="menu-icon-open"
             stroke-linecap="round"
             stroke-linejoin="round"
-            stroke-width="2"
-            d="M4 6h16M4 12h16M4 18h16"
+            stroke-width="1.5"
+            d="M4 7h16M4 12h16M4 17h16"
           />
           <path
             id="menu-icon-close"
             class="hidden"
             stroke-linecap="round"
             stroke-linejoin="round"
-            stroke-width="2"
+            stroke-width="1.5"
             d="M6 18L18 6M6 6l12 12"
           />
         </svg>
       </button>
 
       <!-- Desktop nav -->
-      <div class="hidden md:flex items-center space-x-8">
+      <div class="hidden md:flex items-center gap-8">
+        {% for item in site.data.nav %}
         <a
-          href="{{ '/blog/' | relative_url }}"
-          class="text-base font-normal text-body hover:text-primary transition"
-          >Blog</a
+          href="{{ item.url | relative_url }}"
+          class="py-3 text-base text-ink-soft hover:text-conch aria-[current=page]:text-conch transition-colors"
+          {% if page.url == item.url %}aria-current="page"{% endif %}
+          >{{ item.title }}</a
         >
-        <a
-          href="{{ '/changelog/' | relative_url }}"
-          class="text-base font-normal text-body hover:text-primary transition"
-          >What's New</a
-        >
-        <a
-          href="{{ '/about/' | relative_url }}"
-          class="text-base font-normal text-body hover:text-primary transition"
-          >About</a
-        >
+        {% endfor %}
       </div>
     </div>
 
     <!-- Mobile nav -->
     <div id="mobile-menu" class="hidden md:hidden pb-4">
-      <div class="flex flex-col space-y-3">
+      <div class="flex flex-col border-t border-gold/30">
+        {% for item in site.data.nav %}
         <a
-          href="{{ '/blog/' | relative_url }}"
-          class="text-base font-normal text-body hover:text-primary transition px-2 py-1"
-          >Blog</a
+          href="{{ item.url | relative_url }}"
+          class="py-3.5 border-b border-gold/20 text-lg text-conch"
+          {% if page.url == item.url %}aria-current="page"{% endif %}
+          >{{ item.title }}</a
         >
-        <a
-          href="{{ '/changelog/' | relative_url }}"
-          class="text-base font-normal text-body hover:text-primary transition px-2 py-1"
-          >What's New</a
-        >
-        <a
-          href="{{ '/about/' | relative_url }}"
-          class="text-base font-normal text-body hover:text-primary transition px-2 py-1"
-          >About</a
-        >
-        <a
-          href="{{ '/contact/' | relative_url }}"
-          class="text-base font-normal text-body hover:text-primary transition px-2 py-1"
-          >Support</a
-        >
+        {% endfor %}
       </div>
     </div>
   </nav>
@@ -96,11 +84,10 @@
 
 <script>
   document.getElementById("menu-toggle").addEventListener("click", function () {
-    const menu = document.getElementById("mobile-menu");
-    const iconOpen = document.getElementById("menu-icon-open");
-    const iconClose = document.getElementById("menu-icon-close");
-    menu.classList.toggle("hidden");
-    iconOpen.classList.toggle("hidden");
-    iconClose.classList.toggle("hidden");
+    var menu = document.getElementById("mobile-menu");
+    var open = menu.classList.toggle("hidden") === false;
+    this.setAttribute("aria-expanded", String(open));
+    document.getElementById("menu-icon-open").classList.toggle("hidden", open);
+    document.getElementById("menu-icon-close").classList.toggle("hidden", !open);
   });
 </script>

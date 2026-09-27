@@ -1,18 +1,17 @@
 <!-- Cookie Consent Banner -->
-<div id="cookie-banner" class="fixed bottom-0 inset-x-0 z-50 p-4 transition-all duration-300 translate-y-full" style="display: none;">
-  <div class="max-w-2xl mx-auto bg-white rounded-2xl shadow-card border border-stroke p-5">
+<div id="cookie-banner" role="region" aria-label="Cookie consent" class="fixed bottom-0 inset-x-0 z-50 p-4 transition-all duration-300 translate-y-full" style="display: none;">
+  <div class="max-w-2xl mx-auto bg-paper text-ink rounded-2xl border border-gold/60 shadow-[0_16px_40px_-12px_rgb(8_12_24/0.4)] p-5">
     <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
       <div class="flex-1">
-        <p class="text-sm text-body">
-          <span class="text-lg mr-1">🍪</span>
+        <p class="text-sm text-ink-muted">
           We use cookies to analyze site usage and improve your experience. By clicking "Accept", you consent to our use of analytics cookies.
         </p>
       </div>
       <div class="flex gap-3 shrink-0">
-        <button id="cookie-decline" class="px-4 py-2 text-sm font-medium text-body bg-gray-bg hover:bg-stroke rounded-lg transition">
+        <button id="cookie-decline" class="min-h-11 px-4 py-2 text-sm font-semibold text-ink border border-ink/30 hover:border-ink rounded-lg transition-colors">
           Decline
         </button>
-        <button id="cookie-accept" class="px-4 py-2 text-sm font-medium text-white bg-primary hover:bg-primary-dark rounded-lg transition">
+        <button id="cookie-accept" class="min-h-11 px-4 py-2 text-sm font-semibold text-conch bg-ink hover:bg-ink-deep rounded-lg transition-colors">
           Accept
         </button>
       </div>

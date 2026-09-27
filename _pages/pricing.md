@@ -42,6 +42,7 @@ along with any applicable tax.
   tag="pricing"
   heading="Pricing questions"
   intro=""
-  background="bg-white"
+  background="sheet-paper"
+  bare="true"
   schema="false" %}
 </div>

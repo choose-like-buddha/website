@@ -3,12 +3,12 @@
   The host page's grid is not affected. Clicking a result navigates to the post.
 {%- endcomment -%}
 
-<div class="max-w-xl mx-auto mb-8 relative" id="blog-search-root">
+<div class="w-full sm:max-w-md relative" id="blog-search-root">
   <label for="blog-search" class="sr-only">Search posts</label>
   <div class="relative">
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      class="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-body/50 pointer-events-none"
+      class="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-ink-muted pointer-events-none" aria-hidden="true"
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
@@ -23,18 +23,18 @@
       id="blog-search"
       type="search"
       autocomplete="off"
-      placeholder="Search posts..."
+      placeholder="Search posts"
       role="combobox"
       aria-expanded="false"
       aria-controls="blog-search-dropdown"
       aria-autocomplete="list"
-      class="w-full bg-white rounded-full shadow-card pl-11 pr-11 py-3 text-dark placeholder:text-body/50 focus:outline-none focus:ring-2 focus:ring-primary/30 transition"
+      class="w-full bg-conch rounded-full pl-11 pr-11 py-3 text-ink placeholder:text-ink-muted focus:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-ink transition"
     />
     <button
       type="button"
       id="blog-search-clear"
       aria-label="Clear search"
-      class="hidden absolute right-3 top-1/2 -translate-y-1/2 p-1 text-body/50 hover:text-dark transition"
+      class="hidden absolute right-1.5 top-1/2 -translate-y-1/2 p-2.5 text-ink-muted hover:text-ink transition-colors"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -56,7 +56,7 @@
   <div
     id="blog-search-dropdown"
     role="listbox"
-    class="hidden absolute left-0 right-0 top-full mt-2 bg-white rounded-2xl shadow-card border border-stroke max-h-96 overflow-y-auto z-20"
+    class="hidden absolute left-0 right-0 top-full mt-2 bg-paper rounded-2xl border border-gold/60 shadow-[0_16px_40px_-12px_rgb(8_12_24/0.45)] max-h-96 overflow-y-auto z-20"
   ></div>
 </div>
 
@@ -106,7 +106,7 @@
 
       if (matches.length === 0) {
         dropdown.innerHTML =
-          '<div class="px-5 py-4 text-body text-sm">No posts match &ldquo;' +
+          '<div class="px-5 py-4 text-ink-muted text-sm">No posts match &ldquo;' +
           escapeHtml(query) +
           '&rdquo;.</div>';
         open();
@@ -118,11 +118,11 @@
           return (
             '<a href="' + escapeHtml(post.url) + '" ' +
             'role="option" data-index="' + i + '" ' +
-            'class="block px-5 py-3 border-b border-stroke last:border-b-0 hover:bg-gray-bg transition">' +
-              '<div class="text-dark font-medium text-sm leading-snug">' +
+            'class="block px-5 py-3 border-b border-paper-line last:border-b-0 hover:bg-conch transition-colors">' +
+              '<div class="text-ink font-semibold text-sm leading-snug">' +
                 escapeHtml(post.title) +
               '</div>' +
-              '<div class="text-body text-xs mt-1 line-clamp-1">' +
+              '<div class="text-ink-muted text-xs mt-1 line-clamp-1">' +
                 escapeHtml(post.description || "") +
               '</div>' +
             '</a>'
@@ -171,10 +171,10 @@
       activeIndex = (idx + items.length) % items.length;
       items.forEach(function (el, i) {
         if (i === activeIndex) {
-          el.classList.add("bg-gray-bg");
+          el.classList.add("bg-conch");
           el.scrollIntoView({ block: "nearest" });
         } else {
-          el.classList.remove("bg-gray-bg");
+          el.classList.remove("bg-conch");
         }
       });
     }

@@ -1,0 +1,12 @@
+# Header navigation, shared by the desktop bar and the mobile menu so the two
+# can't drift apart again (Support used to be mobile-only, Pricing nowhere).
+- title: Blog
+  url: /blog/
+- title: Pricing
+  url: /pricing/
+- title: What's New
+  url: /changelog/
+- title: About
+  url: /about/
+- title: Support
+  url: /contact/

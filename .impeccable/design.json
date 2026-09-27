@@ -1,0 +1,485 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-27T16:32:18+00:00",
+  "title": "Design System: Choose Like Buddha",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "primary",
+        "displayName": "Drafting Indigo",
+        "canonical": "oklch(24.9% 0.052 267)",
+        "tonalRamp": [
+          "oklch(15% 0.052 267)",
+          "oklch(27% 0.052 267)",
+          "oklch(39% 0.052 267)",
+          "oklch(51% 0.052 267)",
+          "oklch(63% 0.052 267)",
+          "oklch(75% 0.052 267)",
+          "oklch(86% 0.052 267)",
+          "oklch(95% 0.052 267)"
+        ]
+      },
+      "ink-deep": {
+        "role": "primary",
+        "displayName": "Night Indigo",
+        "canonical": "oklch(20.7% 0.038 265)",
+        "tonalRamp": [
+          "oklch(15% 0.038 265)",
+          "oklch(27% 0.038 265)",
+          "oklch(39% 0.038 265)",
+          "oklch(51% 0.038 265)",
+          "oklch(63% 0.038 265)",
+          "oklch(75% 0.038 265)",
+          "oklch(86% 0.038 265)",
+          "oklch(95% 0.038 265)"
+        ]
+      },
+      "gold": {
+        "role": "secondary",
+        "displayName": "Construction Gold",
+        "canonical": "oklch(73.1% 0.115 85)",
+        "tonalRamp": [
+          "oklch(15% 0.115 85)",
+          "oklch(27% 0.115 85)",
+          "oklch(39% 0.115 85)",
+          "oklch(51% 0.115 85)",
+          "oklch(63% 0.115 85)",
+          "oklch(75% 0.115 85)",
+          "oklch(86% 0.115 85)",
+          "oklch(95% 0.115 85)"
+        ]
+      },
+      "gold-ink": {
+        "role": "secondary",
+        "displayName": "Gilt Ink",
+        "canonical": "oklch(48.9% 0.091 82)",
+        "tonalRamp": [
+          "oklch(15% 0.091 82)",
+          "oklch(27% 0.091 82)",
+          "oklch(39% 0.091 82)",
+          "oklch(51% 0.091 82)",
+          "oklch(63% 0.091 82)",
+          "oklch(75% 0.091 82)",
+          "oklch(86% 0.091 82)",
+          "oklch(95% 0.091 82)"
+        ]
+      },
+      "orpiment": {
+        "role": "tertiary",
+        "displayName": "Orpiment",
+        "canonical": "oklch(78.7% 0.141 86)",
+        "tonalRamp": [
+          "oklch(15% 0.141 86)",
+          "oklch(27% 0.141 86)",
+          "oklch(39% 0.141 86)",
+          "oklch(51% 0.141 86)",
+          "oklch(63% 0.141 86)",
+          "oklch(75% 0.141 86)",
+          "oklch(86% 0.141 86)",
+          "oklch(95% 0.141 86)"
+        ]
+      },
+      "madder": {
+        "role": "tertiary",
+        "displayName": "Madder Rose",
+        "canonical": "oklch(51.7% 0.123 8)",
+        "tonalRamp": [
+          "oklch(15% 0.123 8)",
+          "oklch(27% 0.123 8)",
+          "oklch(39% 0.123 8)",
+          "oklch(51% 0.123 8)",
+          "oklch(63% 0.123 8)",
+          "oklch(75% 0.123 8)",
+          "oklch(86% 0.123 8)",
+          "oklch(95% 0.123 8)"
+        ]
+      },
+      "azurite": {
+        "role": "tertiary",
+        "displayName": "Azurite",
+        "canonical": "oklch(51.2% 0.130 261)",
+        "tonalRamp": [
+          "oklch(15% 0.130 261)",
+          "oklch(27% 0.130 261)",
+          "oklch(39% 0.130 261)",
+          "oklch(51% 0.130 261)",
+          "oklch(63% 0.130 261)",
+          "oklch(75% 0.130 261)",
+          "oklch(86% 0.130 261)",
+          "oklch(95% 0.130 261)"
+        ]
+      },
+      "malachite": {
+        "role": "tertiary",
+        "displayName": "Malachite",
+        "canonical": "oklch(48.2% 0.080 163)",
+        "tonalRamp": [
+          "oklch(15% 0.080 163)",
+          "oklch(27% 0.080 163)",
+          "oklch(39% 0.080 163)",
+          "oklch(51% 0.080 163)",
+          "oklch(63% 0.080 163)",
+          "oklch(75% 0.080 163)",
+          "oklch(86% 0.080 163)",
+          "oklch(95% 0.080 163)"
+        ]
+      },
+      "conch": {
+        "role": "tertiary",
+        "displayName": "Conch",
+        "canonical": "oklch(93.5% 0.018 86)",
+        "tonalRamp": [
+          "oklch(15% 0.018 86)",
+          "oklch(27% 0.018 86)",
+          "oklch(39% 0.018 86)",
+          "oklch(51% 0.018 86)",
+          "oklch(63% 0.018 86)",
+          "oklch(75% 0.018 86)",
+          "oklch(86% 0.018 86)",
+          "oklch(95% 0.018 86)"
+        ]
+      },
+      "cinnabar": {
+        "role": "tertiary",
+        "displayName": "Cinnabar (the gap)",
+        "canonical": "oklch(59.8% 0.189 32)",
+        "tonalRamp": [
+          "oklch(15% 0.160 32)",
+          "oklch(27% 0.160 32)",
+          "oklch(39% 0.160 32)",
+          "oklch(51% 0.160 32)",
+          "oklch(63% 0.160 32)",
+          "oklch(75% 0.160 32)",
+          "oklch(86% 0.160 32)",
+          "oklch(95% 0.160 32)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Conch Paper",
+        "canonical": "oklch(95.9% 0.016 86)",
+        "tonalRamp": [
+          "oklch(15% 0.016 86)",
+          "oklch(27% 0.016 86)",
+          "oklch(39% 0.016 86)",
+          "oklch(51% 0.016 86)",
+          "oklch(63% 0.016 86)",
+          "oklch(75% 0.016 86)",
+          "oklch(86% 0.016 86)",
+          "oklch(95% 0.016 86)"
+        ]
+      },
+      "paper-line": {
+        "role": "neutral",
+        "displayName": "Paper Rule",
+        "canonical": "oklch(86.9% 0.032 86)",
+        "tonalRamp": [
+          "oklch(15% 0.032 86)",
+          "oklch(27% 0.032 86)",
+          "oklch(39% 0.032 86)",
+          "oklch(51% 0.032 86)",
+          "oklch(63% 0.032 86)",
+          "oklch(75% 0.032 86)",
+          "oklch(86% 0.032 86)",
+          "oklch(95% 0.032 86)"
+        ]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Mist",
+        "canonical": "oklch(80.4% 0.019 266)",
+        "tonalRamp": [
+          "oklch(15% 0.019 266)",
+          "oklch(27% 0.019 266)",
+          "oklch(39% 0.019 266)",
+          "oklch(51% 0.019 266)",
+          "oklch(63% 0.019 266)",
+          "oklch(75% 0.019 266)",
+          "oklch(86% 0.019 266)",
+          "oklch(95% 0.019 266)"
+        ]
+      },
+      "ink-muted": {
+        "role": "neutral",
+        "displayName": "Slate",
+        "canonical": "oklch(44.0% 0.038 269)",
+        "tonalRamp": [
+          "oklch(15% 0.038 269)",
+          "oklch(27% 0.038 269)",
+          "oklch(39% 0.038 269)",
+          "oklch(51% 0.038 269)",
+          "oklch(63% 0.038 269)",
+          "oklch(75% 0.038 269)",
+          "oklch(86% 0.038 269)",
+          "oklch(95% 0.038 269)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero headline, post titles, blog index title."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "One section heading per sheet."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Concept names, feature names, list post titles, plan names."
+      },
+      "body-lead": {
+        "displayName": "Body lead",
+        "purpose": "Paragraph directly under a headline."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Descriptions, FAQ answers, feature copy."
+      },
+      "body-prose": {
+        "displayName": "Body prose",
+        "purpose": "Long-form reading in page, post and contact layouts."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Uppercase names set on a figure (mandala positions, Patterns rows)."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "Trust lines, dates, figure captions, legends."
+      }
+    },
+    "shadows": [
+      {
+        "name": "overlay",
+        "value": "0 16px 40px -12px rgb(8 12 24 / 0.45)",
+        "purpose": "Only for elements floating above content: search dropdown (0.45) and cookie banner (0.4)."
+      },
+      {
+        "name": "badge-hairline",
+        "value": "0 0 0 1px color-mix(in srgb, #efe9dc 30%, transparent)",
+        "purpose": "Ring on store badges on ink so the black badge does not dissolve into the ground."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-pigment",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Pigment fill and position focus in the mandala, 0.5s to 0.9s."
+      },
+      {
+        "name": "ease-draw",
+        "value": "cubic-bezier(0.65, 0, 0.35, 1)",
+        "purpose": "Construction and wall lines tracing in, 1.6s, walls delayed 0.5s."
+      },
+      {
+        "name": "draw-sequence",
+        "value": "mindfulness 1.5s, right-speech 1.7s, kindness 1.85s, letting-go 2s, patience 2.15s",
+        "purpose": "Stagger of pigment fills after the lines are drawn."
+      },
+      {
+        "name": "link-underline",
+        "value": "0.2s ease-out",
+        "purpose": "Line-link underline colour on hover."
+      },
+      {
+        "name": "accordion-toggle",
+        "value": "300ms rotate(45deg)",
+        "purpose": "FAQ plus turning to a cross; concept swatch scale on selection."
+      },
+      {
+        "name": "breath-cycle",
+        "value": "16s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite",
+        "purpose": "Box-breathing flower bloom (4s x 4); 32s under reduced motion."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "prefers-reduced-motion: reduce",
+        "purpose": "Mandalas static and fully painted; smooth scroll off."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      },
+      {
+        "name": "xl",
+        "value": "1280px"
+      }
+    ],
+    "deprecated": {
+      "note": "Legacy blue world; present in assets/css/main.css but unused by any template. Not part of the system.",
+      "colors": {
+        "primary": "#4a6cf7",
+        "primary-dark": "#3b5de7",
+        "body": "#637381",
+        "dark": "#1e2238",
+        "gray-bg": "#f8f9ff",
+        "stroke": "#ebecf0"
+      },
+      "utilities": [
+        "gradient-1",
+        "gradient-2",
+        "gradient-hero",
+        "shadow-card",
+        ".pf-flag (prayer-flag animation, unused)"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Ink button for plain confirmations (cookie Accept). The site's main action is the store badges.",
+      "html": "<button class=\"ds-btn-primary\">Accept</button>",
+      "css": ".ds-btn-primary{background:var(--color-ink, #16203a);color:var(--color-conch, #efe9dc);font-family:Figtree, ui-sans-serif, system-ui, sans-serif;font-weight:600;font-size:0.875rem;min-height:44px;padding:8px 16px;border:none;border-radius:8px;cursor:pointer;transition:background-color .15s}.ds-btn-primary:hover{background:var(--color-ink-deep, #0f1729)}.ds-btn-primary:focus-visible{outline:2px solid var(--color-gold-ink, #7a5a16);outline-offset:3px}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Outline companion to the primary button on paper.",
+      "html": "<button class=\"ds-btn-secondary\">Decline</button>",
+      "css": ".ds-btn-secondary{background:transparent;color:var(--color-ink, #16203a);font-family:Figtree, ui-sans-serif, system-ui, sans-serif;font-weight:600;font-size:0.875rem;min-height:44px;padding:8px 16px;border:1px solid color-mix(in srgb,var(--color-ink, #16203a) 30%,transparent);border-radius:8px;cursor:pointer;transition:border-color .15s}.ds-btn-secondary:hover{border-color:var(--color-ink, #16203a)}.ds-btn-secondary:focus-visible{outline:2px solid var(--color-gold-ink, #7a5a16);outline-offset:3px}"
+    },
+    {
+      "name": "Pill Button on Ink",
+      "kind": "button",
+      "refersTo": "button-pill-on-ink",
+      "description": "Conch pill toggle on an ink panel (breathing tool Start/Stop).",
+      "html": "<div class=\"ds-ink-bg\"><button class=\"ds-btn-pill\">Start</button></div>",
+      "css": ".ds-ink-bg{background:var(--color-ink, #16203a);padding:24px;display:inline-block}.ds-btn-pill{background:var(--color-conch, #efe9dc);color:var(--color-ink, #16203a);font-family:Figtree, ui-sans-serif, system-ui, sans-serif;font-weight:600;font-size:0.95rem;min-height:44px;padding:12px 28px;border:none;border-radius:9999px;cursor:pointer;transition:background .2s ease,transform .1s ease}.ds-btn-pill:hover{background:var(--color-paper, #f6f1e6)}.ds-btn-pill:active{transform:scale(.98)}.ds-btn-pill:focus-visible{outline:2px solid var(--color-gold, #c9a24a);outline-offset:3px}"
+    },
+    {
+      "name": "Line Link",
+      "kind": "custom",
+      "refersTo": "link-line",
+      "description": "Default secondary action: a text link with a drawn 1px underline.",
+      "html": "<a class=\"ds-link-line\" href=\"#\">How Patterns works</a>",
+      "css": ".ds-link-line{display:inline-block;padding:10px 0;font-family:Figtree, ui-sans-serif, system-ui, sans-serif;font-weight:600;font-size:1rem;color:var(--color-ink, #16203a);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:.3em;text-decoration-color:color-mix(in srgb,currentColor 45%,transparent);transition:text-decoration-color .2s ease-out}.ds-link-line:hover{text-decoration-color:currentColor}.ds-link-line:focus-visible{outline:2px solid var(--color-gold-ink, #7a5a16);outline-offset:3px;border-radius:2px}"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "input-search",
+      "description": "Blog typeahead search on the ink title band.",
+      "html": "<div class=\"ds-ink-band\"><label class=\"ds-search\"><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"><circle cx=\"11\" cy=\"11\" r=\"7\"/><line x1=\"21\" y1=\"21\" x2=\"16.65\" y2=\"16.65\"/></svg><input type=\"search\" placeholder=\"Search posts\"></label></div>",
+      "css": ".ds-ink-band{background:var(--color-ink, #16203a);padding:24px}.ds-search{position:relative;display:block;max-width:28rem}.ds-search svg{position:absolute;left:16px;top:50%;transform:translateY(-50%);color:var(--color-ink-muted, #4a5268);pointer-events:none}.ds-search input{width:100%;background:var(--color-conch, #efe9dc);color:var(--color-ink, #16203a);font-family:Figtree, ui-sans-serif, system-ui, sans-serif;font-size:1rem;border:none;border-radius:9999px;padding:12px 44px;outline:none}.ds-search input::placeholder{color:var(--color-ink-muted, #4a5268)}.ds-search input:focus-visible{box-shadow:0 0 0 2px var(--color-ink, #16203a),0 0 0 4px var(--color-gold, #c9a24a)}"
+    },
+    {
+      "name": "Header Navigation",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Sticky ink header with Young Serif wordmark and mist links; conch for hover and current page.",
+      "html": "<nav class=\"ds-nav\"><span class=\"ds-nav-mark\">Choose Like Buddha</span><div class=\"ds-nav-links\"><a href=\"#\" aria-current=\"page\">Blog</a><a href=\"#\">Pricing</a><a href=\"#\">About</a><a href=\"#\">Support</a></div></nav>",
+      "css": ".ds-nav{background:var(--color-ink, #16203a);border-bottom:1px solid color-mix(in srgb,var(--color-gold, #c9a24a) 40%,transparent);height:72px;padding:0 32px;display:flex;align-items:center;justify-content:space-between}.ds-nav-mark{font-family:'Young Serif', ui-serif, Georgia, serif;font-size:1.25rem;color:var(--color-conch, #efe9dc);letter-spacing:-0.015em}.ds-nav-links{display:flex;gap:32px}.ds-nav-links a{padding:12px 0;font-family:Figtree, ui-sans-serif, system-ui, sans-serif;font-size:1rem;color:var(--color-ink-soft, #b9bfcc);text-decoration:none;transition:color .15s}.ds-nav-links a:hover,.ds-nav-links a[aria-current=page]{color:var(--color-conch, #efe9dc)}.ds-nav-links a:focus-visible{outline:2px solid var(--color-gold, #c9a24a);outline-offset:3px;border-radius:2px}"
+    },
+    {
+      "name": "CTA Card",
+      "kind": "card",
+      "refersTo": "cta-card",
+      "description": "Ink sheet inset on paper that closes pages and posts; carries the store badges.",
+      "html": "<aside class=\"ds-cta\"><h2>Knowing the mindful response is easy. Choosing it isn’t.</h2><p>A daily practice: five short items a day, two honest options each, and no right answer.</p><small>Free · No ads · No account required</small></aside>",
+      "css": ".ds-cta{background:var(--color-ink, #16203a);color:var(--color-conch, #efe9dc);border:1px solid color-mix(in srgb,var(--color-gold, #c9a24a) 50%,transparent);border-radius:16px;padding:40px;max-width:44rem}.ds-cta h2{margin:0;font-family:'Young Serif', ui-serif, Georgia, serif;font-weight:400;font-size:1.875rem;line-height:1.15;letter-spacing:-0.015em;max-width:24ch}.ds-cta p{margin:16px 0 0;font-family:Figtree, ui-sans-serif, system-ui, sans-serif;font-size:1rem;line-height:1.625;color:var(--color-ink-soft, #b9bfcc);max-width:52ch}.ds-cta small{display:block;margin-top:20px;font-family:Figtree, ui-sans-serif, system-ui, sans-serif;font-size:0.875rem;color:var(--color-ink-soft, #b9bfcc)}"
+    },
+    {
+      "name": "Screenshot Plate",
+      "kind": "custom",
+      "refersTo": "plate",
+      "description": "Real app screenshot on a night-indigo plate with a gold hairline. No device chrome.",
+      "html": "<div class=\"ds-plate\"><div class=\"ds-plate-screen\"></div></div>",
+      "css": ".ds-plate{width:200px;border-radius:20px;padding:5px;background:var(--color-ink-deep, #0f1729);border:1px solid color-mix(in srgb,var(--color-gold, #c9a24a) 60%,transparent)}.ds-plate-screen{border-radius:15px;aspect-ratio:520/1130;background:#1c1c1e}"
+    },
+    {
+      "name": "Concept Row",
+      "kind": "custom",
+      "description": "Diamond pigment swatch, concept name in Young Serif, gold pole scale, both poles at full size.",
+      "html": "<div class=\"ds-concept\"><button class=\"ds-concept-name\" aria-pressed=\"false\"><span class=\"ds-swatch\"></span>Patience</button><div class=\"ds-pole\"></div><p><span>Waiting</span><span>Pressing</span></p></div>",
+      "css": ".ds-concept{background:var(--color-ink, #16203a);color:var(--color-conch, #efe9dc);padding:36px 32px;border-top:1px solid color-mix(in srgb,var(--color-gold, #c9a24a) 40%,transparent);border-bottom:1px solid color-mix(in srgb,var(--color-gold, #c9a24a) 40%,transparent)}.ds-concept-name{display:flex;align-items:center;gap:16px;background:none;border:none;color:var(--color-conch, #efe9dc);font-family:'Young Serif', ui-serif, Georgia, serif;font-size:2.5rem;letter-spacing:-0.015em;cursor:pointer;text-decoration:underline;text-decoration-color:transparent;text-decoration-thickness:1px;text-underline-offset:8px;transition:text-decoration-color .2s}.ds-concept-name:hover{text-decoration-color:color-mix(in srgb,var(--color-gold, #c9a24a) 70%,transparent)}.ds-concept-name:focus-visible{outline:2px solid var(--color-gold, #c9a24a);outline-offset:3px}.ds-swatch{width:14px;height:14px;transform:rotate(45deg);background:var(--color-azurite, #3a64b0);box-shadow:0 0 0 1px var(--color-gold, #c9a24a);transition:transform .3s}.ds-concept-name[aria-pressed=true] .ds-swatch{transform:rotate(45deg) scale(1.5)}.ds-pole{position:relative;height:1px;margin-top:28px;background:color-mix(in srgb,var(--color-gold, #c9a24a) 60%,transparent)}.ds-pole::before,.ds-pole::after{content:'';position:absolute;top:-4px;width:1px;height:9px;background:var(--color-gold, #c9a24a)}.ds-pole::before{left:0}.ds-pole::after{right:0}.ds-concept p{margin:16px 0 0;display:flex;justify-content:space-between;font-family:Figtree, ui-sans-serif, system-ui, sans-serif;font-size:1.125rem}"
+    },
+    {
+      "name": "Gap Row",
+      "kind": "custom",
+      "description": "The would/did vocabulary on paper: ring = would, dot = did, cinnabar run = the gap.",
+      "html": "<div class=\"ds-gap\"><p class=\"ds-gap-label\">Patience</p><div class=\"ds-gap-track\"><i class=\"ds-gap-line\"></i><i class=\"ds-gap-run\" style=\"left:22%;width:39%\"></i><i class=\"ds-gap-would\" style=\"left:22%\"></i><i class=\"ds-gap-did\" style=\"left:61%\"></i></div><p class=\"ds-gap-poles\"><span>Waiting</span><span>Pressing</span></p></div>",
+      "css": ".ds-gap{background:var(--color-paper, #f6f1e6);padding:24px;font-family:Figtree, ui-sans-serif, system-ui, sans-serif}.ds-gap-label{margin:0;font-size:0.875rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--color-ink, #16203a)}.ds-gap-track{position:relative;height:16px;margin-top:16px}.ds-gap-track i{position:absolute;top:50%;display:block}.ds-gap-line{left:0;right:0;height:1px;background:color-mix(in srgb,var(--color-ink, #16203a) 35%,transparent)}.ds-gap-run{height:5px;transform:translateY(-50%);border-radius:9999px;background:var(--color-cinnabar, #d9452c)}.ds-gap-would,.ds-gap-did{width:14px;height:14px;border-radius:9999px;transform:translate(-50%,-50%)}.ds-gap-would{box-sizing:border-box;border:2px solid var(--color-ink, #16203a);background:var(--color-paper, #f6f1e6)}.ds-gap-did{background:var(--color-ink, #16203a)}.ds-gap-poles{margin:10px 0 0;display:flex;justify-content:space-between;font-size:0.875rem;color:var(--color-ink-muted, #4a5268)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Thangka Drafting Sheet",
+    "overview": "Every surface is a sheet on a thangka painter's table. The indigo sheet is the drafting ground, where gold construction lines are laid down first; the conch-paper sheet is the reading ground, where the same gold survives only as hairline rules. Pigment arrives last, flat and mineral, and only where it means something: five pigments for the five concepts, and one red for the gap between what you would do and what you did.\n\nThe system is quiet, exact and geometric. Density is low; sections breathe with 80 to 112px of vertical space and one idea each. Hierarchy comes from a single-weight display serif set large against a humanist sans, not from boxes, badges or colour blocks. The five-position mandala plan is the signature figure; it appears in three states (drawn on load, resting as underdrawing, completed at the close) rather than as repeated decoration.\n\nThe world was chosen explicitly against the wellness-app default: pastel gradients, a floating phone mockup and a grid of feature cards. None of those belong here.",
+    "keyCharacteristics": [
+      "Two alternating sheets, indigo ink and conch paper, with a gold hairline at the drafting edge.",
+      "Gold is line, never fill: construction geometry, dividers, focus rings, list markers.",
+      "Five flat pigments bound to the five concept positions; cinnabar reserved for the would/did gap.",
+      "Young Serif at one weight for every heading; Figtree for everything read.",
+      "Flat surfaces. Depth only for things that genuinely float.",
+      "Real app screenshots on a gold-hairline plate, never inside drawn device chrome."
+    ],
+    "rules": [
+      {
+        "name": "The One Meaning Rule",
+        "body": "Cinnabar means the gap between what you would do and what you did, and nothing else. No red buttons, no red errors dressed as brand, no red accents.",
+        "section": "colors"
+      },
+      {
+        "name": "The Pigment Position Rule",
+        "body": "Each pigment belongs to its concept. Use it as a flat fill for that concept's position or swatch, never as text colour, gradient stop or general decoration.",
+        "section": "colors"
+      },
+      {
+        "name": "The Gold Is Line Rule",
+        "body": "Gold draws; it does not fill. It appears as 1px hairlines, strokes, rings and small marks. As readable text on paper, use gilt ink instead.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Weight Rule",
+        "body": "Young Serif is set at 400 only, with -0.015em tracking. Hierarchy is made by size and space, never by faux-bolding the display face.",
+        "section": "typography"
+      },
+      {
+        "name": "The No Kicker Rule",
+        "body": "A headline stands alone. No eyebrow or kicker label above section headings; uppercase labels name parts of a figure or a navigation group, nothing more.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Pigment Rule",
+        "body": "Surfaces are flat at rest and on hover. A shadow is allowed only on an element that sits above the page in z-order; cards, plates and tables never get one.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Plate Not Phone Rule",
+        "body": "App screenshots sit on a night-indigo plate with a 1px gold hairline (60%). The screenshots already carry the status and tab bars; never draw device chrome, notches or tilted phones around them.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "Do alternate full-bleed ink and paper sheets, one idea per sheet, with 80 to 112px of vertical padding.",
+      "Do draw with gold at 1px and 40 to 60% opacity for dividers; use gilt ink (#7a5a16) whenever gold must be read on paper.",
+      "Do bind each pigment to its concept: orpiment Right Speech, madder Kindness, azurite Patience, malachite Letting Go, conch Mindfulness.",
+      "Do set every heading in Young Serif 400 with -0.015em tracking and balanced wrapping; set everything read in Figtree.",
+      "Do separate list items with ruled lines instead of cards.",
+      "Do put screenshots on the gold-hairline plate and use the official store badges as the primary action.",
+      "Do caption any figure whose marks are illustrative, and ship reduced-motion states that are static and fully painted."
+    ],
+    "donts": [
+      "Don't use cinnabar for anything but the would/did gap.",
+      "Don't use gradients, glows or pastel washes; pigment is flat.",
+      "Don't put shadows on cards, plates or tables; only floating overlays get the overlay shadow.",
+      "Don't wrap screenshots in drawn phone frames or float them at an angle.",
+      "Don't add an eyebrow or kicker above a headline.",
+      "Don't bold Young Serif or introduce a third typeface.",
+      "Don't use the legacy blue tokens (`primary`, `body`, `dark`, `gray-bg`, `stroke`) or the `gradient-*` and `shadow-card` utilities."
+    ]
+  }
+}

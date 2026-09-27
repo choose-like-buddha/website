@@ -10,6 +10,7 @@
 
   Parameters:
     - class: wrapper classes (default: flex flex-wrap gap-4 mt-6)
+    - eager: set when the badges sit in the first viewport, so they aren't lazy
 {% endcomment %}
 
 <div
@@ -27,7 +28,7 @@
       alt="Download on the App Store"
       width="440"
       height="150"
-      loading="lazy"
+      loading="{% if include.eager %}eager{% else %}lazy{% endif %}"
       class="h-12 w-auto"
     />
   </a>
@@ -45,7 +46,7 @@
       alt="Get it on Google Play"
       width="510"
       height="150"
-      loading="lazy"
+      loading="{% if include.eager %}eager{% else %}lazy{% endif %}"
       class="h-12 w-auto"
     />
   </a>

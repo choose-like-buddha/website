@@ -1,0 +1,32 @@
+# The five practice concepts and their poles, in the order the homepage lists
+# them. Poles must match the app (constants/practice-concepts.ts) and the
+# Practice Map page. `swatch` is a full Tailwind class so the CSS build sees it.
+- id: right-speech
+  name: Right Speech
+  from: Sparing them
+  to: Telling them
+  swatch: bg-orpiment
+
+- id: kindness
+  name: Kindness
+  from: Softening it
+  to: Letting it land
+  swatch: bg-madder
+
+- id: patience
+  name: Patience
+  from: Waiting
+  to: Pressing
+  swatch: bg-azurite
+
+- id: letting-go
+  name: Letting Go
+  from: Setting it down
+  to: Keeping it live
+  swatch: bg-malachite
+
+- id: mindfulness
+  name: Mindfulness
+  from: Letting it pass
+  to: Marking it
+  swatch: bg-conch

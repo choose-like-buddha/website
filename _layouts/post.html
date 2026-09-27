@@ -2,51 +2,54 @@
 layout: default
 ---
 
-<article class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
-  <header class="mb-8">
-    <span class="text-primary text-sm font-medium uppercase tracking-wide"
-      >What Would Buddha Do</span
-    >
-    <h1 class="text-3xl sm:text-4xl font-bold text-dark mt-2 mb-3">
-      {{ page.title }}
-    </h1>
-    <time
-      class="text-body text-sm"
-      datetime="{{ page.date | date_to_xmlschema }}"
-    >
-      {{ page.date | date: "%B %-d, %Y" }}
-    </time>
+<article>
+  <!-- Title band: the series question is part of the heading, completed by
+       each post's own title -->
+  <header class="sheet-ink">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 pt-14 pb-12 sm:pt-20 sm:pb-16">
+      <h1 class="display text-4xl sm:text-5xl lg:text-[3.5rem] text-conch">
+        <span class="text-ink-soft">What would Buddha do…</span>
+        {{ page.title }}
+      </h1>
+      <time
+        class="block mt-6 text-sm text-ink-soft"
+        datetime="{{ page.date | date_to_xmlschema }}"
+      >
+        {{ page.date | date: "%B %-d, %Y" }}
+      </time>
+    </div>
   </header>
 
-  <div
-    class="prose max-w-none prose-headings:text-dark prose-a:text-primary hover:prose-a:text-primary-dark prose-p:text-body prose-li:text-body"
-  >
-    {{ content }}
-  </div>
+  <div class="sheet-paper">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+      <div class="prose prose-thangka max-w-none">
+        {{ content }}
+      </div>
 
-  <!-- App CTA -->
-  {% include app-cta.html text="Choose Like Buddha gives you one real situation a
-  day — the kind in this post — and two ways to respond. One minute a day builds
-  the pause into a habit." %}
+      {% include app-cta.html text="Choose Like Buddha turns moments like this one
+      into a daily practice: five short items a day, two honest options each, and
+      no right answer." %}
 
-  <!-- Comments -->
-  <div class="mt-12 pt-8 border-t border-stroke">
-    <div
-      id="zoomment"
-      data-theme="light"
-      data-language="en"
-      data-gravatar="monsterid"
-      data-emotions="❤️,😀,🪄,🥸,💡,🤔,💩,😢"
-      data-visitors="true"
-    ></div>
-    <script src="https://cdn.zoomment.com/zoomment.min.js"></script>
-  </div>
+      <!-- Comments -->
+      <div class="mt-14 pt-8 border-t border-paper-line">
+        <div
+          id="zoomment"
+          data-theme="light"
+          data-language="en"
+          data-gravatar="monsterid"
+          data-emotions="❤️,😀,🪄,🥸,💡,🤔,💩,😢"
+          data-visitors="true"
+        ></div>
+        <script src="https://cdn.zoomment.com/zoomment.min.js"></script>
+      </div>
 
-  <div class="mt-8 pt-6 border-t border-stroke">
-    <a
-      href="{{ '/blog/' | relative_url }}"
-      class="text-primary hover:text-primary-dark font-medium transition"
-      >&larr; Back to Blog</a
-    >
+      <div class="mt-8 pt-6 border-t border-paper-line">
+        <a
+          href="{{ '/blog/' | relative_url }}"
+          class="link-line inline-block py-2.5 font-semibold text-ink"
+          >All posts</a
+        >
+      </div>
+    </div>
   </div>
 </article>

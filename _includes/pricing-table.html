@@ -7,26 +7,26 @@
 {% endcomment %}
 
 <div class="not-prose my-10">
-  <div class="overflow-x-auto rounded-2xl border border-stroke">
-    <table class="w-full text-left border-collapse min-w-[520px]">
+  <div class="overflow-x-auto rounded-2xl border border-paper-line bg-paper">
+    <table class="w-full text-left border-collapse">
       <thead>
-        <tr class="bg-gray-bg">
-          <th class="p-4 sm:p-5 text-sm font-medium text-body align-bottom">
+        <tr class="border-b border-ink/70">
+          <th class="p-3 sm:p-5 text-sm font-medium text-ink-muted align-bottom">
             What differs
           </th>
-          <th class="p-4 sm:p-5 align-bottom w-[26%]">
-            <span class="block text-base font-medium text-dark"
+          <th class="p-3 sm:p-5 align-bottom w-[28%]">
+            <span class="block display text-lg sm:text-xl text-ink"
               >{{ site.free_plan_name }}</span
             >
-            <span class="block text-sm text-body mt-0.5">Free</span>
+            <span class="block text-sm text-ink-muted mt-0.5">Free</span>
           </th>
           <th
-            class="p-4 sm:p-5 align-bottom w-[30%] bg-primary/5 border-l-2 border-primary"
+            class="p-3 sm:p-5 align-bottom w-[32%] bg-ink"
           >
-            <span class="block text-base font-medium text-dark"
+            <span class="block display text-lg sm:text-xl text-conch"
               >{{ site.premium_plan_name }}</span
             >
-            <span class="block text-sm text-body mt-0.5">
+            <span class="block text-sm text-ink-soft mt-0.5">
               {{ site.premium_price }} / {{ site.premium_period }}
             </span>
           </th>
@@ -34,31 +34,31 @@
       </thead>
       <tbody>
         {% for row in site.data.plans.differences %}
-        <tr class="border-t border-stroke">
-          <td class="p-4 sm:p-5 text-sm text-dark">{{ row.feature }}</td>
+        <tr class="border-t border-paper-line">
+          <td class="p-3 sm:p-5 text-sm text-ink">{{ row.feature }}</td>
 
-          <td class="p-4 sm:p-5 text-sm">
+          <td class="p-3 sm:p-5 text-sm">
             {% if row.free == false %}
-            <span class="inline-flex items-center gap-1.5 text-body/50">
-              <i class="ph ph-minus"></i> Not included
+            <span class="inline-flex items-center gap-1.5 text-ink-muted">
+              <i class="ph ph-minus" aria-hidden="true"></i> Not included
             </span>
             {% elsif row.free == true %}
-            <i class="ph ph-check text-primary text-base"></i>
+            <i class="ph ph-check text-gold-ink text-base" aria-label="Included"></i>
             {% else %}
-            <span class="text-body">{{ row.free }}</span>
+            <span class="text-ink-muted">{{ row.free }}</span>
             {% endif %}
           </td>
 
           <td
-            class="p-4 sm:p-5 text-sm bg-primary/5 border-l-2 border-primary font-medium text-dark"
+            class="p-3 sm:p-5 text-sm bg-ink font-medium text-conch"
           >
             {% if row.premium == true %}
             <span class="inline-flex items-center gap-1.5">
-              <i class="ph ph-check text-primary text-base"></i> Included
+              <i class="ph ph-check text-gold text-base" aria-hidden="true"></i> Included
             </span>
             {% elsif row.premium == false %}
-            <span class="inline-flex items-center gap-1.5 text-body/50">
-              <i class="ph ph-minus"></i> Not included
+            <span class="inline-flex items-center gap-1.5 text-ink-muted">
+              <i class="ph ph-minus" aria-hidden="true"></i> Not included
             </span>
             {% else %}
             {{ row.premium }}
@@ -70,13 +70,13 @@
     </table>
   </div>
 
-  <div class="mt-6 rounded-2xl bg-gray-bg border border-stroke p-5 sm:p-6">
-    <h3 class="text-sm font-medium text-dark mb-3">In both plans</h3>
+  <div class="mt-6 border-t border-b border-paper-line py-6">
+    <h3 class="display text-xl text-ink mb-4">In both plans</h3>
     <ul class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2.5 text-sm">
       {% for item in site.data.plans.shared %}
       <li class="flex items-start gap-2.5">
-        <i class="ph ph-check text-primary text-base mt-0.5"></i>
-        <span class="text-body">{{ item }}</span>
+        <i class="ph ph-check text-gold-ink text-base mt-0.5" aria-hidden="true"></i>
+        <span class="text-ink-muted">{{ item }}</span>
       </li>
       {% endfor %}
     </ul>

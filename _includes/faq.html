@@ -9,7 +9,9 @@
            Omit to show every question.
     - heading: override the section heading
     - intro: override the intro line. Pass "" for none.
-    - background: section background class. Defaults to bg-gray-bg.
+    - background: section classes. Defaults to a paper sheet with a top rule.
+    - bare: set when already inside a padded content column (drops the
+            section's own width and gutters)
     - schema: "false" to skip the FAQPage JSON-LD. Emit it on ONE page per
               question set — duplicate FAQPage markup across URLs is not useful.
 {% endcomment %}
@@ -21,34 +23,27 @@
 {% endif %}
 
 {% if faq_items.size > 0 %}
-<section class="{{ include.background | default: 'bg-gray-bg' }} py-16 sm:py-20">
-  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-    <h2 class="text-3xl sm:text-4xl font-bold text-dark">
-      {{ include.heading | default: "Frequently Asked Questions" }}
+<section class="{{ include.background | default: 'sheet-paper border-t border-paper-line' }}">
+  <div class="{% if include.bare %}py-12{% else %}max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20{% endif %}">
+    <h2 class="display text-3xl sm:text-4xl text-ink">
+      {{ include.heading | default: "Frequently asked questions" }}
     </h2>
 
     {% assign intro = include.intro | default: "Common questions about how the app works, what's free, and what it isn't." %}
     {% if intro != "" %}
-    <p class="mt-4 text-body max-w-2xl mx-auto">{{ intro }}</p>
+    <p class="mt-4 text-base text-ink-muted max-w-[60ch]">{{ intro }}</p>
     {% endif %}
 
-    <div
-      class="mt-10 rounded-2xl bg-white shadow-card border border-stroke divide-y divide-stroke text-left"
-    >
+    <div class="mt-10 border-t border-paper-line">
       {% for item in faq_items %}
-      <details class="group">
+      <details class="group border-b border-paper-line">
         <summary
-          class="flex cursor-pointer items-center justify-between px-6 py-5 text-lg text-dark font-medium"
+          class="flex cursor-pointer items-start justify-between gap-6 py-6 text-lg font-medium text-ink"
         >
           {{ item.q }}
-          <span class="ml-4 shrink-0 text-xl text-dark group-open:hidden">+</span>
-          <span class="ml-4 shrink-0 text-xl text-dark hidden group-open:inline"
-            >&minus;</span
-          >
+          <svg class="mt-1.5 size-4 shrink-0 text-gold-ink transition-transform duration-300 group-open:rotate-45" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M8 1v14M1 8h14" /></svg>
         </summary>
-        <div
-          class="border-t border-stroke px-6 pt-4 pb-6 text-body leading-relaxed"
-        >
+        <div class="pb-7 pr-10 text-base leading-relaxed text-ink-muted max-w-[62ch] [&_a]:font-semibold [&_a]:text-ink [&_a]:underline [&_a]:underline-offset-4">
           {{ item.a | replace: "PREMIUM_PRICE", site.premium_price }}
         </div>
       </details>

@@ -1,0 +1,21 @@
+explore:
+  - title: Home
+    url: /
+  - title: Blog
+    url: /blog/
+  - title: About
+    url: /about/
+  - title: Pricing
+    url: /pricing/
+  - title: Box Breathing Tool
+    url: /box-breathing/
+
+support:
+  - title: Contact
+    url: /contact/
+  - title: What's New
+    url: /changelog/
+  - title: Privacy Policy
+    url: /privacy-policy/
+  - title: Terms & Conditions
+    url: /terms/

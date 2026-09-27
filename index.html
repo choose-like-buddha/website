@@ -5,273 +5,413 @@ title: Daily Mindful Decision-Making App
 description: Practice making calmer, wiser choices every day. A short Buddhist-inspired daily practice, AI-powered guidance, breathing exercises, and patterns that show where you actually lean. Free to start.
 ---
 
-<!-- Hero Section -->
-<section
-  class="relative overflow-hidden gradient-hero pt-20 pb-16 sm:pt-28 sm:pb-24"
->
-  <div class="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-      <!-- App Info -->
-      <div class="text-center md:text-left">
-        <h1
-          class="text-3xl sm:text-4xl lg:text-[44px] font-bold text-dark leading-tight mb-4"
-        >
-          Train Your Mind to
-          <span class="gradient-text">Choose Wisely</span>
+<!-- Hero: the plan is the thesis — five concepts as a mandala's five positions -->
+<section class="sheet-ink relative overflow-hidden">
+  <div
+    class="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-14 pb-16 sm:pt-20 sm:pb-24 lg:pt-24 lg:pb-28"
+  >
+    <div
+      class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center"
+    >
+      <div>
+        <h1 class="display text-[2.5rem] sm:text-6xl lg:text-[3.125rem] xl:text-[3.5rem] text-conch">
+          Train your mind to respond, not&nbsp;react.
         </h1>
         <p
-          class="text-base sm:text-lg text-body mb-8 leading-relaxed max-w-lg mx-auto md:mx-0"
+          class="mt-6 text-lg sm:text-xl leading-relaxed text-ink-soft max-w-[34rem]"
         >
-          Most of us know the mindful response — we just don't choose it in the
-          moment. One real situation a day, two ways to respond, and one minute
-          to notice the difference.
+          Most of us know the mindful response — we just don’t choose it in the
+          moment. Each day brings five short items, two honest options each,
+          and no right answer.
         </p>
-        {% include download-buttons.html class="flex flex-wrap gap-4
-        justify-center md:justify-start" %}
-        <p class="mt-4 text-sm text-body">
-          Free &middot; No ads &middot; No account required
+        {% include download-buttons.html class="badges-on-ink mt-9 flex flex-wrap gap-4" eager="true" %}
+        <p class="mt-5 text-sm text-ink-soft">
+          Free · No ads · No account required
         </p>
       </div>
 
-      <!-- Phone Preview -->
-      {% include phone-mockup.html image="assets/screens/IMG_9236.jpg" alt="App
-      Screenshot" size="lg" fetchpriority="high"%}
-    </div>
-  </div>
-</section>
-
-<!-- Features Section -->
-<section class="py-16 sm:py-24 bg-gray-bg">
-  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="text-center mb-14">
-      <h2 class="text-3xl sm:text-4xl lg:text-[44px] font-bold text-dark mb-4">
-        Everything you need for a one-minute daily practice
-      </h2>
-      <p class="text-body text-base max-w-2xl mx-auto">
-        Simple tools rooted in ancient wisdom to help you navigate modern
-        decisions.
-      </p>
-    </div>
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-      {% for feature in site.data.features %}
-      <div
-        class="group bg-white rounded-2xl p-5 shadow-card hover:shadow-lg transition"
-      >
+      <div class="w-full max-w-[34rem] mx-auto lg:max-w-none">
+        {% include mandala.html id="hero-plan" today="true" draw="true" %}
+        <!-- Below md the centre square is too small to hold the item; it sits
+             under the plan instead, in the same words -->
         <div
-          class="w-14 h-14 bg-gray-bg text-primary rounded-2xl flex items-center justify-center mb-4 group-hover:bg-primary group-hover:text-white transition-colors"
+          class="md:hidden mt-2 rounded-2xl bg-conch text-ink p-5"
         >
-          <i class="ph ph-{{ feature.icon }} text-2xl"></i>
+          <p class="display text-xl">
+            Something your partner said stung. You’re in the car with their
+            parents.
+          </p>
+          <div class="mt-4 grid gap-2 text-sm font-medium">
+            <span class="rounded-lg border border-ink/30 px-3 py-2.5">Say it while it’s true</span>
+            <span class="rounded-lg border border-ink/30 px-3 py-2.5">Wait until you’re home</span>
+          </div>
         </div>
-        <h3 class="text-lg font-medium text-dark mb-2 leading-snug">
-          {{ feature.title }}
-        </h3>
-        <p class="text-body text-sm leading-relaxed">
-          {{ feature.description }}
-        </p>
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-
-<!-- About Section 1: Ask Buddha -->
-<section class="py-16 sm:py-24 bg-white">
-  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-      <!-- Phone -->
-      {% include phone-mockup.html image="assets/screens/IMG_9234.jpg" alt="Ask
-      Buddha" size="lg" gradient="gradient-1" %}
-      <!-- Text -->
-      <div>
-        <span class="text-primary text-lg font-medium mb-3 block"
-          >Ask Buddha</span
-        >
-        <h2
-          class="text-3xl sm:text-4xl lg:text-[44px] font-bold text-dark leading-tight mb-4"
-        >
-          Get Personal Guidance Inspired by Buddhist Wisdom
-        </h2>
-        <p class="text-body text-base leading-relaxed mb-6">
-          Not sure how to handle a difficult situation? Describe what's
-          happening and Ask Buddha will offer a thoughtful, mindful perspective.
-          Whether it's a tough conversation, a stressful decision, or a moment
-          of doubt — get calm, clear guidance whenever you need it. It's like
-          having a wise, mindful friend in your pocket.
-        </p>
-        <a
-          href="{{ '/ask-buddha/' | relative_url }}"
-          class="inline-flex items-center gap-2 text-primary hover:text-primary-dark font-medium transition"
-        >
-          Read more &rarr;
-        </a>
       </div>
     </div>
   </div>
 </section>
 
-<!-- About Section 2: Practice Map -->
-<section class="py-16 sm:py-24 bg-gray-bg">
-  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-      <!-- Text -->
-      <div>
-        <span class="text-primary text-lg font-medium mb-3 block"
-          >Practice Map</span
-        >
-        <h2
-          class="text-3xl sm:text-4xl lg:text-[44px] font-bold text-dark leading-tight mb-4"
-        >
-          See Where You Actually Lean, Across Five Concepts
+<!-- The practice: two honest options, set as a pair -->
+<section class="sheet-paper">
+  <div
+    class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-28 grid grid-cols-1 lg:grid-cols-[minmax(0,7fr)_minmax(0,4fr)] gap-14 lg:gap-20 items-center"
+  >
+    <div>
+      <h2 class="display text-4xl sm:text-5xl text-ink max-w-[16ch]">
+        Two honest options. Neither is marked correct.
+      </h2>
+      <p class="mt-6 text-lg leading-relaxed text-ink-muted max-w-[60ch]">
+        Every item is something a thoughtful person might do either way. You
+        get a check-in on what you noticed, something you already did, and
+        something you might do. Nothing is scored. If a situation didn’t come
+        up, you say so, and it counts as nothing at all.
+      </p>
+
+      <dl class="mt-12 border-t border-paper-line">
+        <div class="grid grid-cols-[6rem_minmax(0,1fr)] sm:grid-cols-[8rem_minmax(0,1fr)] gap-6 border-b border-paper-line py-6 items-baseline">
+          <dt class="display text-2xl text-ink">Noticed</dt>
+          <dd class="text-base leading-relaxed text-ink-muted">A check-in on what you noticed today.</dd>
+        </div>
+        <div class="grid grid-cols-[6rem_minmax(0,1fr)] sm:grid-cols-[8rem_minmax(0,1fr)] gap-6 border-b border-paper-line py-6 items-baseline">
+          <dt class="display text-2xl text-ink">Did</dt>
+          <dd class="text-base leading-relaxed text-ink-muted">Something you already did, answered honestly.</dd>
+        </div>
+        <div class="grid grid-cols-[6rem_minmax(0,1fr)] sm:grid-cols-[8rem_minmax(0,1fr)] gap-6 border-b border-paper-line py-6 items-baseline">
+          <dt class="display text-2xl text-ink">Might</dt>
+          <dd class="text-base leading-relaxed text-ink-muted">Something you might do, if this came up. Two options, and a way to skip.</dd>
+        </div>
+      </dl>
+    </div>
+
+    <div class="w-full max-w-[17rem] mx-auto">
+      <div class="plate">
+        <img
+          src="{{ 'assets/screens/IMG_9236.jpg' | relative_url }}"
+          alt="Today’s practice in the app: ‘Something your partner said stung. You’re in the car with their parents.’ with two options, ‘Say it while it’s true’ and ‘Wait until you’re home’, and a ‘Skip this one’ link."
+          width="520"
+          height="1130"
+          loading="lazy"
+          decoding="async"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Five concepts: each a tension between two poles, on one shared scale -->
+<section class="sheet-ink" id="concepts">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-28">
+    <div
+      class="grid grid-cols-1 lg:grid-cols-[minmax(0,5fr)_minmax(0,6fr)] gap-14 lg:gap-20"
+    >
+      <div class="lg:sticky lg:top-28 self-start">
+        <h2 class="display text-4xl sm:text-5xl text-conch max-w-[14ch]">
+          Five concepts, each a real tension.
         </h2>
-        <p class="text-body text-base leading-relaxed mb-6">
-          Right Speech, Kindness, Patience, Letting Go and Mindfulness — each
-          one a real tension rather than a score. Your answers place you between
-          two honest options, and Patterns shows where you sit, along with the
-          gap between what you would do and what you did.
+        <p class="mt-6 text-lg leading-relaxed text-ink-soft max-w-[48ch]">
+          Not virtues to score. Each day you meet one item from each, and your
+          answers place you somewhere between two poles a thoughtful person
+          could reach for.
         </p>
+        <div class="hidden lg:block mt-12 max-w-[26rem]">
+          {% include mandala.html id="concept-plan" class="concept-plan" %}
+        </div>
+      </div>
+
+      <ol class="border-t border-gold/40" data-concept-list>
+        {% for c in site.data.concepts %}
+        <li
+          class="border-b border-gold/40 py-9 sm:py-11"
+          data-concept="{{ c.id }}"
+        >
+          <h3>
+            <button
+              type="button"
+              class="group flex items-center gap-4 py-1 text-left cursor-pointer"
+              data-concept-btn="{{ c.id }}"
+              aria-pressed="false"
+            >
+              <span
+                class="size-3.5 shrink-0 rotate-45 {{ c.swatch }} ring-1 ring-gold transition-transform duration-300 group-aria-pressed:scale-150"
+                aria-hidden="true"
+              ></span>
+              <span class="display text-3xl sm:text-[2.5rem] text-conch underline decoration-transparent decoration-1 underline-offset-8 group-hover:decoration-gold/70 transition-colors">{{ c.name }}</span>
+            </button>
+          </h3>
+          <div class="mt-7 sm:pl-8">
+            <div class="pole-scale" aria-hidden="true"></div>
+            <p class="mt-4 flex justify-between gap-6 text-base sm:text-lg text-conch">
+              <span>{{ c.from }}</span>
+              <span class="text-right">{{ c.to }}</span>
+            </p>
+          </div>
+        </li>
+        {% endfor %}
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- Patterns: the gap between would and did is the insight -->
+<section class="sheet-paper">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-28">
+    <div
+      class="grid grid-cols-1 lg:grid-cols-[minmax(0,4fr)_minmax(0,7fr)] gap-14 lg:gap-20 items-center"
+    >
+      <div class="w-full max-w-[17rem] mx-auto lg:order-last">
+        <div class="plate">
+          <img
+            src="{{ 'assets/screens/IMG_9284.jpg' | relative_url }}"
+            alt="The Patterns screen in the app: under Right Speech, a line from ‘Sparing them’ to ‘Telling them’ with two marks, and the note ‘You lean toward sparing them (72%), and that is how it went in practice too.’"
+            width="520"
+            height="1130"
+            loading="lazy"
+            decoding="async"
+          />
+        </div>
+      </div>
+
+      <div>
+        <h2 class="display text-4xl sm:text-5xl text-ink max-w-[14ch]">
+          The gap is the insight.
+        </h2>
+        <p class="mt-6 text-lg leading-relaxed text-ink-muted max-w-[58ch]">
+          Patterns marks two points on each concept: what you <em>would</em> do,
+          and what you <em>did</em>. Most people predict they will be more
+          patient, or more honest, than they turn out to be. Patterns shows that
+          distance instead of hiding it.
+        </p>
+
+        <figure class="mt-12" aria-labelledby="gap-cap">
+          <div class="grid gap-7">
+            {% assign demo = "Patience|Waiting|Pressing|22|61;Right Speech|Sparing them|Telling them|30|48" | split: ";" %}
+            {% for d in demo %}
+            {% assign g = d | split: "|" %}
+            {% assign lo = g[3] | plus: 0 %}{% assign hi = g[4] | plus: 0 %}{% assign run = hi | minus: lo %}
+            <div>
+              <p class="text-sm font-semibold tracking-[0.08em] uppercase text-ink">{{ g[0] }}</p>
+              <div class="relative mt-4 h-4" aria-hidden="true">
+                <div class="absolute inset-x-0 top-1/2 h-px bg-ink/35"></div>
+                <div class="absolute top-1/2 h-[5px] -translate-y-1/2 rounded-full bg-cinnabar" style="left: {{ lo }}%; width: {{ run }}%"></div>
+                <div class="absolute top-1/2 size-3.5 -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-ink bg-paper" style="left: {{ lo }}%"></div>
+                <div class="absolute top-1/2 size-3.5 -translate-x-1/2 -translate-y-1/2 rounded-full bg-ink" style="left: {{ hi }}%"></div>
+              </div>
+              <p class="mt-2.5 flex justify-between text-sm text-ink-muted">
+                <span>{{ g[1] }}</span><span>{{ g[2] }}</span>
+              </p>
+            </div>
+            {% endfor %}
+          </div>
+          <figcaption id="gap-cap" class="mt-6 flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-ink-muted">
+            <span class="inline-flex items-center gap-2"><span class="size-3 rounded-full border-2 border-ink" aria-hidden="true"></span>Would do</span>
+            <span class="inline-flex items-center gap-2"><span class="size-3 rounded-full bg-ink" aria-hidden="true"></span>Did</span>
+            <span class="inline-flex items-center gap-2"><span class="h-[5px] w-5 rounded-full bg-cinnabar" aria-hidden="true"></span>The gap</span>
+            <span>Illustrative values.</span>
+          </figcaption>
+        </figure>
+
         <a
           href="{{ '/practice-map/' | relative_url }}"
-          class="inline-flex items-center gap-2 text-primary hover:text-primary-dark font-medium transition"
+          class="link-line mt-10 inline-block py-2.5 text-base font-semibold text-ink"
+          >How Patterns works</a
         >
-          Read more &rarr;
-        </a>
-      </div>
-      <!-- Phone -->
-      <div class="order-first md:order-last">
-        {% include phone-mockup.html image="assets/screens/IMG_9284.jpg"
-        alt="Practice Map" size="lg" gradient="gradient-2" %}
       </div>
     </div>
   </div>
 </section>
 
-<!-- About Section 3: Breathe -->
-<section class="py-16 sm:py-24 bg-white">
-  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-      <!-- Phone -->
-      {% include phone-mockup.html image="assets/screens/IMG_9240.jpg"
-      alt="Breathe" size="lg" gradient="gradient-1" %}
-      <!-- Text -->
-      <div>
-        <span class="text-primary text-lg font-medium mb-3 block">Breathe</span>
-        <h2
-          class="text-3xl sm:text-4xl lg:text-[44px] font-bold text-dark leading-tight mb-4"
-        >
-          Reset Your Mind With Four Buddhist Breathing Techniques
-        </h2>
-        <p class="text-body text-base leading-relaxed mb-6">
-          Sometimes all you need is a moment to pause. Choose from four guided
-          techniques drawn from Buddhist tradition — Sama (Box) Breathing,
-          Ānāpānasati, Mettā, and Vase Breathing — to calm your mind and return
-          to the present moment. Sama is free; the other three are part of the
-          Enlightened Path.
-        </p>
-        <a
-          href="{{ '/breathe/' | relative_url }}"
-          class="inline-flex items-center gap-2 text-primary hover:text-primary-dark font-medium transition"
-        >
-          Read more &rarr;
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
+<!-- Supporting practices: Ask Buddha and Breathe -->
+<section class="sheet-ink">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-28">
+    <h2 class="display text-4xl sm:text-5xl text-conch max-w-[18ch]">
+      For the moments between sessions.
+    </h2>
 
-<!-- FAQ — handles the objections a cold visitor arrives with.
-     White, because the blog section below is bg-gray-bg and two grey sections in
-     a row merge. The accordion carries its own border, so it still reads as a
-     card here; the blog cards have no border and need grey behind them. The
-     top rule marks the seam with the white Breathe section above. -->
-{% include faq.html
-  tag="home"
-  intro="What it is, what's free, and what it isn't."
-  background="bg-white border-t border-stroke"
-  schema="false" %}
-
-<!-- Recent Blog Posts -->
-{% assign recent_posts = site.posts | slice: 0, 4 %} {% if recent_posts.size > 0
-%}
-<section class="py-16 sm:py-24 bg-gray-bg">
-  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="text-center mb-14">
-      <h2 class="text-3xl sm:text-4xl lg:text-[44px] font-bold text-dark mb-4">
-        Latest Blog Posts
-      </h2>
-      <p class="text-body text-base max-w-2xl mx-auto">
-        Real-life situations explored through the lens of Buddhist wisdom.
-      </p>
-    </div>
-    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-      {% for post in recent_posts %}
-      <a
-        href="{{ post.url | relative_url }}"
-        class="group bg-white rounded-2xl p-7 shadow-card hover:shadow-lg transition flex flex-col"
-      >
-        <span class="text-primary text-xs font-medium uppercase tracking-wide"
-          >What Would Buddha Do</span
-        >
-        <h3
-          class="text-xl font-bold text-dark mt-2 mb-2 group-hover:text-primary transition leading-[26px]"
-        >
-          {{ post.title }}
-        </h3>
-        <p class="text-body text-sm flex-1 leading-relaxed">
-          {{ post.description }}
-        </p>
-        <div
-          class="flex items-center justify-between mt-5 pt-4 border-t border-stroke"
-        >
-          <span class="text-body/60 text-xs"
-            >{{ post.date | date: "%B %-d, %Y" }}</span
-          >
-          <span
-            class="text-primary text-sm font-medium group-hover:translate-x-1 transition-transform"
-            >Read more &rarr;</span
+    <div class="mt-14 grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-12 lg:gap-20">
+      <article class="grid grid-cols-[minmax(0,1fr)_7.5rem] sm:grid-cols-[minmax(0,1fr)_9rem] gap-6 sm:gap-8 items-start">
+        <div>
+          <h3 class="display text-3xl text-conch">Ask Buddha</h3>
+          <p class="mt-4 text-base leading-relaxed text-ink-soft">
+            Describe what’s happening and get a calm, reflective perspective
+            inspired by Buddhist teachings. Two questions a day on the Free
+            Path, twenty on the Enlightened Path.
+          </p>
+          <p class="mt-4 text-sm leading-relaxed text-ink-soft border-l border-gold/60 pl-4">
+            AI-generated reflection, not a substitute for therapy or
+            professional support.
+          </p>
+          <a
+            href="{{ '/ask-buddha/' | relative_url }}"
+            class="link-line mt-6 inline-block py-2.5 font-semibold text-conch"
+            >About Ask Buddha</a
           >
         </div>
-      </a>
+        <div class="plate !rounded-[18px] !p-1">
+          <img
+            src="{{ 'assets/screens/IMG_9234.jpg' | relative_url }}"
+            alt="The Ask Buddha screen, with a text box reading ‘Describe what’s on your mind…’ and ‘2 questions today’."
+            width="520"
+            height="1130"
+            loading="lazy"
+            decoding="async"
+            class="!rounded-[14px]"
+          />
+        </div>
+      </article>
+
+      <article class="grid grid-cols-[minmax(0,1fr)_7.5rem] sm:grid-cols-[minmax(0,1fr)_9rem] gap-6 sm:gap-8 items-start">
+        <div>
+          <h3 class="display text-3xl text-conch">Breathe</h3>
+          <p class="mt-4 text-base leading-relaxed text-ink-soft">
+            Four guided techniques from Buddhist tradition: Sama (Box)
+            Breathing, Ānāpānasati, Mettā and Vase Breathing. Sama is free;
+            the other three are part of the Enlightened Path.
+          </p>
+          <a
+            href="{{ '/breathe/' | relative_url }}"
+            class="link-line mt-6 inline-block py-2.5 font-semibold text-conch"
+            >About the techniques</a
+          >
+        </div>
+        <div class="plate !rounded-[18px] !p-1">
+          <img
+            src="{{ 'assets/screens/IMG_9240.jpg' | relative_url }}"
+            alt="The Breathing screen, with a blue lotus-shaped guide that expands and contracts."
+            width="520"
+            height="1130"
+            loading="lazy"
+            decoding="async"
+            class="!rounded-[14px]"
+          />
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ: the objections a practitioner arrives with -->
+{% assign faq_items = site.data.faq | where_exp: "item", "item.tags contains 'home'" %}
+<section class="sheet-paper">
+  <div
+    class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-28 grid grid-cols-1 lg:grid-cols-[minmax(0,4fr)_minmax(0,7fr)] gap-10 lg:gap-20"
+  >
+    <div>
+      <h2 class="display text-4xl sm:text-5xl text-ink max-w-[12ch]">
+        What it is, and what it isn’t.
+      </h2>
+      <p class="mt-5 text-base text-ink-muted">
+        More in the <a href="{{ '/pricing/' | relative_url }}" class="link-line font-semibold text-ink">plan comparison</a>.
+      </p>
+    </div>
+    <div class="border-t border-paper-line">
+      {% for item in faq_items %}
+      <details class="group border-b border-paper-line">
+        <summary
+          class="flex cursor-pointer items-start justify-between gap-6 py-6 text-lg sm:text-xl font-medium text-ink"
+        >
+          {{ item.q }}
+          <svg class="mt-1.5 size-4 shrink-0 text-gold-ink transition-transform duration-300 group-open:rotate-45" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M8 1v14M1 8h14" /></svg>
+        </summary>
+        <div class="pb-7 pr-10 text-base leading-relaxed text-ink-muted max-w-[62ch]">
+          {{ item.a | replace: "PREMIUM_PRICE", site.premium_price }}
+        </div>
+      </details>
       {% endfor %}
     </div>
-    <div class="text-center mt-10">
-      <a
-        href="{{ '/blog/' | relative_url }}"
-        class="inline-flex items-center gap-2 text-primary hover:text-primary-dark font-medium transition"
-      >
-        View all posts &rarr;
-      </a>
+  </div>
+</section>
+
+<!-- What Would Buddha Do: titles read as the end of that question -->
+{% assign recent_posts = site.posts | slice: 0, 4 %}
+{% if recent_posts.size > 0 %}
+<section class="sheet-paper border-t border-paper-line">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-28">
+    <div class="flex flex-wrap items-end justify-between gap-6">
+      <h2 class="display text-4xl sm:text-5xl text-ink">What would Buddha do…</h2>
+      <a href="{{ '/blog/' | relative_url }}" class="link-line py-2.5 font-semibold text-ink">All posts</a>
     </div>
+    <ul class="mt-10 border-t border-ink/80">
+      {% for post in recent_posts %}
+      <li class="border-b border-paper-line">
+        <a
+          href="{{ post.url | relative_url }}"
+          class="group grid grid-cols-1 md:grid-cols-[minmax(0,5fr)_minmax(0,6fr)_auto] gap-2 md:gap-10 py-7 md:items-baseline"
+        >
+          <span class="display text-2xl sm:text-[1.75rem] text-ink group-hover:text-gold-ink transition-colors">{{ post.title }}</span>
+          <span class="text-base leading-relaxed text-ink-muted">{{ post.description }}</span>
+          <time datetime="{{ post.date | date_to_xmlschema }}" class="text-sm text-ink-muted tabular-nums md:text-right whitespace-nowrap">{{ post.date | date: "%b %-d, %Y" }}</time>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
   </div>
 </section>
 {% endif %}
 
-<!-- CTA Section -->
-<section class="py-16 sm:py-24 bg-white">
-  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div
-      class="relative bg-white rounded-2xl shadow-card p-8 sm:p-12 overflow-hidden"
-    >
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-        <!-- Illustration -->
-        <div class="flex justify-center order-2 md:order-1">
-          <img
-            src="{{ 'assets/alone-amico.svg' | relative_url }}"
-            alt="Start your mindful journey"
-            class="w-full max-w-xs sm:max-w-sm"
-          />
-        </div>
-        <!-- Text -->
-        <div class="text-center md:text-left order-1 md:order-2">
-          <h2 class="text-3xl sm:text-4xl font-bold text-dark mb-4">
-            Start Your Mindful Journey
-          </h2>
-          <p class="text-base text-body mb-8">
-            Free to download. Practice daily. Grow at your own pace.
-          </p>
-          {% include download-buttons.html class="flex flex-wrap gap-4
-          justify-center md:justify-start" %}
-        </div>
-      </div>
+<!-- Close: the plan complete, every position in pigment -->
+<section class="sheet-ink">
+  <div
+    class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-28 grid grid-cols-1 md:grid-cols-[minmax(0,6fr)_minmax(0,5fr)] gap-14 items-center"
+  >
+    <div class="w-full max-w-[26rem] mx-auto md:order-last">
+      {% include mandala.html id="close-plan" class="close-plan" %}
+    </div>
+    <div>
+      <h2 class="display text-4xl sm:text-6xl text-conch max-w-[14ch]">
+        Begin with today’s five.
+      </h2>
+      <p class="mt-6 text-lg leading-relaxed text-ink-soft max-w-[46ch]">
+        Free to download. The daily practice is the same on both plans, and
+        nothing asks you to adopt a belief.
+      </p>
+      {% include download-buttons.html class="badges-on-ink mt-9 flex flex-wrap gap-4" %}
     </div>
   </div>
 </section>
+
+<script>
+  // The concepts plan rests as an underdrawing and lights one position at a
+  // time: as its row reaches the middle of the viewport, or when its name is
+  // pressed. Without JS every plan simply stays fully painted.
+  (function () {
+    var plan = document.querySelector(".concept-plan");
+    var rows = document.querySelectorAll("[data-concept]");
+    var btns = document.querySelectorAll("[data-concept-btn]");
+    function light(id) {
+      if (plan) plan.setAttribute("data-active", id);
+      btns.forEach(function (b) {
+        b.setAttribute("aria-pressed", String(b.dataset.conceptBtn === id));
+      });
+    }
+    if (plan) plan.setAttribute("data-active", "none");
+    btns.forEach(function (b) {
+      b.addEventListener("click", function () { light(b.dataset.conceptBtn); });
+    });
+    if ("IntersectionObserver" in window && plan) {
+      var io = new IntersectionObserver(
+        function (entries) {
+          entries.forEach(function (e) {
+            if (e.isIntersecting) light(e.target.dataset.concept);
+          });
+        },
+        { rootMargin: "-45% 0px -45% 0px" }
+      );
+      rows.forEach(function (r) { io.observe(r); });
+    }
+
+    // The closing plan is the page's payoff: drawn line by line, then filled,
+    // when it comes into view. Painted by default if motion or JS is absent.
+    var close = document.querySelector(".close-plan");
+    if (close && "IntersectionObserver" in window &&
+        !matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      close.classList.add("mandala--pending");
+      new IntersectionObserver(function (entries, obs) {
+        if (entries[0].isIntersecting) {
+          close.classList.remove("mandala--pending");
+          close.classList.add("mandala--draw");
+          obs.disconnect();
+        }
+      }, { threshold: 0.35 }).observe(close);
+    }
+  })();
+</script>

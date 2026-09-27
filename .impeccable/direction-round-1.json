@@ -1,0 +1,124 @@
+{
+  "title": "Choose the visual world for Choose Like Buddha",
+  "question": "The roll assigned the Thangka Drafting Grid. Keep it, take an alternate, or re-roll.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "Thangka Drafting Grid",
+      "kicker": "THE ROLL",
+      "lineage": "Tibetan thangka iconometry (thig tshad) and the five-family mandala plan",
+      "thesis": "The five concepts laid out as a mandala's five positions, drawn the way a thangka painter drafts: construction lines first, then mineral pigment.",
+      "palette": ["#16203a", "#c9a24a", "#efe9dc", "#3a64b0", "#e2b23c", "#c8402a", "#3f8a68"],
+      "materials": ["gold construction line on deep indigo ground", "flat mineral-pigment fields (azurite, orpiment, cinnabar, malachite, conch)"],
+      "viewport": "Headline and store badges on the left; on the right a square mandala plan whose centre holds today's real item as two honest options, with the four other concepts at the gates.",
+      "risk": "Could tip into New Age colouring-book mandalas if the ornament grows and the draughtsman's restraint slips.",
+      "raised": [
+        {"from": "challenger-seven-segment", "raise": "Unpractised positions stay drawn as faint construction lines; absence is designed as carefully as pigment."},
+        {"from": "challenger-boarding-pass", "raise": "Cinnabar means one thing only: the gap between what you'd do and what you did."},
+        {"from": "challenger-botanical-folio", "raise": "All five concept diagrams share one scale and baseline, so leans compare at a glance."},
+        {"from": "challenger-tensegrity", "raise": "Each concept's tension is drawn as a line between two poles, with distinct at-rest and leaning states."},
+        {"from": "challenger-minihompy", "raise": "Small, honest instruments (today's five, day count) as quiet chrome, labelled as a sample."}
+      ]
+    },
+    {
+      "id": "model-pick",
+      "label": "Twin Verses Palm-Leaf",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "Pali palm-leaf manuscripts and the Dhammapada's Yamaka (paired verses)",
+      "thesis": "Each day's choice set as a paired verse on a long palm leaf: what you'd do on one half, what you did on the other.",
+      "palette": ["#d9b77e", "#231a12", "#8a6a3f", "#b3382a", "#f3e6c8"],
+      "materials": ["incised leaf darkened with lampblack", "cinnabar-dyed binding string through two holes"],
+      "viewport": "A bundle of long horizontal leaves across the full width; the top leaf is today's pair, and the string holes act as the page's navigation.",
+      "risk": "Familiar: warm manuscript tones land close to the cream-and-serif look many sites in this space already ship."
+    },
+    {
+      "id": "challenger-akari",
+      "label": "Akari Paper Light",
+      "verdict": "competitive",
+      "lineage": "Noguchi akari lanterns, washi over bamboo ribs",
+      "thesis": "Five paper lanterns in a dim room, one per concept, glowing when practised.",
+      "palette": ["#f2e8d5", "#b89a6a", "#2b2724", "#d0402b"],
+      "materials": ["backlit washi", "bamboo rib lines"],
+      "viewport": "A dim room with five lanterns at different heights; today's concept is lit, and the headline sits in its glow.",
+      "case": "Fuses well with Zen-leaning practitioners; loses on clarity, because a lantern can't show the would/did gap.",
+      "risk": "Warm ivory plus a vermilion stamp is close to a look often seen in this category."
+    },
+    {
+      "id": "challenger-tensegrity",
+      "label": "Tensegrity Breathing Column",
+      "verdict": "declined",
+      "lineage": "kinetic tensegrity sculpture",
+      "thesis": "Opposing forces held in balance, a column that seems to breathe.",
+      "palette": ["#1a1a1a", "#d8d4cc", "#c23b2e", "#8a8a86"],
+      "materials": ["carbon rods", "red cord"],
+      "viewport": "A force diagram with each concept as a strut between two cords.",
+      "case": "Fuses on tension, but practitioners don't see themselves in engineering diagrams.",
+      "kept": "Tension drawn as distinct at-rest and leaning states.",
+      "risk": "Cold and technical for a contemplative audience."
+    },
+    {
+      "id": "challenger-minihompy",
+      "label": "Minihompy Room",
+      "verdict": "declined",
+      "lineage": "Cyworld decorated rooms",
+      "thesis": "Identity as a room you furnish.",
+      "palette": ["#f7d6e0", "#cfe8f3", "#fff4c2", "#5b5b7a"],
+      "materials": ["isometric pastel room", "sticker furnishings"],
+      "viewport": "An isometric room decorated with earned badges.",
+      "case": "Fuses poorly: gamified decoration fights a no-score practice.",
+      "kept": "Small, honest counters as chrome.",
+      "risk": "Reads as a game, contradicting 'no scores'."
+    },
+    {
+      "id": "challenger-seven-segment",
+      "label": "Seven-Segment Display",
+      "verdict": "declined",
+      "lineage": "LED clocks and scoreboards",
+      "thesis": "One cell mask where unlit segments are designed too.",
+      "palette": ["#0d0d0d", "#ff3b1f", "#2a1a17"],
+      "materials": ["LED segments", "ghost cells"],
+      "viewport": "Today's five as lit segments.",
+      "case": "Fuses poorly: scoreboard language implies scores.",
+      "kept": "Absence drawn as deliberately as presence.",
+      "risk": "Scoreboard semantics contradict the product."
+    },
+    {
+      "id": "challenger-boarding-pass",
+      "label": "Boarding Pass & Gate Board",
+      "verdict": "declined",
+      "lineage": "airport ephemera",
+      "thesis": "One alert colour reserved for change.",
+      "palette": ["#f5f5f2", "#1b1b1b", "#f2b705"],
+      "materials": ["segmented pass", "flip board"],
+      "viewport": "Today's practice as a boarding pass.",
+      "case": "Fuses poorly: transit urgency is the opposite of the practice.",
+      "kept": "One colour reserved for one meaning.",
+      "risk": "Urgent and transactional."
+    },
+    {
+      "id": "challenger-botanical-folio",
+      "label": "Botanical Season Folio",
+      "verdict": "declined",
+      "lineage": "botanical plates in sequence",
+      "thesis": "Fixed-scale plates that make change over time comparable.",
+      "palette": ["#f1e9d8", "#6b4a2b", "#3f6b3a", "#b3261e"],
+      "materials": ["engraved plates", "sepia hairlines"],
+      "viewport": "Five plates, one per concept, on a shared baseline.",
+      "case": "Fuses on Patterns-over-time, but it's a generic natural-history look with no link to practice.",
+      "kept": "Same scale and baseline across all five diagrams.",
+      "risk": "Cream editorial register, a common default."
+    }
+  ],
+  "reroll": {"registers": ["safer", "bolder"]},
+  "buildPath": {"value": "code", "toggle": false},
+  "canon": true,
+  "canonCard": {
+    "label": "The category standard",
+    "thesis": "A calm wellness-app landing page, executed impeccably.",
+    "palette": ["#ffffff", "#1e2238", "#4a6cf7", "#f8f9ff"],
+    "materials": ["soft gradients", "phone mockups", "friendly sans"],
+    "viewport": "Headline, store badges and a phone screenshot, then feature rows.",
+    "risk": "Indistinguishable from Calm, Headspace and every habit app, by design."
+  },
+  "steer": true
+}

@@ -32,9 +32,9 @@
     align-items: center;
     gap: 1.5rem;
     padding: 2rem 1rem;
-    border-radius: 1.5rem;
-    background: linear-gradient(180deg, #f8f9ff 0%, #ffffff 100%);
-    border: 1px solid #ebecf0;
+    border-radius: 1rem;
+    background: var(--color-ink);
+    border: 1px solid color-mix(in srgb, var(--color-gold) 50%, transparent);
   }
   .breathing-stage {
     position: relative;
@@ -63,8 +63,9 @@
     height: 140px;
     margin: -70px 0 0 -70px;
     border-radius: 50%;
-    background: radial-gradient(circle at 50% 35%, rgba(147, 164, 248, 0.55), rgba(107, 127, 227, 0.35));
-    mix-blend-mode: multiply;
+    background: color-mix(in srgb, var(--color-azurite) 55%, transparent);
+    border: 1px solid color-mix(in srgb, var(--color-gold) 45%, transparent);
+    mix-blend-mode: screen;
     transform: rotate(calc(var(--i) * 60deg)) translateY(-45px);
   }
   @keyframes flower-bloom {
@@ -85,10 +86,9 @@
   }
   .breathing-label {
     position: absolute;
-    color: #ffffff;
-    font-size: 1.25rem;
-    font-weight: 500;
-    letter-spacing: 0.04em;
+    color: var(--color-conch);
+    font-family: var(--font-display);
+    font-size: 1.5rem;
     opacity: 0;
   }
   .breathing-label-idle { opacity: 1; }
@@ -108,21 +108,23 @@
     gap: 0.6rem;
     padding: 0.75rem 1.75rem;
     border-radius: 9999px;
-    background: #4a6cf7;
-    color: #ffffff;
-    font-weight: 500;
+    min-height: 44px;
+    background: var(--color-conch);
+    color: var(--color-ink);
+    font-weight: 600;
     font-size: 0.95rem;
     border: none;
     cursor: pointer;
     transition: background 0.2s ease, transform 0.1s ease;
   }
-  .breathing-btn:hover { background: #3b5de7; }
+  .breathing-btn:hover { background: var(--color-paper); }
+  .breathing-btn:focus-visible { outline: 2px solid var(--color-gold); outline-offset: 3px; }
   .breathing-btn:active { transform: scale(0.98); }
   .breathing-btn-icon {
     display: inline-block;
     width: 0;
     height: 0;
-    border-left: 9px solid #ffffff;
+    border-left: 9px solid var(--color-ink);
     border-top: 6px solid transparent;
     border-bottom: 6px solid transparent;
   }
@@ -130,11 +132,11 @@
     width: 10px;
     height: 10px;
     border: none;
-    background: #ffffff;
+    background: var(--color-ink);
     border-radius: 2px;
   }
   .breathing-caption {
-    color: #637381;
+    color: var(--color-ink-soft);
     font-size: 0.875rem;
     margin: 0;
     text-align: center;

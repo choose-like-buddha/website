@@ -1,0 +1,120 @@
+{% comment %}
+  The five-position plan: Mindfulness at the centre, the other four concepts in
+  the palace quadrants. Drawn like a thangka underdrawing — construction lines
+  first, then flat pigment — so the positions read as geometry, not ornament.
+
+  Colour-to-concept pairing is a visual assignment only; the app makes no claim
+  about it.
+
+  Parameters:
+    - id: unique prefix (required when used more than once on a page)
+    - today: "true" to set the sample practice item in the centre square
+    - class: extra wrapper classes
+    - draw: "true" to play the draw-in (construction lines, then pigment)
+
+  Each quadrant carries a pole line: the open ring is what you would do, the
+  filled dot what you did, the cinnabar run between them the gap. The values
+  are illustrative, and the plan says so in its caption.
+{% endcomment %}
+{% assign mid = include.id | default: "plan" %}
+<figure
+  class="mandala {% if include.draw == 'true' %}mandala--draw{% endif %} {{ include.class }}"
+  data-mandala
+  aria-labelledby="{{ mid }}-cap"
+>
+  <div class="relative aspect-square w-full">
+    <svg
+      viewBox="0 0 600 600"
+      class="absolute inset-0 h-full w-full overflow-visible"
+      aria-hidden="true"
+    >
+      <!-- Construction: iconometric guides, drawn first and kept faint -->
+      <g class="m-guide">
+        <line x1="0" y1="300" x2="600" y2="300" pathLength="1" />
+        <line x1="300" y1="0" x2="300" y2="600" pathLength="1" />
+        <line x1="20" y1="20" x2="580" y2="580" pathLength="1" />
+        <line x1="580" y1="20" x2="20" y2="580" pathLength="1" />
+        <circle cx="300" cy="300" r="292" pathLength="1" />
+        <circle cx="300" cy="300" r="120" pathLength="1" />
+        <rect x="20" y="20" width="560" height="560" pathLength="1" />
+      </g>
+
+      <!-- Pigment: four palace quadrants and the centre -->
+      <g class="m-fields">
+        <path data-pos="kindness" class="m-field fill-madder" d="M110 110H490L420 180H180Z" />
+        <path data-pos="letting-go" class="m-field fill-malachite" d="M490 110V490L420 420V180Z" />
+        <path data-pos="patience" class="m-field fill-azurite" d="M490 490H110L180 420H420Z" />
+        <path data-pos="right-speech" class="m-field fill-orpiment" d="M110 490V110L180 180V420Z" />
+        <rect data-pos="mindfulness" class="m-field fill-conch" x="180" y="180" width="240" height="240" />
+      </g>
+
+      <!-- Palace walls, gates and outer rings in gold -->
+      <g class="m-line">
+        <circle cx="300" cy="300" r="270" pathLength="1" />
+        <circle cx="300" cy="300" r="258" pathLength="1" />
+        <rect x="110" y="110" width="380" height="380" pathLength="1" />
+        <rect x="180" y="180" width="240" height="240" pathLength="1" />
+        <path d="M110 110L180 180M490 110L420 180M490 490L420 420M110 490L180 420" pathLength="1" />
+        <!-- T-gates at the four midpoints -->
+        <path d="M260 110V92H240V74H360V92H340V110" pathLength="1" />
+        <path d="M490 260H508V240H526V360H508V340H490" pathLength="1" />
+        <path d="M340 490V508H360V526H240V508H260V490" pathLength="1" />
+        <path d="M110 340H92V360H74V240H92V260H110" pathLength="1" />
+      </g>
+
+      <!-- Pole lines: shared scale, one per quadrant -->
+      <g class="m-poles">
+        <g data-pos="kindness" transform="translate(220 150)">
+          <line x1="0" y1="0" x2="160" y2="0" />
+          <line class="m-gap" x1="58" y1="0" x2="104" y2="0" />
+          <circle class="m-would" cx="104" cy="0" r="6" />
+          <circle class="m-did" cx="58" cy="0" r="6" />
+        </g>
+        <g data-pos="letting-go" transform="translate(450 220) rotate(90)">
+          <line x1="0" y1="0" x2="160" y2="0" />
+          <line class="m-gap" x1="44" y1="0" x2="72" y2="0" />
+          <circle class="m-would" cx="44" cy="0" r="6" />
+          <circle class="m-did" cx="72" cy="0" r="6" />
+        </g>
+        <g data-pos="patience" transform="translate(380 450) rotate(180)">
+          <line x1="0" y1="0" x2="160" y2="0" />
+          <line class="m-gap" x1="36" y1="0" x2="98" y2="0" />
+          <circle class="m-would" cx="36" cy="0" r="6" />
+          <circle class="m-did" cx="98" cy="0" r="6" />
+        </g>
+        <g data-pos="right-speech" transform="translate(150 380) rotate(-90)">
+          <line x1="0" y1="0" x2="160" y2="0" />
+          <line class="m-gap" x1="84" y1="0" x2="118" y2="0" />
+          <circle class="m-would" cx="118" cy="0" r="6" />
+          <circle class="m-did" cx="84" cy="0" r="6" />
+        </g>
+      </g>
+    </svg>
+
+    <!-- Concept names, set in HTML so they stay real, selectable text -->
+    <span class="m-label" data-pos="kindness" style="left: 50%; top: 20.8%; transform: translate(-50%, -50%)">Kindness</span>
+    <span class="m-label" data-pos="letting-go" style="left: 79.2%; top: 50%; transform: translate(-50%, -50%) rotate(90deg)">Letting Go</span>
+    <span class="m-label" data-pos="patience" style="left: 50%; top: 79.2%; transform: translate(-50%, -50%)">Patience</span>
+    <span class="m-label" data-pos="right-speech" style="left: 20.8%; top: 50%; transform: translate(-50%, -50%) rotate(-90deg)">Right Speech</span>
+
+    {% if include.today == "true" %}
+    <div class="m-today absolute hidden md:flex flex-col justify-center" style="left: 30%; top: 30%; width: 40%; height: 40%">
+      <p class="m-today-item">Something your partner said stung. You’re in the car with their parents.</p>
+      <ul class="m-today-options">
+        <li>Say it while it’s true</li>
+        <li>Wait until you’re home</li>
+      </ul>
+    </div>
+    <span class="m-label m-label--centre md:hidden" data-pos="mindfulness" style="left: 50%; top: 50%; transform: translate(-50%, -50%)">Mindfulness</span>
+    {% else %}
+    <span class="m-label m-label--centre" data-pos="mindfulness" style="left: 50%; top: 50%; transform: translate(-50%, -50%)">Mindfulness</span>
+    {% endif %}
+  </div>
+  <figcaption id="{{ mid }}-cap" class="m-caption">
+    {% if include.today == "true" %}
+    Mindfulness at the centre, four concepts around it. The item is a real one from the app; the lean marks are illustrative.
+    {% else %}
+    The five concepts. Ring: what you would do. Dot: what you did. Red: the gap. Illustrative.
+    {% endif %}
+  </figcaption>
+</figure>
