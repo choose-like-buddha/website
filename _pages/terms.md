@@ -32,7 +32,7 @@ You may use the App by creating an account using Apple Sign-In, Google Sign-In, 
 
 The App offers a free plan ("Free Path") and a paid subscription plan ("Enlightened Path").
 
-The Enlightened Path is available at $4.99 USD per month, billed through the Apple App Store or Google Play Store. Subscriptions renew automatically unless cancelled at least 24 hours before the end of the current billing period. You can manage and cancel your subscription at any time through your App Store or Google Play account settings. Refunds are handled by Apple or Google according to their respective refund policies. We reserve the right to change subscription pricing with reasonable notice.
+The Enlightened Path is available at $3.99 USD per month, billed through the Apple App Store or Google Play Store. Subscriptions renew automatically unless cancelled at least 24 hours before the end of the current billing period. You can manage and cancel your subscription at any time through your App Store or Google Play account settings. Refunds are handled by Apple or Google according to their respective refund policies. We reserve the right to change subscription pricing with reasonable notice.
 
 ## 5. AI-Generated Content
 
