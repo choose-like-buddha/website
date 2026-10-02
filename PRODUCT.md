@@ -44,8 +44,7 @@ Success for the website: a practitioner understands the practice and installs th
 - No Buddhist belief is required. Buddhism is a practical lens, not religious instruction.
 - Every feature claim must be checkable against the app's constants. The existing data files enforce this discipline; keep it.
 - Stack: Jekyll, Tailwind v4 via `@tailwindcss/cli`, GitHub Pages with a daily rebuild workflow. PostHog analytics loads only after cookie consent.
-- **Open:** the true length of a session. The homepage says "one minute" in two places and "A Few Minutes a Day" in the features grid. Confirm before the copy is changed.
-- **Known stale copy:** `_pages/about.md` still describes the old model ("one answer is the logical choice… only one leads to greater awareness"). This contradicts the current no-right-answer practice.
+- A daily session takes about one minute (confirmed by the owner, 2026-10-02).
 
 ## Brand Commitments
 
