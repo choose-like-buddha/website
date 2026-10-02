@@ -17,9 +17,9 @@ differences:
     free: 2 per day
     premium: 20 per day
 
-  - feature: Saved Ask Buddha history
-    free: 7 most recent
-    premium: Unlimited
+  - feature: Ask Buddha answers you keep
+    free: Last 7
+    premium: Every one
 
   - feature: Breathing techniques
     free: Sama (Box) only

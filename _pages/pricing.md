@@ -19,9 +19,10 @@ breathing techniques — you never need it to build the habit.
 ## Do I need the {{ site.premium_plan_name }}?
 
 Probably not at first. The daily practice is identical on both plans, two Ask
-Buddha questions a day covers most days, and the free Sama breathing is the technique you'll reach for most. The
-upgrade is for when the daily limit starts getting in your way — usually after
-the habit has taken hold.
+Buddha questions a day covers most days, and the free Sama breathing is the
+technique you'll reach for most. The {{ site.premium_plan_name }} is for the
+weeks when two questions aren't enough, and for keeping every answer you've been
+given instead of the last seven.
 
 ## How billing works
 
