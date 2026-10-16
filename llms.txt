@@ -40,7 +40,8 @@ Only a monthly subscription is offered; there is no annual plan or one-time purc
 - [About]({{ site.url }}/about/): Philosophy and how the app works.
 - [Ask Buddha]({{ site.url }}/ask-buddha/): AI-powered Buddhist guidance feature.
 - [Practice Map]({{ site.url }}/practice-map/): How the app tracks practice across its concepts.
-- [Breathe]({{ site.url }}/breathe/): The four breathing techniques.
+{% for c in site.data.concepts %}- [{{ c.name }}]({{ site.url }}/concepts/{{ c.id }}/): The concept of {{ c.from | downcase }} versus {{ c.to | downcase }}.
+{% endfor %}- [Breathe]({{ site.url }}/breathe/): The four breathing techniques.
 - [Pricing]({{ site.url }}/pricing/): What the free plan includes and what the Enlightened Path adds.
 - [Box Breathing]({{ site.url }}/box-breathing/): Sama breathing explained.
 - [Blog]({{ site.url }}/blog/): "What Would Buddha Do" — real-life situations explored through Buddhist wisdom.

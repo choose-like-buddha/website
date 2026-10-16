@@ -1,0 +1,22 @@
+{% comment %}
+  The pole scale for one concept, read from _data/concepts.yml so the concept
+  pages can't drift from the homepage and the app.
+
+  Parameters:
+    - id: the concept id (e.g. "right-speech")
+{% endcomment %}
+{% assign concept = site.data.concepts | where: "id", include.id | first %}
+{% if concept %}
+<div class="not-prose my-10 border-y border-paper-line py-8">
+  <p class="flex items-center gap-3 text-[0.8125rem] font-semibold uppercase tracking-[0.08em] text-ink-muted">
+    <span class="size-3 shrink-0 rotate-45 {{ concept.swatch }} ring-1 ring-gold" aria-hidden="true"></span>
+    The two poles
+  </p>
+  <p class="mt-5 flex justify-between gap-6 display text-2xl sm:text-3xl text-ink">
+    <span>{{ concept.from }}</span>
+    <span class="text-ink-muted" aria-hidden="true">·</span>
+    <span class="text-right">{{ concept.to }}</span>
+  </p>
+  <p class="mt-4 text-sm text-ink-muted">Both are honest. Neither is the right answer.</p>
+</div>
+{% endif %}

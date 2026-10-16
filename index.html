@@ -144,6 +144,11 @@ description: Practice making calmer, wiser choices every day. A short Buddhist-i
               <span>{{ c.from }}</span>
               <span class="text-right">{{ c.to }}</span>
             </p>
+            <a
+              href="{{ '/concepts/' | append: c.id | append: '/' | relative_url }}"
+              class="link-line inline-block mt-5 py-2.5 text-ink-soft hover:text-conch transition-colors"
+              >About {{ c.name }}</a
+            >
           </div>
         </li>
         {% endfor %}

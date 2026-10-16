@@ -3,7 +3,7 @@ layout: page
 title: Practice Map — See Where You Actually Lean Across Five Buddhist Concepts
 permalink: /practice-map/
 image: /assets/og-image.png
-description: Patterns in the Choose Like Buddha app shows where you sit between two honest options across five Buddhist concepts — right speech, kindness, patience, letting go, and mindfulness — and the gap between what you would do and what you did.
+description: Patterns shows where you lean between two honest options across five Buddhist concepts, and the gap between what you would do and what you did.
 ---
 
 <div class="not-prose mb-10">
@@ -22,11 +22,7 @@ Patterns is not a scoreboard, and there is no percentage to raise. Each day's pr
 
 Each concept is a tension between two poles rather than a virtue to score:
 
-- **Right Speech** — sparing them, or telling them
-- **Kindness** — softening it, or letting it land
-- **Patience** — waiting, or pressing
-- **Letting Go** — setting it down, or keeping it live
-- **Mindfulness** — letting it pass, or marking it
+{% include concept-list.html %}
 
 These five cover the ground where most everyday decisions actually get made — at work, with family, and in your own head.
 

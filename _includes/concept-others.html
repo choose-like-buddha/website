@@ -1,0 +1,15 @@
+{% comment %}
+  Links to the other concept pages, read from _data/concepts.yml.
+
+  Parameters:
+    - id: the current concept id, left out of the list
+{% endcomment %}
+<p>The other concepts:
+{%- assign first = true -%}
+{%- for c in site.data.concepts -%}
+  {%- if c.id != include.id -%}
+    {%- unless first %} ·{% endunless %} <a href="{{ '/concepts/' | append: c.id | append: '/' | relative_url }}">{{ c.name }}</a>
+    {%- assign first = false -%}
+  {%- endif -%}
+{%- endfor -%}
+</p>

@@ -1,0 +1,9 @@
+{% comment %}
+  The five concepts as a linked list with their poles, read from
+  _data/concepts.yml so the Practice Map can't drift from the data.
+{% endcomment %}
+<ul>
+  {% for c in site.data.concepts %}
+  <li><strong><a href="{{ '/concepts/' | append: c.id | append: '/' | relative_url }}">{{ c.name }}</a></strong> — {{ c.from | downcase }}, or {{ c.to | downcase }}</li>
+  {% endfor %}
+</ul>
