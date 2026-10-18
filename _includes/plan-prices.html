@@ -1,0 +1,62 @@
+{% comment %}
+  Enlightened Path billing options: monthly and yearly as two ruled rows, the
+  way DESIGN.md separates list items, with the yearly saving worked out from the
+  two prices in _config.yml so it can never drift from them. The saving is
+  floored, so we never claim more than it is.
+
+  Prices are the premium_price_region reference prices, and every figure says
+  so. If the yearly price is missing the yearly row is left out rather than
+  rendering "$0" or "Save 100%".
+{% endcomment %}
+
+{% assign monthly = site.premium_price | remove: "$" | plus: 0 %}
+{% assign yearly = site.premium_price_yearly | remove: "$" | plus: 0 %}
+{% assign region = site.premium_price_region %}
+
+<div class="not-prose my-10 border-t border-ink/70">
+  {% if monthly > 0 %}
+  <div class="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-2 border-b border-paper-line py-6">
+    <div>
+      <h3 class="display text-xl text-ink">Monthly</h3>
+      <p class="mt-1 text-sm text-ink-muted">Billed every month.</p>
+    </div>
+    <p class="text-ink">
+      <span class="display text-3xl sm:text-4xl">{{ site.premium_price }}</span>
+      <span class="text-ink-muted">a month in the {{ region }}</span>
+    </p>
+  </div>
+  {% endif %}
+
+  {% if yearly > 0 %}
+  <div class="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-2 border-b border-paper-line py-6">
+    <div>
+      <h3 class="display text-xl text-ink flex items-center gap-3">
+        Yearly
+        {% if monthly > 0 %}
+        {% assign twelve_months = monthly | times: 12 %}
+        {% assign saving = yearly | divided_by: twelve_months | minus: 1 | times: -100 | floor %}
+        {% if saving > 0 %}
+        <span class="font-sans text-sm font-semibold text-gold-ink rounded-full border border-gold px-2.5 py-0.5">
+          Save {{ saving }}%
+        </span>
+        {% endif %}
+        {% endif %}
+      </h3>
+      <p class="mt-1 text-sm text-ink-muted">
+        Billed once a year{% if monthly > 0 %}, about ${{ yearly | divided_by: 12.0 | round: 2 }} a month{% endif %}.
+      </p>
+    </div>
+    <p class="text-ink">
+      <span class="display text-3xl sm:text-4xl">{{ site.premium_price_yearly }}</span>
+      <span class="text-ink-muted">a year in the {{ region }}</span>
+    </p>
+  </div>
+  {% if monthly > 0 and saving > 0 %}
+  <p class="mt-4 text-sm text-ink-muted">
+    Yearly costs {{ saving }}% less than twelve monthly payments
+    (${{ twelve_months }}) in the {{ region }}. Other countries are priced
+    locally, so the saving there can differ.
+  </p>
+  {% endif %}
+  {% endif %}
+</div>

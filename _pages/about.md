@@ -40,4 +40,4 @@ Buddhism here is a practical lens, not a belief to sign up for. The concepts are
 
 Choose Like Buddha is built and maintained by one independent developer. No team, no investors, no ads. You don't need an account, and the [privacy policy](/privacy-policy/) says plainly what the app collects. Every update is listed in the [changelog](/changelog/).
 
-The full daily practice is free, Patterns included. The Enlightened Path is $3.99 a month if you want more Ask Buddha questions, your full history and all four breathing techniques. See [pricing](/pricing/) for the details.
+The full daily practice is free, Patterns included. The Enlightened Path is a monthly or yearly subscription ($3.99 a month or $39.99 a year in the US, priced locally elsewhere) if you want more Ask Buddha questions, your full history and all four breathing techniques. See [pricing](/pricing/) for the details.

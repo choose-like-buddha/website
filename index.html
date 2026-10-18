@@ -318,7 +318,7 @@ description: Practice making calmer, wiser choices every day. A short Buddhist-i
           <svg class="mt-1.5 size-4 shrink-0 text-gold-ink transition-transform duration-300 group-open:rotate-45" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M8 1v14M1 8h14" /></svg>
         </summary>
         <div class="pb-7 pr-10 text-base leading-relaxed text-ink-muted max-w-[62ch]">
-          {{ item.a | replace: "PREMIUM_PRICE", site.premium_price }}
+          {{ item.a | replace: "PREMIUM_PRICE_YEARLY", site.premium_price_yearly | replace: "PREMIUM_PRICE", site.premium_price }}
         </div>
       </details>
       {% endfor %}

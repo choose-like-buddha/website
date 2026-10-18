@@ -1,7 +1,8 @@
-# Shared FAQ, rendered by _includes/faq.html on the homepage, /pricing/ and
+# Shared FAQ, rendered by _includes/faq.html on the homepage and
 # /contact/, and emitted as FAQPage structured data.
 #
-# `PREMIUM_PRICE` is substituted with site.premium_price at render time — Liquid
+# `PREMIUM_PRICE` and `PREMIUM_PRICE_YEARLY` are substituted with
+# site.premium_price and site.premium_price_yearly at render time — Liquid
 # does not interpolate inside _data files, and hardcoding the price here is what
 # let it drift to a stale $4.99. Keep the token; don't write the number.
 #
@@ -29,7 +30,7 @@
   tags: [home]
 
 - q: What is the Enlightened Path?
-  a: "The Enlightened Path is the optional premium plan at PREMIUM_PRICE a month. It raises Ask Buddha from 2 questions a day to 20, keeps your full Ask Buddha history rather than the last 7, and unlocks all four breathing techniques. The daily practice itself is the same on both plans."
+  a: "The Enlightened Path is the optional premium plan, a monthly or yearly subscription (PREMIUM_PRICE a month or PREMIUM_PRICE_YEARLY a year in the US; the price varies by country and is shown in your app store before you subscribe). It raises Ask Buddha from 2 questions a day to 20, keeps your full Ask Buddha history rather than the last 7, and unlocks all four breathing techniques. The daily practice itself is the same on both plans."
   tags: [pricing, home]
 
 - q: How do I cancel my subscription?
@@ -37,7 +38,7 @@
   tags: [pricing]
 
 - q: Is there an annual plan?
-  a: "Not currently. Only a monthly subscription is offered, and there is no one-time purchase."
+  a: "Yes. The Enlightened Path is available monthly or yearly — PREMIUM_PRICE_YEARLY a year in the US, compared with PREMIUM_PRICE a month. Prices vary by country and your app store shows your exact price. There is no one-time purchase."
   tags: [pricing]
 
 - q: Is my data private?

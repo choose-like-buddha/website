@@ -14,11 +14,16 @@ app_name: Choose Like Buddha
 app_price: Free
 app_description: "Train your mind to respond, not react — with short daily choices inspired by mindfulness."
 
-# Plans. Only a monthly subscription is live; the store shows local pricing.
+# Plans. Monthly and yearly subscriptions are live. The real price varies by
+# country and store (Apple/Google set local tiers and taxes), so the prices are
+# reference prices in premium_price_region only — always show it with the region
+# and never present it as the price every user pays.
 # Keep the price in sync with App Store Connect.
 free_plan_name: Free Path
 premium_plan_name: Enlightened Path
 premium_price: "$3.99"
+premium_price_yearly: "$39.99"
+premium_price_region: US
 premium_period: month
 
 image: /assets/og-image.png

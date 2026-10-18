@@ -9,33 +9,30 @@
 <div class="not-prose my-10">
   <div class="overflow-x-auto rounded-2xl border border-paper-line bg-paper">
     <table class="w-full text-left border-collapse">
+      <caption class="sr-only">What differs between the {{ site.free_plan_name }} and the {{ site.premium_plan_name }}</caption>
       <thead>
         <tr class="border-b border-ink/70">
-          <th class="p-3 sm:p-5 text-sm font-medium text-ink-muted align-bottom">
+          <th scope="col" class="p-3 sm:p-5 text-sm font-medium text-ink-muted align-bottom">
             What differs
           </th>
-          <th class="p-3 sm:p-5 align-bottom w-[28%]">
+          <th scope="col" class="p-3 sm:p-5 align-bottom w-[28%]">
             <span class="block display text-lg sm:text-xl text-ink"
               >{{ site.free_plan_name }}</span
             >
             <span class="block text-sm text-ink-muted mt-0.5">Free</span>
           </th>
-          <th
-            class="p-3 sm:p-5 align-bottom w-[32%] bg-ink"
-          >
+          <th scope="col" class="p-3 sm:p-5 align-bottom w-[32%] bg-ink">
             <span class="block display text-lg sm:text-xl text-conch"
               >{{ site.premium_plan_name }}</span
             >
-            <span class="block text-sm text-ink-soft mt-0.5">
-              {{ site.premium_price }} / {{ site.premium_period }}
-            </span>
+            <span class="block text-sm text-ink-soft mt-0.5">Paid</span>
           </th>
         </tr>
       </thead>
       <tbody>
         {% for row in site.data.plans.differences %}
         <tr class="border-t border-paper-line">
-          <td class="p-3 sm:p-5 text-sm text-ink">{{ row.feature }}</td>
+          <th scope="row" class="p-3 sm:p-5 text-sm font-normal text-ink">{{ row.feature }}</th>
 
           <td class="p-3 sm:p-5 text-sm">
             {% if row.free == false %}
@@ -49,12 +46,10 @@
             {% endif %}
           </td>
 
-          <td
-            class="p-3 sm:p-5 text-sm bg-ink font-medium text-conch"
-          >
+          <td class="p-3 sm:p-5 text-sm font-semibold text-ink border-l border-gold/60">
             {% if row.premium == true %}
             <span class="inline-flex items-center gap-1.5">
-              <i class="ph ph-check text-gold text-base" aria-hidden="true"></i> Included
+              <i class="ph ph-check text-gold-ink text-base" aria-hidden="true"></i> Included
             </span>
             {% elsif row.premium == false %}
             <span class="inline-flex items-center gap-1.5 text-ink-muted">
@@ -71,7 +66,7 @@
   </div>
 
   <div class="mt-6 border-t border-b border-paper-line py-6">
-    <h3 class="display text-xl text-ink mb-4">In both plans</h3>
+    <h2 class="display text-xl text-ink mb-4">In both plans</h2>
     <ul class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2.5 text-sm">
       {% for item in site.data.plans.shared %}
       <li class="flex items-start gap-2.5">

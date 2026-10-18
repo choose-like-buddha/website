@@ -1,8 +1,9 @@
 {% comment %}
   Shared FAQ accordion + FAQPage structured data.
 
-  Data: _data/faq.yml. The PREMIUM_PRICE token in answers is replaced with
-  site.premium_price so the price lives in one place (_config.yml) only.
+  Data: _data/faq.yml. The PREMIUM_PRICE_YEARLY and PREMIUM_PRICE tokens in
+  answers are replaced with site.premium_price_yearly and site.premium_price (in
+  that order, since one token prefixes the other) so prices live in _config.yml only.
 
   Parameters (all optional):
     - tag: only show questions carrying this tag (e.g. "pricing", "home").
@@ -44,7 +45,7 @@
           <svg class="mt-1.5 size-4 shrink-0 text-gold-ink transition-transform duration-300 group-open:rotate-45" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M8 1v14M1 8h14" /></svg>
         </summary>
         <div class="pb-7 pr-10 text-base leading-relaxed text-ink-muted max-w-[62ch] [&_a]:font-semibold [&_a]:text-ink [&_a]:underline [&_a]:underline-offset-4">
-          {{ item.a | replace: "PREMIUM_PRICE", site.premium_price }}
+          {{ item.a | replace: "PREMIUM_PRICE_YEARLY", site.premium_price_yearly | replace: "PREMIUM_PRICE", site.premium_price }}
         </div>
       </details>
       {% endfor %}
@@ -64,7 +65,7 @@
         "name": {{ item.q | jsonify }},
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": {{ item.a | replace: "PREMIUM_PRICE", site.premium_price | strip_html | jsonify }}
+          "text": {{ item.a | replace: "PREMIUM_PRICE_YEARLY", site.premium_price_yearly | replace: "PREMIUM_PRICE", site.premium_price | strip_html | jsonify }}
         }
       }{% unless forloop.last %},{% endunless %}
       {% endfor %}

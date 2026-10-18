@@ -21,9 +21,9 @@ Choose Like Buddha is a free mobile app (iOS and Android) that helps people trai
 Two plans. No ads on either, and no account is required to start.
 
 - **{{ site.free_plan_name }}** — free. The full daily practice, 2 Ask Buddha questions per day, the 7 most recent Ask Buddha answers, Sama (Box) breathing, Patterns, reflections, streaks, badges, and Apple Health sync.
-- **{{ site.premium_plan_name }}** — {{ site.premium_price }} per {{ site.premium_period }}. 20 Ask Buddha questions per day, unlimited Ask Buddha history, and all four breathing techniques. The daily practice is identical on both plans.
+- **{{ site.premium_plan_name }}** — {{ site.premium_price }} per {{ site.premium_period }} or {{ site.premium_price_yearly }} per year in the {{ site.premium_price_region }}; the price varies by country and store. 20 Ask Buddha questions per day, unlimited Ask Buddha history, and all four breathing techniques. The daily practice is identical on both plans.
 
-Only a monthly subscription is offered; there is no annual plan or one-time purchase. Billing is handled by the App Store or Google Play, cancellable there at any time. Prices are USD; stores show local pricing.
+Monthly and yearly subscriptions are offered; there is no one-time purchase. Billing is handled by the App Store or Google Play, cancellable there at any time. Outside the {{ site.premium_price_region }}, Apple and Google set the price in local currency, so it differs by country.
 
 ## Core features
 

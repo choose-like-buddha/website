@@ -38,8 +38,8 @@ Success for the website: a practitioner understands the practice and installs th
 
 - **Plans** (source of truth: `_config.yml`, `_data/plans.yml`, `_data/faq.yml`, which mirror the app's `constants/subscription.ts` and `constants/breathing.ts`):
   - Free Path, free. The full daily practice, 2 Ask Buddha questions a day, the 7 most recent answers kept, Sama (Box) breathing, Patterns, reflections, streaks, 27 mandala badges, Apple Health sync.
-  - Enlightened Path, $3.99/month, monthly only. 20 Ask Buddha questions a day, unlimited history, all four breathing techniques (Sama, Ānāpānasati, Mettā, Vase).
-  - No annual plan and no one-time purchase. Billing goes through the stores.
+  - Enlightened Path, monthly or yearly. $3.99/month or $39.99/year in the US; the real price varies by country and store, so copy must always qualify it with the region. 20 Ask Buddha questions a day, unlimited history, all four breathing techniques (Sama, Ānāpānasati, Mettā, Vase).
+  - No one-time purchase. Billing goes through the stores.
 - Ask Buddha is AI-generated and is **not** therapy. Copy must never imply it is.
 - No Buddhist belief is required. Buddhism is a practical lens, not religious instruction.
 - Every feature claim must be checkable against the app's constants. The existing data files enforce this discipline; keep it.

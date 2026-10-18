@@ -46,10 +46,20 @@
       },
       {
         "@type": "Offer",
-        "name": "{{ site.premium_plan_name }}",
+        "name": "{{ site.premium_plan_name }} (monthly)",
         "price": "{{ site.premium_price | remove: '$' }}",
         "priceCurrency": "USD",
-        "description": "Optional monthly subscription. Raises daily limits and unlocks all four breathing techniques.",
+        "eligibleRegion": { "@type": "Country", "name": "{{ site.premium_price_region }}" },
+        "description": "Optional monthly subscription. Price shown is for the {{ site.premium_price_region }}; other countries are priced locally by the app stores. Raises daily limits and unlocks all four breathing techniques.",
+        "category": "subscription"
+      },
+      {
+        "@type": "Offer",
+        "name": "{{ site.premium_plan_name }} (yearly)",
+        "price": "{{ site.premium_price_yearly | remove: '$' }}",
+        "priceCurrency": "USD",
+        "eligibleRegion": { "@type": "Country", "name": "{{ site.premium_price_region }}" },
+        "description": "Optional yearly subscription. Price shown is for the {{ site.premium_price_region }}; other countries are priced locally by the app stores. Raises daily limits and unlocks all four breathing techniques.",
         "category": "subscription"
       }
     ],
