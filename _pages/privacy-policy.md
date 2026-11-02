@@ -10,7 +10,7 @@ hide_app_cta: true
 # Privacy Policy
 
 **Last updated**
-27.09.2026
+03.11.2026
 
 Choose Like Buddha respects your privacy. This Privacy Policy explains how we collect, use, and protect your information when you use the app.
 
@@ -38,6 +38,7 @@ We collect limited app usage data to provide core features, including:
 - Your daily practice answers
 - Written reflections you choose to save
 - Daily progress and statistics
+- Breathing practice totals (cycles completed per technique)
 - Subscription status
 
 This data is used only to display your personal progress and app functionality.
@@ -47,13 +48,15 @@ This data is used only to display your personal progress and app functionality.
 The app provides mindfulness and decision-making guidance.
 We do **not** collect, store, or process health or fitness data about you on our servers.
 
-On iOS, you can optionally sync your breathing sessions to Apple Health. When this is turned on in the app (Settings → Apple Health):
+You can optionally save your breathing sessions to your phone's health app: **Apple Health** on iOS, or **Health Connect** on Android. When this is turned on in the app (Settings → Apple Health, or Settings → Health Connect):
 
-- The app writes each completed breathing session to Apple Health as a **Mindful Session**, recording only the session's start and end time.
-- Access is **write-only** — the app never reads any data from Apple Health.
-- Sessions are stored by iOS on your device, and in your iCloud Health data if you have that enabled. They are **not** sent to our servers, **not** shared with third parties, and **never** used for advertising, marketing, or analytics.
+- The app writes each completed breathing session as a mindfulness session, recording only the session's start and end time. In Apple Health it appears as a **Mindful Session**; in Health Connect as a **Mindfulness** session of the breathing type.
+- Access is **write-only**. The app requests no read permission and never reads any data from Apple Health or Health Connect.
+- Sessions are stored on your device by Apple Health or Health Connect (and in your iCloud Health data, if you have that enabled). We do **not** send them to our servers, share them with third parties, or use them for advertising, marketing, or analytics. Other apps can read them only if you grant those apps access in Apple Health or Health Connect.
 
-This sync is off by default and requires your explicit permission. You can turn it off at any time in the app, or revoke access in the Health app under Sharing → Apps. Turning it off stops future writes; sessions already written remain in Apple Health until you delete them there. Apple Health sync is not available on Android.
+Our use of Health Connect follows Google Play's [Health Connect permissions policy](https://support.google.com/googleplay/android-developer/answer/12991134).
+
+This sync is off by default and requires your explicit permission. You can turn it off at any time in the app, or revoke access in the Health app under Sharing → Apps (iOS) or in Health Connect under App permissions (Android). Turning it off stops future writes; sessions already written remain in Apple Health or Health Connect until you delete them there.
 
 Any questions entered in the "Ask Buddha" feature are used only to generate responses and are not analyzed as health information.
 
@@ -94,7 +97,7 @@ We do **not** sell, rent, or share your personal information with third parties 
 Information may be shared only when necessary to:
 
 - Authenticate users (Sign in with Apple, Sign in with Google)
-- Process subscriptions through Apple In-App Purchases
+- Process subscriptions through Apple In-App Purchases and Google Play Billing
 - Comply with legal obligations
 
 ## Tracking
@@ -113,7 +116,7 @@ However, no method of electronic storage is completely secure.
 
 - You may use the app as a guest without providing personal information.
 - You may update or change your name in the app settings.
-- You may cancel subscriptions at any time through your Apple ID settings.
+- You may cancel subscriptions at any time through your Apple ID settings (iOS) or your Google Play account (Android).
 
 ## Account Deletion
 
@@ -139,7 +142,7 @@ We do not knowingly collect personal information from children.
 The app uses the following third-party services:
 
 - **Apple** — Sign in with Apple, In-App Purchases and subscriptions, and Apple Health (HealthKit) if you enable breathing-session sync
-- **Google** — Sign in with Google, and Google Play billing for subscriptions on Android
+- **Google** — Sign in with Google, Google Play billing for subscriptions on Android, and Health Connect if you enable breathing-session sync
 - **Supabase** — Secure cloud database for storing your account and progress data
 - **PostHog** — Privacy-focused analytics to understand app usage and improve features (hosted in EU)
 - **Anthropic** — AI service used to generate Buddhist wisdom responses in the Ask Buddha feature
